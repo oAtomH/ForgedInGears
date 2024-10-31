@@ -4,3 +4,5 @@ StartupEvents.registry('block', event => {
         entityInfo.rightClickOpensInventory()
     })
 })
+
+//this is a test for github repository
