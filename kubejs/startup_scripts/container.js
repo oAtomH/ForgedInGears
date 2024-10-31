@@ -4,4 +4,4 @@ StartupEvents.registry('block', event => {
         entityInfo.rightClickOpensInventory()
     })
 })
-// lorem ipsum
+// lorem ipsum a
