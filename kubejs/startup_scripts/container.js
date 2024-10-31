@@ -1,3 +1,6 @@
-
-
-//this is a test fasdnuioasuodhy792y79adasdasaosa test 2307 23761 auhasduyhgygu9adsg9y7as
+StartupEvents.registry('block', event => {
+    event.create('primitive_chest').soundType('wood').blockEntity(entityInfo => {
+        entityInfo.inventory(9,1)
+        entityInfo.rightClickOpensInventory()
+    })
+})
