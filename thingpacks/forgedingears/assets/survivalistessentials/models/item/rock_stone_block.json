@@ -1,0 +1,6 @@
+{
+  "parent": "survivalistessentials:block/loose_rock",
+  "textures": {
+    "all": "minecraft:block/cobblestone"
+  }
+}

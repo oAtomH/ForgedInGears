@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "forgedingears:molten_uru",
+    "amount": 810
+  },
+  "result": "forgedingears:uru_block",
+  "cooling_time": 800
+}

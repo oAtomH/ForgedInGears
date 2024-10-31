@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "forgedingears:molten_vibranium",
+    "amount": 810
+  },
+  "result": "forgedingears:vibranium_block",
+  "cooling_time": 800
+}

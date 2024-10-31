@@ -1,0 +1,20 @@
+{
+  "tool": "tinkersurvival:knife",
+  "text": [
+    {
+      "text": "The Knife works just like the crude knife. You'll also need it for using the chopping board."
+    },
+    {
+      "text": "\n"
+    },
+    {
+      "text": "It cuts shit, OK?"
+    }
+  ],
+  "properties": [
+    "Basic knife tool",
+    "It's a knife",
+    "Acts as a shear",
+    "Bonus hoe mining speed"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "forgedingears:nitrogen",
+      "amount": 100
+    }
+  ]
+}

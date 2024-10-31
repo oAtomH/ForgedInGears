@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {"name": "tinkers_reforged:molten_red_beryl","amount": 10},
+    {"name": "tinkers_reforged:molten_epidote","amount": 10},
+    {"name": "tinkers_reforged:molten_hureaulite","amount": 10}
+  ],
+  "result": {"fluid": "tinkers_reforged:molten_baolian","amount": 20},
+  "temperature": 1500
+}

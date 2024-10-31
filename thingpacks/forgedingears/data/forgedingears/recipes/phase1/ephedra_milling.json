@@ -1,0 +1,23 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "forgedingears:ephedra"
+    }
+  ],
+  "results": [
+    {
+      "item": "forgedingears:pseudophedrine"
+    },
+    {
+      "item": "forgedingears:pseudophedrine",
+      "chance":0.5
+    },
+    {
+      "item": "forgedingears:ephedra_seed",
+      "count": 1,
+      "chance":1
+    }
+  ],
+  "processingTime": 60
+}

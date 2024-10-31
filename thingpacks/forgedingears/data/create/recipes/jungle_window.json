@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "forgedingears:jungle_lumber"
+    },
+    "X": {
+      "tag": "forge:glass/colorless"
+    }
+  },
+  "result": {
+    "item": "create:jungle_window",
+    "count": 2
+  }
+}

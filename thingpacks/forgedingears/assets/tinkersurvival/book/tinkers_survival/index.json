@@ -1,0 +1,23 @@
+[
+  {
+    "name": "intro",
+    "data": "sections/introduction.json",
+    "icon": {
+      "item": "tinkersurvival:crude_hatchet"
+    }
+  },
+  {
+    "name": "start",
+    "data": "sections/getting_started.json",
+    "icon": {
+      "item": "tinkersurvival:rock_stone"
+    }
+  },
+  {
+    "name": "health",
+    "data": "sections/health.json",
+    "icon": {
+      "item": "tinkersurvival:bandage"
+    }
+  }
+]

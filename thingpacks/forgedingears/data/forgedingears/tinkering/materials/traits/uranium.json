@@ -1,0 +1,6 @@
+{
+  "default": [
+    { "name": "tconstruct:decay", "level": 1 },
+    { "name": "materialis:decay", "level": 1 }
+  ]
+}

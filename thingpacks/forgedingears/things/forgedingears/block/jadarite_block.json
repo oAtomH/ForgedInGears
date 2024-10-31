@@ -1,0 +1,12 @@
+{
+  "type": "plain",
+  "material": "metal",
+  "map_color": "EMERALD",
+  "requires_tool_for_drops": true,
+  "explosion_resistance": 6,
+  "destroy_time": 10,
+  "sound_type": "minecraft:netherite_block",
+  "item": {
+    "group": "forgedingears:forgedingears"
+  }  
+}

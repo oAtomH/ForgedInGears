@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["##","##"],
+  "key": {"#": {"item": "forgedingears:jungle_lumber"}},
+  "result": {"item": "minecraft:jungle_planks"}
+}

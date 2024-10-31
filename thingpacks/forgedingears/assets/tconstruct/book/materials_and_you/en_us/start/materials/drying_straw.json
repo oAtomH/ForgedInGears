@@ -1,0 +1,11 @@
+{
+  "title": "Waiting...",
+  "input": "forgedingears:wet_straw",
+  "block": "forgedingears:wet_straw_block_layer_2",
+  "description": [
+    {
+      "text": "Keep stacking the wet straw until it's a full block, after that it will take on average 30 minutes to dry.",
+      "paragraph": true
+    }
+  ]
+}

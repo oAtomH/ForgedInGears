@@ -1,0 +1,489 @@
+{
+  "itemGroup.forgedingears.forgedingears": "Forged In Gears",
+
+  "item.forgedingears.hippocampus_slapper": "Hippocampus Slapper",
+  "modifier.forgedingears.comical_weapon": "Comical Weapon",
+  "modifier.forgedingears.comical_weapon.flavor": "Bonk!",
+  "modifier.forgedingears.comical_weapon.description": "Confuses your enemy on hit.",
+  "item.forgedingears.macuahuitl": "Macuahuitl",
+  "modifier.forgedingears.aztec_knockback": "Aztec Knockback",
+  "modifier.forgedingears.aztec_knockback.flavor": "Aztetic!",
+  "modifier.forgedingears.aztec_knockback.description": "Disables shields and pushes your enemies away.",
+  "item.forgedingears.bow_drill": "Bow Drill",
+  "item.forgedingears.match_box": "Match Box",
+  "material.forgedingears.match": "Match Box",
+  "material.forgedingears.match.flavor": "Used to repair the match box, craft into repair kit for easier use. Match Sticks!",
+  "material.forgedingears.match.encyclopedia": "Used to repair the match box, craft into repair kit for easier use. Match Sticks!",
+
+  "comment": "Myrmex",
+  "material.forgedingears.myrmex_resin": "Myrmex Resin",
+  "material.forgedingears.myrmex_resin.desert": "Desert Myrmex Resin",
+  "material.forgedingears.myrmex_resin.jungle": "Jungle Myrmex Resin",
+  "material.forgedingears.myrmex_resin.flavor": "Myrmex Resin is found in deserts and jungle biomes, fight the dangerous mobs to obtain this cool material!",
+  "material.forgedingears.myrmex_resin.encyclopedia": "Myrmex Resin is found in deserts and jungle biomes, fight the dangerous mobs to obtain this cool material!",
+
+  "comment": "Troll",
+  "item.forgedingears.troll_helmet": "Troll Helmet",
+  "item.forgedingears.troll_chestplate": "Troll Chestplate",
+  "item.forgedingears.troll_leggings": "Troll Leggings",
+  "item.forgedingears.troll_boots": "Troll Boots",
+  "material.forgedingears.troll_leather": "Troll Leather",
+  "material.forgedingears.troll_leather.forest": "Forest Troll Leather",
+  "material.forgedingears.troll_leather.frost": "Frost Troll Leather",
+  "material.forgedingears.troll_leather.mountain": "Mountain Troll Leather",
+  "material.forgedingears.troll_leather.flavor": "Troll leather! Tough skin that doesn't allow arrows to penetrate it, a very useful material.",
+  "material.forgedingears.troll_leather.encyclopedia": "Troll leather! Tough skin that doesn't allow arrows to penetrate it, a very useful material.",
+
+  "comment": "Death Worm",
+  "item.forgedingears.death_worm_helmet": "Death Worm Helmet",
+  "item.forgedingears.death_worm_chestplate": "Death Worm Chestplate",
+  "item.forgedingears.death_worm_leggings": "Death Worm Leggings",
+  "item.forgedingears.death_worm_boots": "Death Worm Boots",
+  "material.forgedingears.death_worm_chitin": "Death Worm Chitin",
+  "material.forgedingears.death_worm_chitin.white": "White Death Worm Chitin",
+  "material.forgedingears.death_worm_chitin.yellow": "Yellow Death Worm Chitin",
+  "material.forgedingears.death_worm_chitin.red": "Red Death Worm Chitin",
+  "material.forgedingears.death_worm_chitin.flavor": "Death Worm Chitin! Tough armor scales from the desert gods, very resistant to explosions.",
+  "material.forgedingears.death_worm_chitin.encyclopedia": "Death Worm Chitin! Tough armor scales from the desert gods, very resistant to explosions.",
+
+  "comment": "Tide Guardian",
+  "modifier.forgedingears.tide_guardian": "Tide Guardian",
+  "modifier.forgedingears.tide_guardian.flavor": "Aquaman!",
+  "modifier.forgedingears.tide_guardian.description": "Makes you a god of the sea.",
+  "item.forgedingears.tide_guardian_helmet": "Tide Guardian Helmet",
+  "item.forgedingears.tide_guardian_chestplate": "Tide Guardian Chestplate",
+  "item.forgedingears.tide_guardian_leggings": "Tide Guardian Leggings",
+  "item.forgedingears.tide_guardian_boots": "Tide Guardian Boots",
+  "material.forgedingears.sea_serpent_scales": "Sea Serpent Scales",
+  "material.forgedingears.sea_serpent_scales.blue": "Blue Sea Serpent Scales",
+  "material.forgedingears.sea_serpent_scales.bronze": "Bronze Sea Serpent Scales",
+  "material.forgedingears.sea_serpent_scales.deep_blue": "Deep Blue Sea Serpent Scales",
+  "material.forgedingears.sea_serpent_scales.green": "Green Sea Serpent Scales",
+  "material.forgedingears.sea_serpent_scales.purple": "Purple Sea Serpent Scales",
+  "material.forgedingears.sea_serpent_scales.red": "Red Sea Serpent Scales",
+  "material.forgedingears.sea_serpent_scales.teal": "Teal Sea Serpent Scales",
+  "material.forgedingears.sea_serpent_scales.flavor": "Sea Serpent Scales! Scales obtained when killing the dangerous sea monsters.",
+  "material.forgedingears.sea_serpent_scales.encyclopedia": "Sea Serpent Scales! Scales obtained when killing the dangerous sea monsters.",
+
+  "comment": "Fire Dracotaur",
+  "modifier.forgedingears.fire_master": "Fire Master",
+  "modifier.forgedingears.fire_master.flavor": "Inferno!",
+  "modifier.forgedingears.fire_master.description": "Protects against fire dragons.",
+  "item.forgedingears.fire_dracotaur_helmet": "Fire Dracotaur Helmet",
+  "item.forgedingears.fire_dracotaur_chestplate": "Fire Dracotaur Chestplate",
+  "item.forgedingears.fire_dracotaur_wings": "Fire Dracotaur Wings",
+  "item.forgedingears.fire_dracotaur_leggings": "Fire Dracotaur Leggings",
+  "item.forgedingears.fire_dracotaur_boots": "Fire Dracotaur Boots",
+  "material.forgedingears.fire_dragon_scales": "Fire Dragon Scales",
+  "material.forgedingears.fire_dragon_scales.bronze": "Bronze Fire Dragon Scales",
+  "material.forgedingears.fire_dragon_scales.green": "Green Fire Dragon Scales",
+  "material.forgedingears.fire_dragon_scales.red": "Red Fire Dragon Scales",
+  "material.forgedingears.fire_dragon_scales.gray": "Gray Fire Dragon Scales",
+  "material.forgedingears.fire_dragon_scales.flavor": "Fire Dragon Scales! Obtained by killing the dangerous fire breathing monsters.",
+  "material.forgedingears.fire_dragon_scales.encyclopedia": "Fire Dragon Scales! Obtained by killing the dangerous fire breathing monsters.",
+
+  "comment": "Andesite Alloy",
+  "material.forgedingears.andesite_alloy": "Andesite Alloy",
+  "material.forgedingears.andesite_alloy.flavor": "Fused alloy between zinc and andesite, it's the best for the primitive age!",
+  "material.forgedingears.andesite_alloy.encyclopedia": "Fused alloy between zinc and andesite, it's the best for the primitive age!",
+
+  "modifier.forgedingears.fused_resilience": "Fused Resilience",
+  "modifier.forgedingears.fused_resilience.flavor": "Enhanced durability and strength.",
+  "modifier.forgedingears.fused_resilience.description": "This alloy is required for obtaining the next ore, copper!",
+
+  "comment": "Duranite",
+
+  "material.forgedingears.duranite": "Duranite",
+  "material.forgedingears.duranite.flavor": "A long time ago, meteorites fell from the sky. Friction heat and pressure formed duranite ore inside meteorites. Its natural form is very hard and you will need some time to break that ore.",
+  "material.forgedingears.duranite.encyclopedia": "A long time ago, meteorites fell from the sky. Friction heat and pressure formed duranite ore inside meteorites. Its natural form is very hard and you will need some time to break that ore.",
+
+  "block.forgedingears.duranite_block": "Duranite Block",
+  "block.forgedingears.duranite_ore": "Duranite Ore",
+  "item.forgedingears.duranite_ingot": "Duranite Ingot",
+  "item.forgedingears.duranite_nugget": "Duranite Nugget",
+  
+  "block.forgedingears.molten_duranite": "Molten Duranite",
+  "fluid.forgedingears.molten_duranite": "Molten Duranite",
+  "fluid.forgedingears.molten_duranite_flowing": "Flowing Molten Duranite",
+  "item.forgedingears.molten_duranite_bucket": "Molten Duranite Bucket",
+
+  "modifier.tinkers_reforged.protective_mantle": "Protective Mantle",
+  "modifier.tinkers_reforged.protective_mantle.flavor": "Use Protection!",
+  "modifier.tinkers_reforged.protective_mantle.description": "Prevent the 5th durability loss.",
+
+  "modifier.materialis.old_timer": "Old-Timer",
+  "modifier.materialis.old_timer.description": "Repairing your tool is more expensive when your tool has high durability",
+  "modifier.materialis.old_timer.flavor": "Rust bucket!",
+
+  "comment": "Uru",
+
+  "material.forgedingears.uru": "Uru",
+  "material.forgedingears.uru.flavor": "Legends say, that just the gods were able to melt down uru ore. Mystical weapons like Mjolnir were forged from this metal. It's found inside floating obsidioroid chunks.",
+  "material.forgedingears.uru.encyclopedia": "Legends say, that just the gods were able to melt down uru ore. Mystical weapons like Mjolnir were forged from this metal. It's found inside floating obsidioroid chunks.",
+
+  "block.forgedingears.uru_block": "Uru Block",
+  "block.forgedingears.uru_ore": "Uru Ore",
+  "item.forgedingears.uru_ingot": "Uru Ingot",
+  "item.forgedingears.uru_nugget": "Uru Nugget",
+  
+  "block.forgedingears.molten_uru": "Molten Uru",
+  "fluid.forgedingears.molten_uru": "Molten Uru",
+  "fluid.forgedingears.molten_uru_flowing": "Flowing Molten Uru",
+  "item.forgedingears.molten_uru_bucket": "Molten Uru Bucket",
+
+  "modifier.forgedingears.aetherial_levity": "Aetherial Levity",
+  "modifier.forgedingears.aetherial_levity.flavor": "Weightlessness!",
+  "modifier.forgedingears.aetherial_levity.description": "It will make you floaty.",
+
+  "comment": "Brillarite",
+
+  "block.forgedingears.brillarite_block": "Brillarite Block",
+  "block.forgedingears.brillarite_ore": "Brillarite Ore",
+  "item.forgedingears.brillarite_ingot": "Brillarite Ingot",
+  "item.forgedingears.brillarite_nugget": "Brillarite Nugget",
+
+  "block.forgedingears.molten_brillarite": "Molten Brillarite",
+  "fluid.forgedingears.molten_brillarite": "Molten Brillarite",
+  "fluid.forgedingears.molten_brillarite_flowing": "Flowing Molten Brillarite",
+  "item.forgedingears.molten_brillarite_bucket": "Molten Brillarite Bucket",
+
+  "comment": "Meteorite",
+
+  "material.forgedingears.meteorite": "Meteorite",
+  "material.forgedingears.meteorite.flavor": "You have to be patient to find meteorite in your world, they fell from the sky when the world was created, most of them are found underground.",
+  "material.forgedingears.meteorite.encyclopedia": "You have to be patient to find meteorite in your world, they fell from the sky when the world was created, most of them are found underground.",
+
+  "block.forgedingears.meteorite": "Meteorite Block",
+  "block.forgedingears.cobbled_meteorite": "Meteorite Ore",
+  "item.forgedingears.meteorite_ingot": "Meteorite Ingot",
+  "item.forgedingears.meteorite_nugget": "Meteorite Nugget",
+  
+  "block.forgedingears.molten_meteorite": "Molten Meteorite",
+  "fluid.forgedingears.molten_meteorite": "Molten Meteorite",
+  "fluid.forgedingears.molten_meteorite_flowing": "Flowing Molten Meteorite",
+  "item.forgedingears.molten_meteorite_bucket": "Molten Meteorite Bucket",
+
+  "modifier.forgedingears.meteorizing": "Meteorizing",
+  "modifier.forgedingears.meteorizing.flavor": "Crumble!",
+  "modifier.forgedingears.meteorizing.description": "Soft blocks break faster.",
+  "modifier.forgedingears.meteorizing.mining_speed": "Meteorizing Speed",
+
+  "comment": "Obsidioroid",
+
+  "material.forgedingears.obsidioroid": "Obsidioroid",
+  "material.forgedingears.obsidioroid.flavor": "You have to be patient to find obsidioroid, they can be found in the end floating in the void, very dangerous.",
+  "material.forgedingears.obsidioroid.encyclopedia": "You have to be patient to find obsidioroid, they can be found in the end floating in the void, very dangerous.",
+
+  "block.forgedingears.obsidioroid": "Obsidioroid Block",
+  "block.forgedingears.cobbled_obsidioroid": "Cobbled Obsidioroid",
+  "item.forgedingears.obsidioroid_ingot": "Obsidioroid Ingot",
+  "item.forgedingears.obsidioroid_nugget": "Obsidioroid Nugget",
+  
+  "block.forgedingears.molten_obsidioroid": "Molten Obsidioroid",
+  "fluid.forgedingears.molten_obsidioroid": "Molten Obsidioroid",
+  "fluid.forgedingears.molten_obsidioroid_flowing": "Flowing Molten Obsidioroid",
+  "item.forgedingears.molten_obsidioroid_bucket": "Molten Obsidioroid Bucket",
+
+  "comment": "Jadarite",
+
+  "material.forgedingears.jadarite": "Jadarite",
+  "material.forgedingears.jadarite.flavor": "Radiation from the nether roof made this explosive material. BE CAREFUL!",
+  "material.forgedingears.jadarite.encyclopedia": "Radiation from the nether roof made this explosive material. BE CAREFUL!",
+
+  "block.forgedingears.jadarite_block": "Jadarite Block",
+  "block.forgedingears.jadarite_ore": "Jadarite Ore",
+  "item.forgedingears.jadarite_gem": "Jadarite Gem",
+  "item.forgedingears.jadarite_nugget": "Jadarite Nugget",
+  
+  "block.forgedingears.molten_jadarite": "Molten Jadarite",
+  "fluid.forgedingears.molten_jadarite": "Molten Jadarite",
+  "fluid.forgedingears.molten_jadarite_flowing": "Flowing Molten Jadarite",
+  "item.forgedingears.molten_jadarite_bucket": "Molten Jadarite Bucket",
+
+  "modifier.materialis.crystalline": "Crystalline",
+  "modifier.materialis.crystalline.description": "Adds 50% extra mining speed and attack damage",
+  "modifier.materialis.crystalline.flavor": "Refractive!",
+
+  "comment": "Element Zero",
+
+  "material.forgedingears.element_zero": "Element Zero",
+  "material.forgedingears.element_zero.flavor": "Sometimes the world is exposed to solar storms and strong magnetic fields, interacting with the bedrock layer above all that weight is created element zero, the densest metal in the world.",
+  "material.forgedingears.element_zero.encyclopedia": "Sometimes the world is exposed to solar storms and strong magnetic fields, interacting with the bedrock layer above all that weight is created element zero, the densest metal in the world.",
+
+  "block.forgedingears.element_zero_block": "Element Zero Block",
+  "block.forgedingears.element_zero_ore": "Element Zero Ore",
+  "item.forgedingears.element_zero_ingot": "Element Zero Ingot",
+  "item.forgedingears.element_zero_cluster": "Element Zero Cluster",
+  "item.forgedingears.element_zero_nugget": "Element Zero Nugget",
+  
+  "block.forgedingears.molten_element_zero": "Molten Element Zero",
+  "fluid.forgedingears.molten_element_zero": "Molten Element Zero",
+  "fluid.forgedingears.molten_element_zero_flowing": "Flowing Molten Element Zero",
+  "item.forgedingears.molten_element_zero_bucket": "Molten Element Zero Bucket",
+
+  "modifier.forgedingears.super_heavy": "Super Heavy",
+  "modifier.forgedingears.super_heavy.flavor": "It weighs over 9000!",
+  "modifier.forgedingears.super_heavy.description": "It will make you slow.",
+
+  "modifier.materialis.inertia": "Inertia",
+  "modifier.materialis.inertia.description": "Decreases attack speed but increases attack damage",
+  "modifier.materialis.inertia.flavor": "Newton's first law.",
+
+  "comment": "Neutrum",
+
+  "material.forgedingears.neutrum": "Neutrum",
+  "material.forgedingears.neutrum.flavor": "Neutrum is a crystalline like metal found in the end. Its glow is caused by the strong radiation, careful when working with it.",
+  "material.forgedingears.neutrum.encyclopedia": "Neutrum is a crystalline like metal found in the end. Its glow is caused by the strong radiation, careful when working with it.",
+
+  "block.forgedingears.neutrum_block": "Neutrum Block",
+  "block.forgedingears.neutrum_ore": "Neutrum Ore",
+  "item.forgedingears.neutrum_ingot": "Neutrum Ingot",
+  "item.forgedingears.neutrum_nugget": "Neutrum Nugget",
+  
+  "block.forgedingears.molten_neutrum": "Molten Neutrum",
+  "fluid.forgedingears.molten_neutrum": "Molten Neutrum",
+  "fluid.forgedingears.molten_neutrum_flowing": "Flowing Molten Neutrum",
+  "item.forgedingears.molten_neutrum_bucket": "Molten Neutrum Bucket",
+
+  "modifier.materialis.nocturnal": "Nocturnal",
+  "modifier.materialis.nocturnal.description": "Gives bonus mining speed during the night, most powerful at midnight",
+  "modifier.materialis.nocturnal.draw_speed": "Nocturnal Draw Speed",
+  "modifier.materialis.nocturnal.flavor": "Stay up past bedtime!",
+  "modifier.materialis.nocturnal.mining_speed": "Nocturnal Mining Speed",
+
+  "modifier.forgedingears.nuclear_aura": "Nuclear Aura",
+  "modifier.forgedingears.nuclear_aura.flavor": "♫ Radioactive, Radioactive ♫",
+  "modifier.forgedingears.nuclear_aura.description": "Applies radiation to mobs slowly killing them.",
+
+  "comment": "Arcanium",
+
+  "material.forgedingears.arcanium": "Arcanium",
+  "material.forgedingears.arcanium.flavor": "Some scientists believe that arcanium ore emerges naturally, caused by heavy pressure and very high heat it has to absorb at the depth of the nether. It is believed to be radioactive.",
+  "material.forgedingears.arcanium.encyclopedia": "Some scientists believe that arcanium ore emerges naturally, caused by heavy pressure and very high heat it has to absorb at the depth of the nether. It is believed to be radioactive.",
+
+  "block.forgedingears.arcanium_block": "Arcanium Block",
+  "block.forgedingears.arcanium_ore": "Arcanium Ore",
+  "item.forgedingears.arcanium_ingot": "Arcanium Ingot",
+  "item.forgedingears.arcanium_nugget": "Arcanium Nugget",
+  
+  "block.forgedingears.molten_arcanium": "Molten Arcanium",
+  "fluid.forgedingears.molten_arcanium": "Molten Arcanium",
+  "fluid.forgedingears.molten_arcanium_flowing": "Flowing Molten Arcanium",
+  "item.forgedingears.molten_arcanium_bucket": "Molten Arcanium Bucket",
+
+  "modifier.materialis.arcane": "Arcane",
+  "modifier.materialis.arcane.attack_damage": "Magic Damage",
+  "modifier.materialis.arcane.description": "Deals a small amount of extra magic damage to attacked targets",
+  "modifier.materialis.arcane.flavor": "Magic *snort*",
+
+  "modifier.forgedingears.blinding": "Blinding",
+  "modifier.forgedingears.blinding.description": "Applies blinding to enemies.",
+  "modifier.forgedingears.blinding.flavor": "I CAN'T SEE!",
+
+  "comment": "Selenium",
+
+  "material.forgedingears.selenium": "Selenium",
+  "material.forgedingears.selenium.flavor": "Selenium is very uncommon but you can find a lot of it, if you are patient enough. Cupid ore.",
+  "material.forgedingears.selenium.encyclopedia": "Selenium is very uncommon but you can find a lot of it, if you are patient enough. Cupid ore.",
+
+  "block.forgedingears.selenium_block": "Selenium Block",
+  "block.forgedingears.selenium_ore": "Selenium Ore",
+  "item.forgedingears.selenium_ingot": "Selenium Ingot",
+  "item.forgedingears.selenium_nugget": "Selenium Nugget",
+  
+  "block.forgedingears.molten_selenium": "Molten Selenium",
+  "fluid.forgedingears.molten_selenium": "Molten Selenium",
+  "fluid.forgedingears.molten_selenium_flowing": "Flowing Molten Selenium",
+  "item.forgedingears.molten_selenium_bucket": "Molten Selenium Bucket",
+
+  "modifier.forgedingears.loving": "Loving",
+  "modifier.forgedingears.loving.description": "Decreases your reach distance, but increases attack range.",
+  "modifier.forgedingears.loving.flavor": "HUGS!",
+
+  "modifier.forgedingears.healing": "Healing",
+  "modifier.forgedingears.healing.description": "Applies regeneration to enemies.",
+  "modifier.forgedingears.healing.flavor": "Nursing",
+
+  "comment": "Valyrium",
+
+  "material.forgedingears.valyrium": "Valyrium",
+  "material.forgedingears.valyrium.flavor": "The old valyrian people were the first to discover this unique metal which they called valyrium. It is VERY rare and hard to find in the surrounding of the nether.",
+  "material.forgedingears.valyrium.encyclopedia": "The old valyrian people were the first to discover this unique metal which they called valyrium. It is VERY rare and hard to find in the surrounding of the nether.",
+
+  "block.forgedingears.valyrium_block": "Valyrium Block",
+  "block.forgedingears.valyrium_ore": "Valyrium Ore",
+  "item.forgedingears.valyrium_ingot": "Valyrium Ingot",
+  "item.forgedingears.valyrium_nugget": "Valyrium Nugget",
+  
+  "block.forgedingears.molten_valyrium": "Molten Valyrium",
+  "fluid.forgedingears.molten_valyrium": "Molten Valyrium",
+  "fluid.forgedingears.molten_valyrium_flowing": "Flowing Molten Valyrium",
+  "item.forgedingears.molten_valyrium_bucket": "Molten Valyrium Bucket",
+
+  "modifier.forgedingears.stealth_striker": "Stealth Striker",
+  "modifier.forgedingears.stealth_striker.description": "Deal more damage if you hit an entity from the back.",
+  "modifier.forgedingears.stealth_striker.flavor": "NINJA!",
+
+  "modifier.forgedingears.netherbane": "Netherbane",
+  "modifier.forgedingears.netherbane.description": "Deal bonus damage to entities from the nether.",
+  "modifier.forgedingears.netherbane.flavor": "INFERNO'S FOE!",
+  "modifier.forgedingears.netherbane.attack_damage": "Netherbane damage",
+
+  "comment": "Vibranium",
+
+  "material.forgedingears.vibranium": "Vibranium",
+  "material.forgedingears.vibranium.flavor": "Vibranium is the rare. Found in exotic biomes, where lightning dragons lie...",
+  "material.forgedingears.vibranium.encyclopedia": "Vibranium is the rare. Found in exotic biomes, where lightning dragons lie...",
+
+  "block.forgedingears.vibranium_block": "Vibranium Block",
+  "block.forgedingears.vibranium_ore": "Vibranium Ore",
+  "item.forgedingears.vibranium_ingot": "Vibranium Ingot",
+  "item.forgedingears.vibranium_nugget": "Vibranium Nugget",
+  
+  "block.forgedingears.molten_vibranium": "Molten Vibranium",
+  "fluid.forgedingears.molten_vibranium": "Molten Vibranium",
+  "fluid.forgedingears.molten_vibranium_flowing": "Flowing Molten Vibranium",
+  "item.forgedingears.molten_vibranium_bucket": "Molten Vibranium Bucket",
+
+  "modifier.materialis.auxiliary_power": "Auxiliary Power",
+  "modifier.materialis.auxiliary_power.description": "Boosts your attack speed based on your mining speed",
+  "modifier.materialis.auxiliary_power.flavor": "Extra juice!",
+
+  "modifier.materialis.supermassive": "Supermassive",
+  "modifier.materialis.supermassive.description": "Greatly increases the amount of knockback dealt to enemies",
+  "modifier.materialis.supermassive.flavor": "You set my soul alight",
+
+  "modifier.materialis.work_hardened": "Work Hardened",
+  "modifier.materialis.work_hardened.description": "Your tool loses durability slower when it has low durability",
+  "modifier.materialis.work_hardened.flavor": "Play hardeneder",
+
+  "comment": "Solarium",
+
+  "material.forgedingears.solarium": "Solarium",
+  "material.forgedingears.solarium.flavor": "Solarium is formed when combining valyrium and the immense light from lumix. The material of the sun.",
+  "material.forgedingears.solarium.encyclopedia": "Solarium is formed when combining valyrium and the immense light from lumix. The material of the sun.",
+
+  "block.forgedingears.solarium_block": "Solarium Block",
+  "item.forgedingears.solarium_ingot": "Solarium Ingot",
+  "item.forgedingears.solarium_nugget": "Solarium Nugget",
+  
+  "block.forgedingears.molten_solarium": "Molten Solarium",
+  "fluid.forgedingears.molten_solarium": "Molten Solarium",
+  "fluid.forgedingears.molten_solarium_flowing": "Flowing Molten Solarium",
+  "item.forgedingears.molten_solarium_bucket": "Molten Solarium Bucket",
+
+  "modifier.materialis.refueling": "Refueling",
+  "modifier.materialis.refueling.description": "Attacked mobs that are on fire will burn for longer",
+  "modifier.materialis.refueling.flavor": "Feed the fire",
+
+  "modifier.materialis.quenching": "Quenching",
+  "modifier.materialis.quenching.description": "Extinguishes mobs and deals bonus damage depending on how much longer the mob would have burned",
+  "modifier.materialis.quenching.flavor": "Uninflammable!",
+
+  "comment": "Adamantium",
+
+  "material.forgedingears.adamantium": "Adamantium",
+  "material.forgedingears.adamantium.flavor": "A virtually indestructible vibranium alloy named after the fabled metal Adamantine of Greek mythology.",
+  "material.forgedingears.adamantium.encyclopedia": "A virtually indestructible vibranium alloy named after the fabled metal Adamantine of Greek mythology.",
+
+  "block.forgedingears.adamantium_block": "Adamantium Block",
+  "item.forgedingears.adamantium_ingot": "Adamantium Ingot",
+  "item.forgedingears.adamantium_nugget": "Adamantium Nugget",
+  
+  "block.forgedingears.molten_adamantium": "Molten Adamantium",
+  "fluid.forgedingears.molten_adamantium": "Molten Adamantium",
+  "fluid.forgedingears.molten_adamantium_flowing": "Flowing Molten Adamantium",
+  "item.forgedingears.molten_adamantium_bucket": "Molten Adamantium Bucket",
+
+  "comment": "Uranium",
+
+  "material.forgedingears.uranium": "Uranium",
+  "material.forgedingears.uranium.flavor": "Uranium is a radioactive alloy, even though it exists as an ore in the real world. Very useful alloy and needed for end-game.",
+  "material.forgedingears.uranium.encyclopedia": "Uranium is a radioactive alloy, even though it exists as an ore in the real world. Very useful alloy and needed for end-game.",
+
+  "block.forgedingears.uranium_block": "Uranium Block",
+  "item.forgedingears.uranium_ingot": "Uranium Ingot",
+  "item.forgedingears.uranium_nugget": "Uranium Nugget",
+  
+  "block.forgedingears.molten_uranium": "Molten Uranium",
+  "fluid.forgedingears.molten_uranium": "Molten Uranium",
+  "fluid.forgedingears.molten_uranium_flowing": "Flowing Molten Uranium",
+  "item.forgedingears.molten_uranium_bucket": "Molten Uranium Bucket",
+
+  "modifier.tconstruct.decay": "Radioactive Withering",
+  "modifier.tconstruct.decay.flavor": "U-238",
+  "modifier.tconstruct.decay.description": "Causes targets to wither away, but may also cause the holder to wither",
+
+  "modifier.materialis.decay": "Decay",
+  "modifier.materialis.decay.description": "Your tool doesn't use durability on use but instead decays over time",
+  "modifier.materialis.decay.flavor": "Also melts in your hands",
+
+  "comment": "Amberlite",
+
+  "material.forgedingears.amberlite": "Amberlite",
+  "material.forgedingears.amberlite.flavor": "Amberlite is a crystalline slime which has unique overslime traits.",
+  "material.forgedingears.amberlite.encyclopedia": "Amberlite is a crystalline slime which has unique overslime traits.",
+
+  "block.forgedingears.amberlite_block": "Amberlite Block",
+  "item.forgedingears.amberlite_cluster": "Amberlite Cluster",
+  "item.forgedingears.amberlite_nugget": "Amberlite Nugget",
+  
+  "block.forgedingears.molten_amberlite": "Molten Amberlite",
+  "fluid.forgedingears.molten_amberlite": "Molten Amberlite",
+  "fluid.forgedingears.molten_amberlite_flowing": "Flowing Molten Amberlite",
+  "item.forgedingears.molten_amberlite_bucket": "Molten Amberlite Bucket",
+
+  "modifier.materialis.overeating": "Overeating",
+  "modifier.materialis.overeating.description": "That overslime buffer on your tool suddenly looks very appealing",
+  "modifier.materialis.overeating.flavor": "5 second rule!",
+
+  "modifier.materialis.overweight": "Overweight",
+  "modifier.materialis.overweight.description": "Eats some mining speed and attack damage to gain more overslime capacity",
+  "modifier.materialis.overweight.flavor": "Supersized!",
+
+  "comment": "Dionium",
+
+  "material.forgedingears.dionium": "Dionium",
+  "material.forgedingears.dionium.flavor": "Dionium is a sythetic version of duranite, the recipe for it tries to recreate duranite but only to a certain degree.",
+  "material.forgedingears.dionium.encyclopedia": "Dionium is a sythetic version of duranite, the recipe for it tries to recreate duranite but only to a certain degree.",
+
+  "block.forgedingears.dionium_block": "Dionium Block",
+  "item.forgedingears.dionium_ingot": "Dionium Ingot",
+  "item.forgedingears.dionium_nugget": "Dionium Nugget",
+  
+  "block.forgedingears.molten_dionium": "Molten Dionium",
+  "fluid.forgedingears.molten_dionium": "Molten Dionium",
+  "fluid.forgedingears.molten_dionium_flowing": "Flowing Molten Dionium",
+  "item.forgedingears.molten_dionium_bucket": "Molten Dionium Bucket",
+
+  "modifier.materialis.feeble": "Feeble",
+  "modifier.materialis.feeble.description": "Decreases knockback on attacked mobs",
+  "modifier.materialis.feeble.flavor": "Handle with care",
+
+  "comment": "Lumix",
+
+  "material.forgedingears.lumix": "Lumix",
+  "material.forgedingears.lumix.flavor": "Lumix, brightest alloy second to refined radiance. Let it glow!",
+  "material.forgedingears.lumix.encyclopedia": "Lumix, brightest alloy second to refined radiance. Let it glow!",
+
+  "block.forgedingears.lumix_block": "Lumix Block",
+  "item.forgedingears.lumix_ingot": "Lumix Ingot",
+  "item.forgedingears.lumix_nugget": "Lumix Nugget",
+  
+  "block.forgedingears.molten_lumix": "Molten Lumix",
+  "fluid.forgedingears.molten_lumix": "Molten Lumix",
+  "fluid.forgedingears.molten_lumix_flowing": "Flowing Molten Lumix",
+  "item.forgedingears.molten_lumix_bucket": "Molten Lumix Bucket",
+
+  "modifier.forgedingears.glowing": "Glowing",
+  "modifier.forgedingears.glowing.description": "Makes enemies glow.",
+  "modifier.forgedingears.glowing.flavor": "Let it glow!",
+
+  "comment": "Harvest Tiers",
+  "stat.tconstruct.harvest_tier.forgedingears.duranite": "Dᴜʀᴀɴɪᴛᴇ",
+  "stat.tconstruct.harvest_tier.forgedingears.valyrium": "Vᴀʟʏʀɪᴜᴍ",
+  "stat.tconstruct.harvest_tier.forgedingears.vibranium": "Vɪʙʀᴀɴɪᴜᴍ",
+
+
+  "death.attack.radiation": "%1$s died in a horrible way"
+}

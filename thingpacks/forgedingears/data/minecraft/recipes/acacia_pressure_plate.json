@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "wooden_pressure_plate",
+  "ingredient": {
+    "item": "forgedingears:acacia_lumber"
+  },
+  "result": "minecraft:acacia_pressure_plate",
+  "count": 2
+}

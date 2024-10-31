@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "forgedingears:molten_jadarite",
+    "amount": 900
+  },
+  "result": "forgedingears:jadarite_block",
+  "cooling_time": 800
+}

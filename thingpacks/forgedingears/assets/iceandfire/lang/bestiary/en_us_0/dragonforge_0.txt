@@ -1,0 +1,53 @@
+The magical aura of dragon bones
+and dragon scales definitely has
+some powerful properties, as is
+well known. When combined with
+stone, they become indestructible
+to dragon frost and flame.
+
+
+<item><iceandfire:dragonscale_bronze 0 17 100 0.5>
+<item><tconstruct:seared_bricks 0 34 100 0.5>
+<item><iceandfire:dragonscale_red 0 17 117 0.5>
+<item><iceandfire:dragonscale_gray 0 34 117 0.5>
+<item><iceandfire:dragonscale_green 0 51 117 0.5>
+<item><itemfilters:or 0 35 50 1>
+
+
+<block><create:blaze_burner 0 55 70 0.9>
+<block><create:basin 0 55 60 0.9>
+<block><create:mechanical_press 0 49 40 1>
+
+<item><itemfilters:and 0 64 50 1>
+<block><iceandfire:dragonforge_fire_brick 0 160 107 0.5>
+
+
+
+
+It appears there are several
+constructs that can be made
+with dragonforge bricks. It is 
+also known that there are ice and 
+lightning dragon variants as well.
+
+Using mechanical crafters you can 
+craft a dragon forge input. You will
+need a lot of processed steel and 
+a lot of dragon scales to craft this
+crucial block.
+
+
+
+
+
+
+<recipe><minecraft:air 0 minecraft:air 0 iceandfire:dragonforge_fire_brick 0 minecraft:air 0 iceandfire:dragonforge_fire_brick 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 165 65 1>
+<recipe><minecraft:air 0 minecraft:air 0 forgedingears:steel_sheet 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 190 65 1>
+<recipe><minecraft:air 0 minecraft:air 0 iceandfire:dragonforge_fire_brick 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 iceandfire:dragonforge_fire_brick 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 215 65 1>
+<recipe><minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 forgedingears:steel_sheet 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 165 90 1>
+<recipe><iceandfire:dragonforge_fire_input 0 iceandfire:dragonforge_fire_brick 0 create:smart_chute 0 iceandfire:dragonforge_fire_brick 0 create:smart_chute 0 minecraft:air 0 create:smart_chute 0 iceandfire:dragonforge_fire_brick 0 create:smart_chute 0 iceandfire:dragonforge_fire_brick 0 190 90 1>
+<recipe><minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 forgedingears:steel_sheet 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 215 90 1>
+<recipe><minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 iceandfire:dragonforge_fire_brick 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 iceandfire:dragonforge_fire_brick 0 minecraft:air 0 165 115 1>
+<recipe><minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 forgedingears:steel_sheet 0 minecraft:air 0 190 115 1>
+<recipe><minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 iceandfire:dragonforge_fire_brick 0 minecraft:air 0 iceandfire:dragonforge_fire_brick 0 minecraft:air 0 215 115 1>
+<item><itemfilters:and 0 320 128 0.5>

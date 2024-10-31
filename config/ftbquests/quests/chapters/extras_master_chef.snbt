@@ -1,0 +1,130 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extras_master_chef"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "farmersdelight:skillet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "197E1EB3EAC94A98"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "37F31BC3AC4C144C"
+			tasks: [{
+				id: "2C48CDAEEE0BE211"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AEDE44456DF8142"]
+			description: [
+				"The skillet can cook a lot of items at once"
+				"{image:minecraft:textures/item/campfire.png width:10 height:10 align:1}"
+			]
+			id: "4A23CCC1762D3E0C"
+			rewards: [
+				{
+					count: 8
+					id: "3364B455029B8C42"
+					item: "farmersdelight:bacon"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2C0196CDC4CCCD1F"
+					item: "farmersdelight:chicken_cuts"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "184260AA6E26AC35"
+					item: "farmersdelight:cod_slice"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "387E3F2FF23D8258"
+					item: "farmersdelight:salmon_slice"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "713317B869E6791F"
+					item: "farmersdelight:mutton_chops"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "660AF5F11AA57EBF"
+				item: {
+					Count: 1b
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "2AEDE44456DF8142"
+			tasks: [{
+				id: "7308767779607696"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "5F94BB0FBE8DCE97"
+			tasks: [
+				{
+					id: "263615782B7D4E60"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					id: "2F63BAFF501F90EF"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					id: "36FBD8B4FAA006D7"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					id: "098D1EBD62FA89A1"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "16C4A2AF21487A57"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "69D5BB666602F2CA"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
+			title: "Plants"
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Extras: Master Chef"
+}

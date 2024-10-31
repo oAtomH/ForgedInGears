@@ -1,0 +1,41 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.survivalistessentials.crude_knife.title"
+        },
+        "description": {
+            "translate": "advancements.survivalistessentials.crude_knife.desc"
+        },
+        "icon": {
+            "item": "survivalistessentials:crude_knife"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "has_knife": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["survivalistessentials:crude_knife"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_knife"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "survivalistessentials:crude_hatchet",
+            "survivalistessentials:crude_saw"
+        ]
+    },
+    "parent": "survivalistessentials:flint_shard"
+}

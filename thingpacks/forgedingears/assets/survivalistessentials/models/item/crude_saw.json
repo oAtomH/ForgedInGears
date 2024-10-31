@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "survivalistessentials:item/crude_saw"
+  }
+}

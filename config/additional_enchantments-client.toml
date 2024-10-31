@@ -1,0 +1,8 @@
+
+[ore_sight]
+	#Determines after how many seconds cached entries expire (affects how fast blocks update their outline) (0 disables caching - not recommended)
+	#Range: 0 ~ 10
+	cache_expire = 2
+	#Color configuration for ore sight - syntax: [<rarity>;<block>;<red>;<green>;<blue>], e.g. [1;#forge:ores/gold;255;215;0] or [7;minecraft:ancient_debris;160,32,240]
+	ore_sight_configs = ["0;#forge:ores;255;255;255", "1;#additional_enchantments:common_ore;165;42;42", "2;#additional_enchantments:uncommon_ore;255;215;0", "3;#additional_enchantments:rare_ore;64;224;208"]
+

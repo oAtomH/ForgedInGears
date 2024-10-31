@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "forgedingears:test_block",
+    "forgedingears:test_ore",
+    "forgedingears:duranite_block",
+    "forgedingears:duranite_ore",
+    "forgedingears:selenium_block",
+    "forgedingears:selenium_ore",
+    "forgedingears:arcanium_block",
+    "forgedingears:arcanium_ore",
+    "forgedingears:brillarite_block",
+    "forgedingears:brillarite_ore",
+    "forgedingears:meteorite",
+    "forgedingears:cobbled_meteorite",
+    "forgedingears:obsidiorite",
+    "forgedingears:cobbled_obsidiorite",
+    "forgedingears:jadarite_block",
+    "forgedingears:jadarite_ore",
+    "forgedingears:element_zero_block",
+    "forgedingears:element_zero_ore",
+    "forgedingears:neutrum_block",
+    "forgedingears:neutrum_ore",
+    "forgedingears:solarium_block"
+  ]
+}

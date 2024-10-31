@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "forgedingears:test_ore",
+    "forgedingears:brillarite_ore",
+    "forgedingears:cobbled_meteorite",
+    "forgedingears:duranite_ore",
+    "forgedingears:arcanium_ore",
+    "forgedingears:element_zero_ore",
+    "forgedingears:neutrum_ore"
+  ]
+}

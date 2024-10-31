@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {"name": "tconstruct:molten_","amount": 100},
+    {"name": "tconstruct:molten_","amount": 100},
+    {"name": "forgedingears:molten_","amount": 100},
+    {"name": "forgedingears:molten_","amount": 100},
+    {"name": "tinkers_reforged:molten_","amount": 100},
+    {"name": "tinkers_reforged:molten_","amount": 100}
+  ],
+  "result": {"fluid": "forgedingears:molten_","amount": 200},
+  "temperature": 1500
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_birch_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "forgedingears:birch_lumber",
+      "count": 4
+    }
+  ],
+  "processingTime": 50
+}

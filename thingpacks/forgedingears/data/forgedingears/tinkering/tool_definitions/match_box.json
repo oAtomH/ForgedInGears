@@ -1,0 +1,29 @@
+{
+  "modules": [
+    {
+      "type": "tconstruct:base_stats",
+      "stats": {
+        "tconstruct:durability": 31.0
+      }
+    },
+    {
+      "type": "tconstruct:traits",
+      "traits": [
+        {
+          "level": 1,
+          "name": "tconstruct:firestarter"
+        }
+      ]
+    },
+    {
+      "type": "tconstruct:material_repair",
+      "material": "forgedingears:match",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "type": "tconstruct:material_repair",
+      "material": "forgedingears:match",
+      "stat_type": "tconstruct:head"
+    }
+  ]
+}

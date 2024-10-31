@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "forgedingears:duranite_ore",
+    "forgedingears:duranite_block",
+    "forgedingears:obsidiorite",
+    "forgedingears:cobbled_obsidiorite",
+    "forgedingears:arcanium_ore",
+    "forgedingears:arcanium_block",
+    "forgedingears:neutrum_ore",
+    "forgedingears:neutrum_block"
+  ]
+}

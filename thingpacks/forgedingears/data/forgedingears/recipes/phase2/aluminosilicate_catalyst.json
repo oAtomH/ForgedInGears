@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "forgedingears:aluminosilicate_chunk"
+    },
+    {
+      "item": "forgedingears:aluminosilicate_chunk"
+    },
+    {
+      "item": "forgedingears:aluminosilicate_chunk"
+    },
+    {
+      "item": "forgedingears:aluminosilicate_chunk"
+    }
+  ],
+  "result": {
+    "item": "forgedingears:aluminosilicate_catalyst",
+    "count": 1
+  }
+}

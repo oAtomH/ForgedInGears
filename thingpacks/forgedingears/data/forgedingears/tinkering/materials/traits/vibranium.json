@@ -1,0 +1,22 @@
+{
+  "perStat": {
+    "tconstruct:extra": [
+      {
+        "name": "materialis:work_hardened",
+        "level": 1
+      }
+    ],
+    "tconstruct:head": [
+      {
+        "name": "materialis:supermassive",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "materialis:auxiliary_power",
+        "level": 1
+      }
+    ]
+  }
+}

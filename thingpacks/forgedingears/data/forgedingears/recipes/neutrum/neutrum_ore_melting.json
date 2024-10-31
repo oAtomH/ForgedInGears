@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "forgedingears:neutrum_ore" },
+  "result": {
+    "fluid": "forgedingears:molten_neutrum",
+    "amount": 90
+  },
+  "temperature": 1250,
+  "time": 800
+}

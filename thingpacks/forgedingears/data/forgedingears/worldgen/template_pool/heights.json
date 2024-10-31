@@ -1,0 +1,78 @@
+{
+  "name": "forgedingears:heights",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 15,
+      "element": {
+        "location": "forgedingears:height_10",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 14,
+      "element": {
+        "location": "forgedingears:height_20",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "location": "forgedingears:height_30",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 11,
+      "element": {
+        "location": "forgedingears:height_40",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 9,
+      "element": {
+        "location": "forgedingears:height_50",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 8 ,
+      "element": {
+        "location": "forgedingears:height_60",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "forgedingears:height_70",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "forgedingears:height_80",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

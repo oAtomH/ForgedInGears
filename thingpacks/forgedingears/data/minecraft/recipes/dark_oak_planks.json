@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["##","##"],
+  "key": {"#": {"item": "forgedingears:dark_oak_lumber"}},
+  "result": {"item": "minecraft:dark_oak_planks"}
+}

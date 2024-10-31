@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E"
+  ],
+  "key": {
+    "E": {
+      "item": "forgedingears:ephedra"
+    }
+  },
+  "result": {
+    "item": "forgedingears:ephedra_seed"
+  }
+}

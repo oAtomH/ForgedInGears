@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "forgedingears:nitrogen", "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "fluid": "forgedingears:ammonia",
+      "amount": 100
+    }
+  ],
+  "heatRequirement": "heated"
+}

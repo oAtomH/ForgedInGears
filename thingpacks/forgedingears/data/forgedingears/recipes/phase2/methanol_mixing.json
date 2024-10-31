@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "fluid": "forgedingears:hydrogen",
+      "amount": 50
+    },
+    {
+      "item": "forgedingears:copper_zinc_catalyst"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "forgedingears:methanol",
+      "amount": 100
+    },
+    {
+      "item": "forgedingears:copper_zinc_catalyst"
+    }
+  ]
+}

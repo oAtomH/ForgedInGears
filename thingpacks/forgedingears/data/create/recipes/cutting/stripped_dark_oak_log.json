@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_dark_oak_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "forgedingears:dark_oak_lumber",
+      "count": 4
+    }
+  ],
+  "processingTime": 50
+}

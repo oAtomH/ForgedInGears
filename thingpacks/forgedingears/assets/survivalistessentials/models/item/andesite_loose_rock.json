@@ -1,0 +1,6 @@
+{
+  "parent": "survivalistessentials:block/andesite_loose_rock",
+  "textures": {
+    "all": "survivalistessentials:block/loose/9p_loose_andesite"
+  }
+}

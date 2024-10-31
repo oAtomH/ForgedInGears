@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "wooden_button",
+  "ingredient": {
+    "item": "forgedingears:dark_oak_lumber"
+  },
+  "result": "minecraft:dark_oak_button",
+  "count": 6
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "tconstruct:skyroot_wood"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:stripped_skyroot_wood"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "processingTime": 50,
+  "conditions": [
+    {
+      "modid": "tconstruct",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "results": [
+    {
+      "item": "forgedingears:cyanide"
+    }
+  ],
+  "processingTime": 25
+}

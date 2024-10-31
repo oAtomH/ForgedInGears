@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 30
+    },
+    {
+      "item": "forgedingears:copper_zinc_catalyst"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "forgedingears:oxygen",
+      "amount": 10
+    },
+    {
+      "fluid": "forgedingears:hydrogen",
+      "amount": 20
+    },
+    {
+      "item": "forgedingears:copper_zinc_catalyst"
+    }
+  ],
+  "heatRequirement": "heated"
+}

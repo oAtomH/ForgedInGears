@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "forgedinfire:fire_dragon_blood",
+    "forgedinfire:ice_dragon_blood",
+    "forgedinfire:lightning_dragon_blood",
+    "forgedingears:mud"
+  ]
+}

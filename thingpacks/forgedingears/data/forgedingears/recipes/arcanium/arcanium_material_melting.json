@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "forgedingears:arcanium",
+  "temperature": 1250,
+  "result": {
+    "fluid": "forgedingears:molten_arcanium",
+    "amount": 90
+  }
+}

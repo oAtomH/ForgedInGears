@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {"name": "forgedingears:molten_brillarite","amount": 120},
+    {"name": "tinkers_reforged:molten_kepu","amount": 90},
+    {"name": "tinkers_reforged:molten_lavium","amount": 90}
+  ],
+  "result": {"fluid": "forgedingears:molten_uranium","amount": 90},
+  "temperature": 1500
+}

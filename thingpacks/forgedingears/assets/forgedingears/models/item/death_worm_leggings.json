@@ -1,0 +1,15 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default",
+  "textures": {
+    "tool": "forgedingears:item/tool/armor/death_worm/leggings"
+  },
+  "modifier_roots": [ "forgedingears:item/tool/armor/death_worm/leggings_modifiers/" ],
+  "first_modifiers": [ "tconstruct:embellishment" ],
+  "overrides": [
+    {
+      "predicate": { "tconstruct:broken": 1 },
+      "model": "forgedingears:item/death_worm/leggings_broken"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Plant Cordage",
+  "recipe": "kjs:plant_cordage2",
+  "grid_size": "small",
+  "description": [
+    {
+      "text": "Plant Cordage is essential for crafting the Crude Hatchet and Crude Saw. Gather enough Plant Fiber and Straw!"
+    }
+  ]
+}

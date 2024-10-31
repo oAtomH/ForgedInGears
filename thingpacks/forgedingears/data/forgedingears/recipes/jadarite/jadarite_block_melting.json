@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "forgedingears:jadarite_block" },
+  "result": {
+    "fluid": "forgedingears:molten_jadarite",
+    "amount": 900
+  },
+  "temperature": 1250,
+  "time": 800
+}

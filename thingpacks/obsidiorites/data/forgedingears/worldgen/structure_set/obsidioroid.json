@@ -1,0 +1,118 @@
+{
+  "structures": [
+    {
+      "structure": "forgedingears:obsidioroid/1",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/2",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/3",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/4",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/5",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/6",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/7",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/8",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/9",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/10",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/11",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/12",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/13",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/14",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/15",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/16",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/17",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/18",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/19",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/20",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/21",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/22",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/23",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/24",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/25",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/26",
+      "weight": 1
+    },
+    {
+      "structure": "forgedingears:obsidioroid/27",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169481691,
+    "spacing": 5,
+    "separation": 1,
+    "type": "integrated_api:advanced_random_spread"
+  }
+}

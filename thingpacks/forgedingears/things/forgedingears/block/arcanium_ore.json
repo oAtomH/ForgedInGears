@@ -1,0 +1,13 @@
+{
+  "type": "plain",
+  "light_emission": 5,
+  "material": "stone",
+  "map_color": "COLOR_BLACK",
+  "requires_tool_for_drops": true,
+  "explosion_resistance": 800,
+  "destroy_time": 45,
+  "sound_type": "minecraft:netherrack",
+  "item": {
+    "group": "forgedingears:forgedingears"
+  }  
+}

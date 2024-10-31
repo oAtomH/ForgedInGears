@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tconstruct:cobalt_ingot",
+  "ingredients": [{ "item": "forgedingears:uru_block" }],
+  "result": {
+    "item": "forgedingears:uru_ingot",
+    "count": 9
+  }
+}

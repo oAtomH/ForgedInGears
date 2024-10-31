@@ -1,0 +1,12 @@
+{
+  "type": "plain",
+  "material": "metal",
+  "map_color": "TERRACOTTA_LIGHT_BLUE",
+  "requires_tool_for_drops": true,
+  "explosion_resistance": 800,
+  "destroy_time": 35,
+  "sound_type": "minecraft:netherite_block",
+  "item": {
+    "group": "forgedingears:forgedingears"
+  }  
+}

@@ -1,0 +1,19 @@
+{
+  "fallbacks": [ "leather" ],
+  "color": "6F6161",
+  "luminosity": 0,
+  "generator": {
+    "transformer": {
+      "type": "tconstruct:recolor_sprite",
+      "color_mapping": {
+        "type": "tconstruct:grey_to_color",
+        "palette": [
+          {"grey": 0,"color": "FF382E30"},
+          {"grey": 63,"color": "FF493B3E"},
+          {"grey": 102,"color": "FF5D524D"},
+          {"grey": 140,"color": "FF6F6161"},
+          {"grey": 178,"color": "FF887671"},
+          {"grey": 216,"color": "FF9D8A84"},
+          {"grey": 255,"color": "FFAD9E9A"}]}},
+    "supportedStats": ["tconstruct:extra","tconstruct:repair_kit","forgedingears:troll_leathers"]}
+}

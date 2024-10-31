@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_acacia_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "forgedingears:acacia_lumber",
+      "count": 4
+    }
+  ],
+  "processingTime": 50
+}

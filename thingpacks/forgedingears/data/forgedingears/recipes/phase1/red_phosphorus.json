@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "forgedingears:white_phosphorus"
+    }
+  ],
+  "results": [
+    {
+      "item": "forgedingears:red_phosphorus"
+    }
+  ],
+  "heatRequirement": "lowheated"
+}

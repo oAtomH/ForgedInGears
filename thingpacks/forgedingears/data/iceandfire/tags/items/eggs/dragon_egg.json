@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#iceandfire:eggs/fire_dragon_egg",
+    "#iceandfire:eggs/ice_dragon_egg",
+    "#iceandfire:eggs/lightning_dragon_egg"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "default": [
+    {"name": "tconstruct:projectile_protection","level": 1}
+  ]
+}

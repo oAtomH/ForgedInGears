@@ -1,0 +1,22 @@
+{
+  "perStat": {
+    "tconstruct:binding": [
+      {
+        "name": "forgedingears:feeble",
+        "level": 1
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "name": "forgedingears:tantrum",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "forgedingears:feeble",
+        "level": 1
+      }
+    ]
+  }
+}

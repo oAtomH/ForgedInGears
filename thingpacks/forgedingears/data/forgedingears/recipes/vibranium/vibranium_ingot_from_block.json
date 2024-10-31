@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tconstruct:cobalt_ingot",
+  "ingredients": [{ "item": "forgedingears:vibranium_block" }],
+  "result": {
+    "item": "forgedingears:vibranium_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "forgedingears:molten_element_zero",
+    "amount": 90
+  },
+  "temperature": 1250,
+  "output": "forgedingears:element_zero"
+}

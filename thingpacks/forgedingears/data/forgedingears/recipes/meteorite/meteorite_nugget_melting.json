@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "forgedingears:meteorite_nugget" },
+  "result": {
+    "fluid": "forgedingears:molten_meteorite",
+    "amount": 10
+  },
+  "temperature": 1250,
+  "time": 125
+}

@@ -1,0 +1,17 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:handle": {
+      "durability": 1.3,
+      "mining_speed": 111.1,
+      "melee_speed": 0.9,
+      "melee_damage": 0.85
+    },
+    "tconstruct:head": {
+      "durability": 1111,
+      "mining_speed": 7.0,
+      "mining_tier": "forgedingears:duranite",
+      "melee_attack": 3.0
+    }
+  }
+}

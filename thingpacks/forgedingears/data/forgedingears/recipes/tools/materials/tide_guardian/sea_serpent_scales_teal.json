@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "iceandfire:sea_serpent_scales_teal"
+  },
+  "value": 2,
+  "needed": 1,
+  "material": "forgedingears:sea_serpent_scales#teal"
+}

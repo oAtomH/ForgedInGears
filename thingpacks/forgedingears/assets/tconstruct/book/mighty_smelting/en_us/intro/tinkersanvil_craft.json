@@ -1,0 +1,13 @@
+{
+  "title": "Tinker's Anvil Crafting",
+  "image": {
+    "file": "tconstruct:book/images/tanvil.png",
+    "width": 124,
+    "height": 102
+  },
+  "text": [
+    {
+      "text": "Using some mechanical crafters and steel in the correct pattern you can make a tinker's anvil."
+    }
+  ]
+}

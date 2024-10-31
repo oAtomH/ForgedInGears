@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    " P ",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:birch_slab"
+    },
+    "P": {
+      "item": "forgedingears:birch_lumber"
+    }
+  },
+  "result": {
+    "item": "iceandfire:podium_birch"
+  }
+}

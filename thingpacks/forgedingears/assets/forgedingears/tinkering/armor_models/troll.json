@@ -1,0 +1,25 @@
+{
+  "layers": [
+    {
+      "type": "tconstruct:fixed",
+      "prefix": "forgedingears:troll/",
+      "suffix": "_base"
+    },
+    {
+      "type": "tconstruct:first_present",
+      "options": [
+        {
+          "type": "tconstruct:fixed",
+          "prefix": "forgedingears:troll/",
+          "suffix": "_tconstruct_gold",
+          "modifier": "tconstruct:golden"
+        },
+        {
+          "type": "tconstruct:persistent_data",
+          "prefix": "forgedingears:troll/",
+          "material_key": "tconstruct:embellishment"
+        }
+      ]
+    }
+  ]
+}

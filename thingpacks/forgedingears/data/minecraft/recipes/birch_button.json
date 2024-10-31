@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "wooden_button",
+  "ingredient": {
+    "item": "forgedingears:birch_lumber"
+  },
+  "result": "minecraft:birch_button",
+  "count": 6
+}

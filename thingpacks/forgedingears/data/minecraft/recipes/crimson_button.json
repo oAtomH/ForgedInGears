@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "wooden_button",
+  "ingredient": {
+    "item": "forgedingears:crimson_lumber"
+  },
+  "result": "minecraft:crimson_button",
+  "count": 6
+}

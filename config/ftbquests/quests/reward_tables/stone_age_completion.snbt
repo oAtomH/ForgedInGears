@@ -1,0 +1,24 @@
+{
+	icon: "tinkersurvival:rock_stone"
+	id: "0CBABD216B479330"
+	loot_size: 3
+	order_index: 1
+	rewards: [
+		{
+			count: 10
+			item: {
+				Count: 1b
+				id: "numismaticoverhaul:silver_coin"
+				tag: { }
+			}
+			weight: 2.0f
+		}
+		{ count: 20, item: "forgedingears:oak_lumber", weight: 6.0f }
+		{ count: 15, item: "tinkersurvival:flint_shard", weight: 6.0f }
+		{ count: 3, item: "farmersdelight:carrot_crate", weight: 6.0f }
+		{ count: 8, item: "farmersdelight:stuffed_potato", weight: 2.0f }
+		{ count: 10, item: "farmersdelight:cooked_rice" }
+	]
+	title: "Stone Age Completion"
+	use_title: true
+}

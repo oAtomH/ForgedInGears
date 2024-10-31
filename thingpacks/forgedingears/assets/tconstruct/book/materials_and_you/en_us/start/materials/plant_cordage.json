@@ -1,0 +1,11 @@
+{
+  "title": "Plant Cordage",
+  "recipe": "forgedingears:plant_cordage",
+  "grid_size": "small",
+  "description": [
+    {
+      "text": "Plant Cordage is essential for crafting the Crude Hatchet and Crude Saw. Gather enough Straw!",
+      "paragraph": true
+    }
+  ]
+}

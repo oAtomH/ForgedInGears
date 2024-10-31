@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "forgedingears:dionium_ingot" },
+  "result": {
+    "fluid": "forgedingears:molten_dionium",
+    "amount": 90
+  },
+  "temperature": 1250,
+  "time": 125
+}

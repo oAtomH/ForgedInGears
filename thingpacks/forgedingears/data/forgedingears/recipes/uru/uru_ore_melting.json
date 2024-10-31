@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "forgedingears:uru_ore" },
+  "result": {
+    "fluid": "forgedingears:molten_uru",
+    "amount": 90
+  },
+  "temperature": 1250,
+  "time": 800
+}

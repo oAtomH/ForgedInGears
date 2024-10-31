@@ -1,0 +1,10 @@
+{
+  "title": "Plant String",
+  "recipe": "kjs:plant_string",
+  "grid_size": "small",
+  "description": [
+    {
+      "text": "Plant Cordage is essential for crafting crude tools!"
+    }
+  ]
+}

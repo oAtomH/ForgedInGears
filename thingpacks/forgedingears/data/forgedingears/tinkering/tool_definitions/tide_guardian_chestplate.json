@@ -1,0 +1,30 @@
+{ "modules": [
+  {
+    "type": "tconstruct:base_stats",
+    "stats": {
+      "tconstruct:durability": 240,
+      "tconstruct:armor": 2.5,
+      "tconstruct:armor_toughness": 0.8
+    }
+  },
+  {
+    "type": "tconstruct:modifier_slots",
+  "slots": {
+    "defense": 2
+    }
+  },
+  {
+    "type": "tconstruct:material_repair",
+    "durability": 45,
+    "material": "forgedingears:sea_serpent_scales"
+  },
+  {
+    "type": "tconstruct:traits",
+    "traits": [
+      {
+        "level": 1,
+        "name": "forgedingears:tide_guardian"
+      }
+    ]
+  }
+]}

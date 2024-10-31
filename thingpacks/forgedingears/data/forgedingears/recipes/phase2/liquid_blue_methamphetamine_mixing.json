@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "forgedingears:phenylacetone",
+      "amount": 100
+    },
+    {
+      "fluid": "forgedingears:methylamine",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "fluid": "forgedingears:liquid_blue_methamphetamine",
+      "amount": 200
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "wooden_pressure_plate",
+  "ingredient": {
+    "item": "forgedingears:dark_oak_lumber"
+  },
+  "result": "minecraft:dark_oak_pressure_plate",
+  "count": 2
+}

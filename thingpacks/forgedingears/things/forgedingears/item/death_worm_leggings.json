@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:multilayer_armor",
+  "model_name": "forgedingears:death_worm",
+  "slot": "leggings",
+  "equip_sound": "item.armor.equip_generic",
+  "max_stack_size": 1,
+  "group": "forgedingears:forgedingears",
+  "color_handler": "tconstruct:tool"
+}

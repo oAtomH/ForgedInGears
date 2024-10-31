@@ -1,0 +1,677 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "molten_age"
+	group: ""
+	icon: "minecraft:iron_ingot"
+	id: "2F6DABC233A71E2E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["Sand Paper it"]
+			image: "create:textures/item/sand_paper.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 10.750340136054405d
+			y: -3.2367346938775405d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "create:textures/item/brass_ingot.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 18.297619047619072d
+			y: -2.2261904761904887d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["Aluminum"]
+			image: "tinkers_reforged:textures/item/aluminum_ingot.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.171428571428571d
+			y: 1.0142857142857125d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["Copper"]
+			image: "create:textures/item/copper_ingot.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.607142857142854d
+			y: 1.5416666666666643d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [
+				"Place the plate on a depot and"
+				"right click it with a Shaft"
+			]
+			image: "create:textures/block/depot_top.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.25d
+			y: 3.232142857142861d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["Duralumin"]
+			image: "tinkers_reforged:textures/item/duralumin_ingot.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.685714285714276d
+			y: -0.49047619047618696d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["61E6CFEE3A036AE2"]
+			id: "2981ED9A676EB70D"
+			tasks: [{
+				id: "5E747CDF55348524"
+				title: "Molten age"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2981ED9A676EB70D"]
+			id: "1BF648A7FDBE831A"
+			tasks: [{
+				id: "10BDE19F9F07EE21"
+				item: "createlowheated:charcoal_burner"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1ACC3880669474EA"
+				"7B6E4DBC30A2DE6E"
+				"552BF5F2A425EB39"
+				"573732FE5EBF8C92"
+				"1A111A358CD3C67C"
+				"1BF648A7FDBE831A"
+				"1A62F6830776F796"
+			]
+			id: "0CE68BA8EEDB4A54"
+			tasks: [{
+				id: "2E6FDA3E9CD1C09A"
+				item: "tinkers_reforged:duralumin_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"61E6CFEE3A036AE2"
+				"43BB9A153CA6AEAC"
+			]
+			description: ["Haha copper in copper"]
+			id: "7B6E4DBC30A2DE6E"
+			tasks: [{
+				id: "150AEB9EB89A35C9"
+				item: {
+					Count: 1b
+					id: "tconstruct:copper_can"
+					tag: {
+						fluid: "tconstruct:molten_copper"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Molten Copper"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"61E6CFEE3A036AE2"
+				"43BB9A153CA6AEAC"
+			]
+			description: ["Just melt some Aluminum and pour it into a Copper Can"]
+			id: "1ACC3880669474EA"
+			tasks: [{
+				id: "5223BE7DFC7AC8CF"
+				item: {
+					Count: 1b
+					id: "tconstruct:copper_can"
+					tag: {
+						fluid: "tconstruct:molten_aluminum"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Molten Aluminum"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61E6CFEE3A036AE2"]
+			description: ["Put some zinc in the mill to get Crushed Zinc"]
+			id: "573732FE5EBF8C92"
+			tasks: [{
+				count: 2L
+				id: "726C5488DCA4DE60"
+				item: "forgedingears:crushed_zinc"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61E6CFEE3A036AE2"]
+			description: ["You've already made this, it shouldn't be difficult"]
+			icon: "forgedingears:glass_batch"
+			id: "1A111A358CD3C67C"
+			tasks: [{
+				id: "5A5AD3B5D49075FA"
+				item: "forgedingears:glass_batch"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61E6CFEE3A036AE2"]
+			description: ["Crush some gravel to get this material"]
+			id: "552BF5F2A425EB39"
+			tasks: [{
+				id: "5B89149DA64BE3C6"
+				item: "forgedingears:saltpeter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0CE68BA8EEDB4A54"]
+			id: "65A883501A6F0CD7"
+			tasks: [{
+				id: "7DC5CD8068680851"
+				item: {
+					Count: 1b
+					id: "tconstruct:copper_can"
+					tag: {
+						fluid: "tinkers_reforged:molten_duralumin"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Molten Duralumin"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BF648A7FDBE831A"]
+			id: "1A62F6830776F796"
+			tasks: [{
+				id: "50780593F64B2BC1"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65A883501A6F0CD7"]
+			id: "5B063B581F5A5A82"
+			tasks: [{
+				id: "6F38AC1BCAAB2A8B"
+				item: {
+					Count: 1b
+					id: "tconstruct:large_plate"
+					tag: {
+						Material: "tinkers_reforged:duralumin"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65A883501A6F0CD7"]
+			id: "45F9B5D0554C6C12"
+			tasks: [{
+				id: "543B90CD19B2F264"
+				item: {
+					Count: 1
+					id: "tinkers_reforged:large_round_plate"
+					tag: {
+						Material: "tinkers_reforged:duralumin"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65A883501A6F0CD7"]
+			id: "5F9C5C661D39DF07"
+			tasks: [{
+				id: "702D617138AF1528"
+				item: {
+					Count: 1b
+					id: "tconstruct:small_blade"
+					tag: {
+						Material: "tinkers_reforged:duralumin"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"45F9B5D0554C6C12"
+				"5B063B581F5A5A82"
+			]
+			id: "5FDF2B550F77154F"
+			tasks: [{
+				id: "74DB46B4037585D2"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5F9C5C661D39DF07"
+				"45F9B5D0554C6C12"
+			]
+			id: "10251BEEF688DC01"
+			tasks: [{
+				id: "791DE3F5CDEECCEB"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5FDF2B550F77154F"
+				"3653FC0760282F2F"
+			]
+			id: "438E7B46718D129F"
+			tasks: [{
+				id: "28AED131CE7BF772"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["61E6CFEE3A036AE2"]
+			id: "3EDEDB1200185E74"
+			tasks: [{
+				id: "5CDF5018AF272AC1"
+				item: {
+					Count: 1
+					id: "tinkers_reforged:large_round_plate"
+					tag: {
+						Material: "tconstruct:copper"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["438E7B46718D129F"]
+			id: "0A6498017867A6D7"
+			tasks: [{
+				id: "55531A6D6D319A38"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["438E7B46718D129F"]
+			id: "22BB6723256E20C0"
+			tasks: [{
+				id: "755F420B3F93A960"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"22BB6723256E20C0"
+				"0A6498017867A6D7"
+			]
+			id: "315FD587C57FFF9D"
+			tasks: [{
+				id: "381C67BC1241D7DD"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FDF2B550F77154F"]
+			id: "37089E25BBB6DF66"
+			tasks: [{
+				id: "69F5D52D98D6EFA2"
+				item: "forgedingears:aluminum_sheet"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"37089E25BBB6DF66"
+				"315FD587C57FFF9D"
+			]
+			id: "41A4FA00226A3BEE"
+			tasks: [{
+				id: "4C3E782BB1B0E842"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1165DE354D3AC29A"
+				"10251BEEF688DC01"
+				"41A4FA00226A3BEE"
+			]
+			description: ["Electron Tubes are used for a lot of blocks which have a bit more customisation / logic"]
+			id: "642D4E8547E7897C"
+			tasks: [{
+				id: "4D593B9DE3AFB826"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0576A075F56E80D4"]
+			description: ["The main use of this material is to create the Electron Tube"]
+			id: "1165DE354D3AC29A"
+			tasks: [{
+				id: "1E48E707BDD9DE5F"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5FC1F7E97ED6FBD2"]
+			id: "0576A075F56E80D4"
+			tasks: [{
+				id: "3B6019CC23789EDA"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22BB6723256E20C0"]
+			id: "11CB9E1542CFE8C3"
+			tasks: [{
+				id: "650489C368E2F5EE"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3653FC0760282F2F"]
+			id: "62FD76199E6FDFCD"
+			tasks: [{
+				id: "520ECE3B0BDDF6B7"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["62FD76199E6FDFCD"]
+			id: "50C659312139E862"
+			tasks: [{
+				id: "705ACDFA0DC1DE29"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["61E6CFEE3A036AE2"]
+			id: "3653FC0760282F2F"
+			tasks: [{
+				id: "1A8763B8B914FABE"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["61E6CFEE3A036AE2"]
+			description: ["The nether gives you access to the blaze burner along with a variety of new materials"]
+			icon: "minecraft:crying_obsidian"
+			id: "63AED7579C8E052D"
+			rewards: [
+				{
+					count: 10
+					id: "5B5E9C8B2A35511B"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "58B7EAA2145F84DD"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "035EC321CDD6E86A"
+					item: "create:cut_andesite"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "2CF12A8A9FE8BE8F"
+				type: "dimension"
+			}]
+			title: "Go to hell"
+			x: 19.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"298C2AAFD2A9BFD9"
+				"315FD587C57FFF9D"
+			]
+			id: "04ADA47A887D35EC"
+			tasks: [{
+				id: "4136B8B968D125FF"
+				item: "forgedingears:copper_mechanism"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04ADA47A887D35EC"]
+			id: "0924931E4D7F98C0"
+			tasks: [{
+				id: "07B9ACC0310BE0A5"
+				item: {
+					Count: 1b
+					id: "tconstruct:smeltery_controller"
+					tag: {
+						texture: "tconstruct:seared_bricks"
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61E6CFEE3A036AE2"]
+			id: "5FC1F7E97ED6FBD2"
+			tasks: [{
+				id: "20097CCF092DAECB"
+				item: "forgedingears:aluminosilicate_catalyst"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["61E6CFEE3A036AE2"]
+			description: ["Iron go bonk"]
+			id: "44EA22768A40B2FC"
+			tasks: [{
+				id: "2433907CDE99F19E"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["61E6CFEE3A036AE2"]
+			description: ["Cast iron into a mold"]
+			id: "52B7575B0872B0A6"
+			tasks: [{
+				id: "4EC97E4728C25F25"
+				item: {
+					Count: 1b
+					id: "tconstruct:tool_handle"
+					tag: {
+						Material: "tconstruct:iron"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"63AED7579C8E052D"
+				"44EA22768A40B2FC"
+				"52B7575B0872B0A6"
+			]
+			description: ["You can right click a Blaze with this to create a blaze burner, used for a variety of things"]
+			id: "1A35127C4200E25A"
+			tasks: [{
+				id: "7B9ED64883DC55E4"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"63AED7579C8E052D"
+				"1A35127C4200E25A"
+			]
+			description: ["A Blaze Burner unlocks a lot of different recipes, as you can make heated and super heated recipes along with the ability to power steam engines"]
+			id: "5CAEB2D459212FEF"
+			tasks: [{
+				id: "20D8AF8949467219"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5CAEB2D459212FEF"]
+			description: ["Create molten brass from molten Zinc and Copper and cast it into the required items to get this"]
+			id: "1B0F5977A23E1643"
+			tasks: [{
+				id: "18E8090729A4EB46"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B0F5977A23E1643"]
+			description: ["Should be simple enough after getting the brass hand"]
+			id: "298C2AAFD2A9BFD9"
+			tasks: [{
+				id: "39C1570912E99C4E"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EDEDB1200185E74"]
+			id: "43BB9A153CA6AEAC"
+			tasks: [{
+				id: "049BB3392D47C2F0"
+				item: "tconstruct:copper_can"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+	]
+	title: "Molten Age"
+}

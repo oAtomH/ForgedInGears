@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["##","##"],
+  "key": {"#": {"item": "forgedingears:acacia_lumber"}},
+  "result": {"item": "minecraft:acacia_planks"}
+}

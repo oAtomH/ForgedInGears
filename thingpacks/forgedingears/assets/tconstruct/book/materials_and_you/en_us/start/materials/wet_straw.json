@@ -1,0 +1,10 @@
+{
+  "title": "Wet Straw",
+  "item": "forgedingears:wet_straw",
+  "text": [
+    {
+      "text": "Next you'll need to get some wet straw. It's obtained from breaking grass with a knife.",
+      "paragraph": true
+    }
+  ]
+}

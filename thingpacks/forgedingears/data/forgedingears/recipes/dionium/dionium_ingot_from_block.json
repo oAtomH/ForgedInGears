@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tconstruct:cobalt_ingot",
+  "ingredients": [{ "item": "forgedingears:dionium_block" }],
+  "result": {
+    "item": "forgedingears:dionium_ingot",
+    "count": 9
+  }
+}

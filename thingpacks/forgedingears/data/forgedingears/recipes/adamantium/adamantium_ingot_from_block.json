@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tconstruct:cobalt_ingot",
+  "ingredients": [{ "item": "forgedingears:adamantium_block" }],
+  "result": {
+    "item": "forgedingears:adamantium_ingot",
+    "count": 9
+  }
+}

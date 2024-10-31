@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A",
+    "B "
+  ],
+  "key": {
+    "A": {"item": "forgedingears:red_phosphorus"},
+    "B": {"item": "minecraft:stick"}
+  },
+  "result": {"item": "forgedingears:match", "count": 6}
+}

@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "forgedingears:duranite_block" },
+  "result": {
+    "fluid": "forgedingears:molten_duranite",
+    "amount": 810
+  },
+  "temperature": 1250,
+  "time": 800
+}

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "forgedingears:match"
+  },
+  "value": 2,
+  "needed": 32,
+  "material": "forgedingears:match"
+}

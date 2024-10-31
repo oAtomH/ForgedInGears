@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_jungle_wood"
+    }
+  ],
+  "results": [
+    {
+      "item": "forgedingears:jungle_lumber",
+      "count": 4
+    }
+  ],
+  "processingTime": 50
+}

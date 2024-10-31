@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_spruce_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "forgedingears:spruce_lumber",
+      "count": 4
+    }
+  ],
+  "processingTime": 50
+}

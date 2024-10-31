@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "forgedingears:molten_element_zero",
+    "amount": 810
+  },
+  "result": "forgedingears:element_zero_block",
+  "cooling_time": 800
+}

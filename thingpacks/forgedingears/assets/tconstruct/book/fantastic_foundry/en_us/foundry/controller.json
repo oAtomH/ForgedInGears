@@ -1,0 +1,11 @@
+{
+  "title": "Foundry Controller",
+  "image": {
+    "file": "tconstruct:book/images/fcontroller.png"
+  },
+  "text": [
+    {
+      "text": "Using create's sequence assembly, intricately create a foundry controller from steel pipes and obsidian tubes, and molten quartz."
+    }
+  ]
+}

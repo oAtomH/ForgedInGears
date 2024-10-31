@@ -1,0 +1,14 @@
+{
+  "title": "Gathering Stones",
+  "item": "survivalistessentials:stone_loose_rock",
+  "text": [
+    {
+      "text": "You may notice right away some small rocks lying randomly on the ground throughout the world."
+    },
+    {
+      "text": "Gather them quickly, they are a necessary resource and you need a lot for crafting tools.",
+      "paragraph": true
+    }
+  ]
+}
+

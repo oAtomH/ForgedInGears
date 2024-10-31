@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "minecraft:dark_oak_logs"
+    },
+    {
+      "item": "tinkersurvival:saw"
+    }
+  ],
+  "result": {
+    "item": "forgedingears:dark_oak_lumber",
+    "count": 3
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "forge:reach_distance",
+      "each_level": -0.4,
+      "operation": "addition",
+      "slots": [
+        "mainhand",
+        "offhand"
+      ],
+      "unique": "forgedingears.modifier.loving"
+    },
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "forge:attack_range",
+      "each_level": 0.3,
+      "operation": "addition",
+      "slots": [
+        "mainhand",
+        "offhand"
+      ],
+      "unique": "forgedingears.modifier.loving"
+    }
+  ],
+  "tooltip_display": "always"
+}

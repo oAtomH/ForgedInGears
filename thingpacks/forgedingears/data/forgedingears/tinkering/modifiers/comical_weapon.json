@@ -1,0 +1,35 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:no_levels",
+  "modules": [
+    {
+      "type": "tconstruct:mob_effect",
+      "entity": "mantle:any",
+      "effect": "minecraft:weakness",
+      "level": { "flat": 1 },
+      "time": { "flat": 200, "per_level": 40, "random": 60 }
+    },
+    {
+      "type": "tconstruct:mob_effect",
+      "entity": "mantle:any",
+      "effect": "minecraft:slowness",
+      "level": { "flat": 1 },
+      "time": { "flat": 200, "per_level": 40, "random": 60 }
+    },
+    {
+      "type": "tconstruct:mob_effect",
+      "entity": "mantle:any",
+      "effect": "minecraft:nausea",
+      "level": { "flat": 1 },
+      "time": { "flat": 300, "per_level": 30, "random": 50 }
+    },
+    {
+      "type": "tconstruct:mob_effect",
+      "entity": "mantle:any",
+      "effect": "minecraft:darkness",
+      "level": { "flat": 1 },
+      "time": { "flat": 100}
+    }
+  ],
+  "tooltip_display": "always"
+} 

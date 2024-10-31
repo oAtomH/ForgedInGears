@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {"name": "tconstruct:molten_obsidian","amount": 40},
+    {"name": "forgedingears:molten_jadarite","amount": 40},
+    {"name": "tinkers_reforged:molten_kepu","amount": 10}
+  ],
+  "result": {"fluid": "tinkers_reforged:molten_galu","amount": 20},
+  "temperature": 1500
+}

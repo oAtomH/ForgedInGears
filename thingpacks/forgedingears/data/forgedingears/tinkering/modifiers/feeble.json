@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:knockback",
+      "formula": [
+        "$knockback",
+        1.5,
+        "$level",
+        "^",
+        "/"
+      ]
+    }
+  ],
+  "priority": 75,
+  "tooltip_display": "always"
+}

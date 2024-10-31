@@ -1,0 +1,17 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_wood"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:stripped_spruce_wood"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "processingTime": 50
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tconstruct:cobalt_ingot",
+  "ingredients": [{ "item": "forgedingears:selenium_ingot" }],
+  "result": {
+    "item": "forgedingears:selenium_nugget",
+    "count": 9
+  }
+}

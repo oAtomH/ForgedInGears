@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "forgedingears:molten_uranium",
+    "amount": 810
+  },
+  "result": "forgedingears:uranium_block",
+  "cooling_time": 800
+}

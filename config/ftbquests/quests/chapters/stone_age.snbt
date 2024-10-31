@@ -1,0 +1,439 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stone_age"
+	group: ""
+	icon: "tinkersurvival:rock_stone"
+	id: "1DB7ED049152ED1D"
+	order_index: 7
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4DC6E70B2D1E9174"
+			rewards: [
+				{
+					count: 5
+					id: "25077D1045F53E76"
+					item: "tinkersurvival:rock_stone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "191D51657788AC75"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				count: 5L
+				id: "7C36134044557E57"
+				item: "tinkersurvival:rock_stone"
+				type: "item"
+			}]
+			title: "Rock go bonk"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4DC6E70B2D1E9174"]
+			id: "342100074749B709"
+			rewards: [{
+				id: "306B47E315471224"
+				item: "minecraft:spruce_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1D4C8B92041EC008"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["342100074749B709"]
+			description: ["Go smash rock against other rock"]
+			id: "57D12B387081651E"
+			rewards: [{
+				count: 4
+				id: "54D1AD84070CDD71"
+				item: "tinkersurvival:flint_shard"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "77EA143567EC9DCB"
+				item: "tinkersurvival:flint_shard"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["57D12B387081651E"]
+			description: ["Chop chop"]
+			id: "2C3376B65543D252"
+			tasks: [{
+				id: "7D78FCA0345763EA"
+				item: {
+					Count: 1
+					id: "tinkersurvival:crude_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C3376B65543D252"]
+			id: "376C0C2A1C051E10"
+			tasks: [{
+				count: 4L
+				id: "1B2F0EE4CC9B21BA"
+				item: "tinkersurvival:plant_fiber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["376C0C2A1C051E10"]
+			id: "7E8A5D03CF8090CB"
+			rewards: [{
+				count: 2
+				id: "5355D97FC0817966"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53FC7514D0C120CB"
+				item: "tinkersurvival:plant_string"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["520EA97BDDF1CA45"]
+			id: "32A8084B8577425B"
+			tasks: [
+				{
+					id: "01E5A19F6A46FE90"
+					item: "tinkersurvival:crude_saw_blade"
+					type: "item"
+				}
+				{
+					id: "087CA59D4BD55CC4"
+					item: {
+						Count: 1
+						id: "tinkersurvival:crude_saw_handle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Crude saw components"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["32A8084B8577425B"]
+			id: "5329E7A02BA763CA"
+			rewards: [{
+				count: 4
+				id: "28E950ADCD1DA8F9"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "0DCC77311EB012EA"
+				item: {
+					Count: 1
+					id: "tinkersurvival:crude_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"56BDCF3FEBECB499"
+				"520EA97BDDF1CA45"
+			]
+			id: "665B3518C46D2FFA"
+			tasks: [{
+				id: "41FE28E7F3DA38A2"
+				item: {
+					Count: 1
+					id: "tinkersurvival:crude_hatchet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5329E7A02BA763CA"]
+			id: "628238C41CA9ACD2"
+			tasks: [{
+				count: 4L
+				id: "0C3806CF72C44E69"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forgedingears:lumber"
+					}
+				}
+				title: "Any plank x4"
+				type: "item"
+			}]
+			title: "Lumber"
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["628238C41CA9ACD2"]
+			id: "2497A826ED427195"
+			tasks: [{
+				id: "3565DFCC3AB236FB"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2497A826ED427195"]
+			id: "1D72DA72075F6FC9"
+			tasks: [{
+				id: "79F2AC2A2F278648"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2497A826ED427195"]
+			id: "0709915A24966A35"
+			tasks: [{
+				id: "6912579B89821D1E"
+				item: "tconstruct:part_builder"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2497A826ED427195"]
+			id: "1D9EA726297F5A51"
+			tasks: [{
+				id: "2F4FA780D2F64C26"
+				item: "tconstruct:crafting_station"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1D9EA726297F5A51"
+				"0709915A24966A35"
+				"1D72DA72075F6FC9"
+			]
+			description: [
+				"You are now ready to move to the next stage"
+				"{image:create:textures/item/andesite_alloy.png width:25 height:25 align:2}"
+			]
+			id: "6EA3B770C1BE9B79"
+			rewards: [
+				{
+					count: 10
+					id: "240D9BA72BAB02BF"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "74EF7F8BBA0619C0"
+					item: "tconstruct:tinkers_chest"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1815A30A0DFA19A5"
+					table_id: 917253425354740528L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "1DE43E9782CA4DEC"
+				title: "You are ready to move on"
+				type: "checkmark"
+			}]
+			title: "The next age"
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E8A5D03CF8090CB"]
+			description: ["You can comfortably stop your bleedings now."]
+			id: "17C3F89BF8AD2060"
+			rewards: [{
+				count: 2
+				id: "184D5135FF7A4021"
+				item: "tinkersurvival:crude_bandage"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41F115D74EE9491A"
+				item: "tinkersurvival:crude_bandage"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["665B3518C46D2FFA"]
+			id: "3D537CFFC5AD5AEA"
+			rewards: [{
+				count: 4
+				id: "12D73E9A7432CDE1"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0973B3481EBA579D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs_that_burn"
+					}
+				}
+				title: "64x Any log"
+				type: "item"
+			}]
+			title: "64x Logs"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DC6E70B2D1E9174"]
+			id: "56BDCF3FEBECB499"
+			rewards: [{
+				count: 4
+				id: "738603CC9206A5D2"
+				item: "tinkersurvival:flint_shard"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4E1545729B2D382A"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"17C3F89BF8AD2060"
+				"628238C41CA9ACD2"
+			]
+			id: "7CC32318D62D38AC"
+			rewards: [
+				{
+					id: "1614076162F3F8D7"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5875E59E1EB04F2B"
+					item: "farmersdelight:bacon_and_eggs"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7F58DF56EBF4E05B"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "426344D18A4C2CAB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				type: "item"
+			}]
+			title: "Comfy"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C3376B65543D252"]
+			id: "2130F418B603E0EC"
+			tasks: [{
+				id: "199174AFDC23F502"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2130F418B603E0EC"]
+			id: "2BBD155FE0B380C4"
+			tasks: [{
+				id: "7E62AD216C1F6CF5"
+				item: "farmersdelight:canvas"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2BBD155FE0B380C4"
+				"7E8A5D03CF8090CB"
+			]
+			icon: "forgedingears:plant_cordage"
+			id: "520EA97BDDF1CA45"
+			tasks: [{
+				id: "1AA053EBA576A746"
+				item: "forgedingears:plant_cordage"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Oooga booga"]
+	title: "Stone Age"
+}

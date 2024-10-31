@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "minecraft:generic.luck",
+      "each_level": 1.0,
+      "operation": "addition",
+      "slots": [
+        "mainhand",
+        "offhand",
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ],
+      "unique": "tinkers_reforged.modifier.lucky_charm"
+    }
+  ],
+  "tooltip_display": "always"
+}

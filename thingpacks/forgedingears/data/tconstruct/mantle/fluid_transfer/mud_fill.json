@@ -1,0 +1,11 @@
+{
+  "type": "mantle:fill_item",
+  "input": {
+    "item": "minecraft:glass_bottle"
+  },
+  "filled": "forgedingears:mud_bottle",
+  "fluid": {
+    "fluid": "forgedingears:mud",
+    "amount": 250
+  }
+}

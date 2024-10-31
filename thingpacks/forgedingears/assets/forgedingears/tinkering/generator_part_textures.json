@@ -1,0 +1,63 @@
+{
+    "replace": false,
+    "parts": [
+
+      { "path": "forgedingears:item/tool/armor/death_worm/helmet_modifiers/tconstruct_embellishment",            "stat_type": "forgedingears:death_worm_chitins" },
+      { "path": "forgedingears:item/tool/armor/death_worm/helmet_modifiers/broken/tconstruct_embellishment",     "stat_type": "forgedingears:death_worm_chitins" },
+      { "path": "forgedingears:item/tool/armor/death_worm/chestplate_modifiers/tconstruct_embellishment",        "stat_type": "forgedingears:death_worm_chitins" },
+      { "path": "forgedingears:item/tool/armor/death_worm/chestplate_modifiers/broken/tconstruct_embellishment", "stat_type": "forgedingears:death_worm_chitins" },
+      { "path": "forgedingears:item/tool/armor/death_worm/leggings_modifiers/tconstruct_embellishment",          "stat_type": "forgedingears:death_worm_chitins" },
+      { "path": "forgedingears:item/tool/armor/death_worm/leggings_modifiers/broken/tconstruct_embellishment",   "stat_type": "forgedingears:death_worm_chitins" },
+      { "path": "forgedingears:item/tool/armor/death_worm/boots_modifiers/tconstruct_embellishment",             "stat_type": "forgedingears:death_worm_chitins" },
+      { "path": "forgedingears:item/tool/armor/death_worm/boots_modifiers/broken/tconstruct_embellishment",      "stat_type": "forgedingears:death_worm_chitins" },
+      { "path": "forgedingears:tinker_armor/death_worm/armor",                                                   "stat_type": "forgedingears:death_worm_chitins" },
+      { "path": "forgedingears:tinker_armor/death_worm/leggings",                                                "stat_type": "forgedingears:death_worm_chitins" },
+
+      
+      { "path": "forgedingears:item/tool/armor/troll/helmet_modifiers/tconstruct_embellishment",                 "stat_type": "forgedingears:troll_leathers" },
+      { "path": "forgedingears:item/tool/armor/troll/helmet_modifiers/broken/tconstruct_embellishment",          "stat_type": "forgedingears:troll_leathers" },
+      { "path": "forgedingears:item/tool/armor/troll/chestplate_modifiers/tconstruct_embellishment",             "stat_type": "forgedingears:troll_leathers" },
+      { "path": "forgedingears:item/tool/armor/troll/chestplate_modifiers/broken/tconstruct_embellishment",      "stat_type": "forgedingears:troll_leathers" },
+      { "path": "forgedingears:item/tool/armor/troll/leggings_modifiers/tconstruct_embellishment",               "stat_type": "forgedingears:troll_leathers" },
+      { "path": "forgedingears:item/tool/armor/troll/leggings_modifiers/broken/tconstruct_embellishment",        "stat_type": "forgedingears:troll_leathers" },
+      { "path": "forgedingears:item/tool/armor/troll/boots_modifiers/tconstruct_embellishment",                  "stat_type": "forgedingears:troll_leathers" },
+      { "path": "forgedingears:item/tool/armor/troll/boots_modifiers/broken/tconstruct_embellishment",           "stat_type": "forgedingears:troll_leathers" },
+      { "path": "forgedingears:tinker_armor/troll/armor",                                                        "stat_type": "forgedingears:troll_leathers" },
+      { "path": "forgedingears:tinker_armor/troll/leggings",                                                     "stat_type": "forgedingears:troll_leathers" },
+
+
+      { "path": "forgedingears:item/tool/armor/tide_guardian/helmet_modifiers/tconstruct_embellishment",            "stat_type": "forgedingears:sea_serpent_scales" },
+      { "path": "forgedingears:item/tool/armor/tide_guardian/helmet_modifiers/broken/tconstruct_embellishment",     "stat_type": "forgedingears:sea_serpent_scales" },
+      { "path": "forgedingears:item/tool/armor/tide_guardian/chestplate_modifiers/tconstruct_embellishment",        "stat_type": "forgedingears:sea_serpent_scales" },
+      { "path": "forgedingears:item/tool/armor/tide_guardian/chestplate_modifiers/broken/tconstruct_embellishment", "stat_type": "forgedingears:sea_serpent_scales" },
+      { "path": "forgedingears:item/tool/armor/tide_guardian/leggings_modifiers/tconstruct_embellishment",          "stat_type": "forgedingears:sea_serpent_scales" },
+      { "path": "forgedingears:item/tool/armor/tide_guardian/leggings_modifiers/broken/tconstruct_embellishment",   "stat_type": "forgedingears:sea_serpent_scales" },
+      { "path": "forgedingears:item/tool/armor/tide_guardian/boots_modifiers/tconstruct_embellishment",             "stat_type": "forgedingears:sea_serpent_scales" },
+      { "path": "forgedingears:item/tool/armor/tide_guardian/boots_modifiers/broken/tconstruct_embellishment",      "stat_type": "forgedingears:sea_serpent_scales" },
+      { "path": "forgedingears:tinker_armor/tide_guardian/armor",                                                   "stat_type": "forgedingears:sea_serpent_scales" },
+      { "path": "forgedingears:tinker_armor/tide_guardian/leggings",                                                "stat_type": "forgedingears:sea_serpent_scales" },
+
+
+      { "path": "forgedingears:item/tool/armor/fire_dracotaur/helmet_modifiers/tconstruct_embellishment",            "stat_type": "forgedingears:fire_dragon_scales" },
+      { "path": "forgedingears:item/tool/armor/fire_dracotaur/helmet_modifiers/broken/tconstruct_embellishment",     "stat_type": "forgedingears:fire_dragon_scales" },
+      { "path": "forgedingears:item/tool/armor/fire_dracotaur/chestplate_modifiers/tconstruct_embellishment",        "stat_type": "forgedingears:fire_dragon_scales" },
+      { "path": "forgedingears:item/tool/armor/fire_dracotaur/chestplate_modifiers/broken/tconstruct_embellishment", "stat_type": "forgedingears:fire_dragon_scales" },
+      { "path": "forgedingears:item/tool/armor/fire_dracotaur/wings_modifiers/tconstruct_embellishment",             "stat_type": "forgedingears:fire_dragon_scales" },
+      { "path": "forgedingears:item/tool/armor/fire_dracotaur/wings_modifiers/broken/tconstruct_embellishment",      "stat_type": "forgedingears:fire_dragon_scales" },
+      { "path": "forgedingears:item/tool/armor/fire_dracotaur/leggings_modifiers/tconstruct_embellishment",          "stat_type": "forgedingears:fire_dragon_scales" },
+      { "path": "forgedingears:item/tool/armor/fire_dracotaur/leggings_modifiers/broken/tconstruct_embellishment",   "stat_type": "forgedingears:fire_dragon_scales" },
+      { "path": "forgedingears:item/tool/armor/fire_dracotaur/boots_modifiers/tconstruct_embellishment",             "stat_type": "forgedingears:fire_dragon_scales" },
+      { "path": "forgedingears:item/tool/armor/fire_dracotaur/boots_modifiers/broken/tconstruct_embellishment",      "stat_type": "forgedingears:fire_dragon_scales" },
+      { "path": "forgedingears:tinker_armor/fire_dracotaur/armor",                                                   "stat_type": "forgedingears:fire_dragon_scales" },
+      { "path": "forgedingears:tinker_armor/fire_dracotaur/leggings",                                                "stat_type": "forgedingears:fire_dragon_scales" },
+      { "path": "forgedingears:tinker_armor/fire_dracotaur_wings/armor",                                             "stat_type": "forgedingears:fire_dragon_scales" },
+      { "path": "forgedingears:tinker_armor/fire_dracotaur_wings/wings",                                             "stat_type": "forgedingears:fire_dragon_scales" }
+      
+    ],
+    "overrides": {  
+     "forgedingears:death_worm_chitins": ["forgedingears:death_worm_chitin","forgedingears:death_worm_chitin#white","forgedingears:death_worm_chitin#yellow","forgedingears:death_worm_chitin#red"],
+     "forgedingears:troll_leathers": ["forgedingears:troll_leather","forgedingears:troll_leather#forest","forgedingears:troll_leather#mountain","forgedingears:troll_leather#frost"],
+     "forgedingears:sea_serpent_scales": ["forgedingears:sea_serpent_scales","forgedingears:sea_serpent_scales#blue","forgedingears:sea_serpent_scales#bronze","forgedingears:sea_serpent_scales#deep_blue","forgedingears:sea_serpent_scales#green","forgedingears:sea_serpent_scales#purple","forgedingears:sea_serpent_scales#red","forgedingears:sea_serpent_scales#teal"],
+     "forgedingears:fire_dragon_scales": ["forgedingears:fire_dragon_scales","forgedingears:fire_dragon_scales#red","forgedingears:fire_dragon_scales#green","forgedingears:fire_dragon_scales#bronze","forgedingears:fire_dragon_scales#gray"]
+    }
+  }

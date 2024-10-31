@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "forgedingears:element_zero_cluster" },
+  "result": {
+    "fluid": "forgedingears:molten_element_zero",
+    "amount": 90
+  },
+  "temperature": 1250,
+  "time": 800
+}

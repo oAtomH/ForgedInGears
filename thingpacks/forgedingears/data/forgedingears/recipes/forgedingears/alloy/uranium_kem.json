@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {"name": "tinkers_reforged:molten_kepu","amount": 120},
+    {"name": "forgedingears:molten_element_zero","amount": 60},
+    {"name": "tinkers_reforged:molten_crusteel","amount": 90}
+  ],
+  "result": {"fluid": "forgedingears:molten_uranium","amount": 90},
+  "temperature": 1500
+}

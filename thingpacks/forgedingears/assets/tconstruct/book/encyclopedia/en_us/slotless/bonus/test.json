@@ -1,0 +1,13 @@
+{
+  "modifier_id": "tconstruct:test",
+  "text": [
+    {
+      "text": "Grants +x upgrade slot per level."
+    }
+  ],
+  "more_text_space": true,
+  "effects": [
+    "Maximum of x levels",
+    "Slotless"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tconstruct:cobalt_ingot",
+  "ingredients": [{ "item": "forgedingears:solarium_ingot" }],
+  "result": {
+    "item": "forgedingears:solarium_nugget",
+    "count": 9
+  }
+}

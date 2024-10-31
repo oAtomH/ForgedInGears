@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    " P ",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:dark_oak_slab"
+    },
+    "P": {
+      "item": "forgedingears:dark_oak_lumber"
+    }
+  },
+  "result": {
+    "item": "iceandfire:podium_dark_oak"
+  }
+}

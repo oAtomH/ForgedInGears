@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "forgedingears:oak_lumber"
+    },
+    "X": {
+      "tag": "forge:glass/colorless"
+    }
+  },
+  "result": {
+    "item": "create:oak_window",
+    "count": 2
+  }
+}

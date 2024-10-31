@@ -1,0 +1,59 @@
+<recipe><iceandfire:chain 0 minecraft:air 0 minecraft:chain 0 minecraft:air 0 minecraft:air 0 minecraft:chain 0 minecraft:air 0 minecraft:air 0 minecraft:chain 0 minecraft:air 0 -30 10 1>
+<item><itemfilters:and 0 40 21 1>
+
+
+
+
+
+
+
+Chain lines can be crafted to capture
+wild dragons and any other monster.
+Dragons can be tied to dragon bone 
+walls to power the furnace.
+<block><create:mechanical_saw 0 60 65 1>
+<block><iceandfire:dragon_bone_block 0 80 130 0.5>
+<item><itemfilters:and 0 100 130 0.5>
+<block><iceandfire:dragon_bone_wall 0 170 130 0.5>
+<item><itemfilters:and 0 152 130 0.5>
+Wall recipe:
+
+
+
+To properly power a forge, one 
+must place the chained or tamed 
+dragon directly in front of the 
+aperture. Then the dragon will 
+begin to power the forge.
+Most items, when placed in a forge,
+will be turned to ash. But placing a 
+steel ingot and dragon blood will 
+result in a powerful alchemical metal.
+
+<item><forgedingears:steel_ingot 0 110 32 1>
+<item><iceandfire:fire_dragon_blood 0 130 32 1>
+<item><iceandfire:dragonsteel_fire_ingot 0 170 32 1>
+<item><itemfilters:and 0 150 32 1>
+<item><forgedingears:steel_ingot 0 110 46 1>
+<item><iceandfire:ice_dragon_blood 0 130 46 1>
+<item><iceandfire:dragonsteel_ice_ingot 0 170 46 1>
+<item><itemfilters:and 0 150 46 1>
+<item><forgedingears:steel_ingot 0 110 60 1>
+<item><iceandfire:lightning_dragon_blood 0 130 60 1>
+<item><iceandfire:dragonsteel_lightning_ingot 0 170 60 1>
+<item><itemfilters:and 0 150 60 1>
+
+
+
+
+
+
+
+
+
+
+
+There may be other recipes
+that utilize the dragon 
+forges but that is for you 
+to experiment with.

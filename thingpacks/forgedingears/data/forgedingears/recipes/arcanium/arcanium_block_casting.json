@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "forgedingears:molten_arcanium",
+    "amount": 810
+  },
+  "result": "forgedingears:arcanium_block",
+  "cooling_time": 800
+}

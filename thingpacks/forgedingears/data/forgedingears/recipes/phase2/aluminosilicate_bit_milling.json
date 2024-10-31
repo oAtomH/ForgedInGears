@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    }
+  ],
+  "results": [
+    {
+      "item": "forgedingears:aluminosilicate_bit",
+      "chance": 0.05
+    }
+  ],
+  "processingTime": 110
+}

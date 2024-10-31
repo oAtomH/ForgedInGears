@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "forgedingears:phenylacetic_acid",
+      "amount": 50
+    },
+    {
+      "fluid": "forgedingears:acetic_anhydride",
+      "amount": 50
+    }
+  ],
+  "results": [
+    {
+      "fluid": "forgedingears:phenylacetone",
+      "amount": 100
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:stat_boost",
+      "each_level": 0.08,
+      "operation": "multiply_base",
+      "stat": "tconstruct:durability"
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "each_level": 0.06,
+      "operation": "multiply_base",
+      "stat": "tconstruct:velocity"
+    }
+  ],
+  "tooltip_display": "always"
+}

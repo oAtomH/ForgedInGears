@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "forgedingears:oak_lumber",
+    "forgedingears:spruce_lumber",
+    "forgedingears:birch_lumber",
+    "forgedingears:jungle_lumber",
+    "forgedingears:dark_oak_lumber",
+    "forgedingears:acacia_lumber",
+    "forgedingears:crimson_lumber",
+    "forgedingears:warped_lumber",
+    "#forgedingears:slimy_lumber"
+  ]
+}

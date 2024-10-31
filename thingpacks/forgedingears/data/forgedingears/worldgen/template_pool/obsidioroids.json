@@ -1,0 +1,249 @@
+{
+  "name": "forgedingears:obsidioroids",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/1",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/2",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/3",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/4",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/5",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/6",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/7",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/8",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/9",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/10",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/11",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/12",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/13",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/14",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/15",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/16",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/17",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/18",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/19",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/20",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/21",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/22",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/23",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/24",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/25",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/26",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/27",
+        "processors": "forgedingears:obsidioroid_blocks",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

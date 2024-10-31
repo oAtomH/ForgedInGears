@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_warped_hyphae"
+    }
+  ],
+  "results": [
+    {
+      "item": "forgedingears:warped_lumber",
+      "count": 4
+    }
+  ],
+  "processingTime": 50
+}

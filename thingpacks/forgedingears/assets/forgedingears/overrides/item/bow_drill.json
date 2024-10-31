@@ -1,0 +1,6 @@
+{"overrides":
+[
+    {"model":"forgedingears:item/tool/bow_drill/tool","predicate":{"nbt":{"Damage":0,"tic_broken":0}}},
+    {"model":"forgedingears:item/tool/bow_drill/broken","predicate":{"nbt":{"tic_upgrades":[{"level":1,"name":"tconstruct:diamond"}]}}}
+]
+}

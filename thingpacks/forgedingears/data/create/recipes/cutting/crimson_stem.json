@@ -1,0 +1,17 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:crimson_stem"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:stripped_crimson_stem"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "processingTime": 50
+}

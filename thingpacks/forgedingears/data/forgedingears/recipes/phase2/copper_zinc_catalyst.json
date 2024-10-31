@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "forgedingears:zinc_dust"
+    },
+    {
+      "item": "forgedingears:copper_dust"
+    },
+    {
+      "item": "forgedingears:zinc_dust"
+    },
+    {
+      "item": "forgedingears:copper_dust"
+    }
+  ],
+  "result": {
+    "item": "forgedingears:copper_zinc_catalyst",
+    "count": 1
+  }
+}

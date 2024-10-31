@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {"name": "forgedingears:molten_jadarite","amount": 30},
+    {"name": "forgedingears:molten_brillarite","amount": 10},
+    {"name": "tinkers_reforged:molten_galu","amount": 10},
+    {"name": "tinkers_reforged:molten_yokel","amount": 10},
+    {"name": "tconstruct:molten_debris","amount": 45}
+  ],
+  "result": {"fluid": "forgedingears:molten_dionium","amount": 30},
+  "temperature": 1500
+}

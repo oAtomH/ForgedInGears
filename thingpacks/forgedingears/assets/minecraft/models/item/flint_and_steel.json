@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "item/flint_and_steel"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, 135],
+			"translation": [0.25, 1.5, 1],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, 45],
+			"translation": [-0.25, 1.5, 1],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, -50.5],
+			"translation": [-7.75, 3.25, 3.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [180, 0, -134],
+			"translation": [-7.75, 3.25, 3.75]
+		}
+	}
+}

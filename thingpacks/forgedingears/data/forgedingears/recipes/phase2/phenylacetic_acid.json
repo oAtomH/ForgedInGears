@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 100
+    },
+    {
+      "item": "forgedingears:cyanide"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 75
+    },
+    {
+      "fluid": "forgedingears:phenylacetic_acid",
+      "amount": 100
+    }
+  ]
+}

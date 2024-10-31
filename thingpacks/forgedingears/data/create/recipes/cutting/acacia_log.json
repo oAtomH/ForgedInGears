@@ -1,0 +1,17 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:stripped_acacia_log"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "processingTime": 50
+}

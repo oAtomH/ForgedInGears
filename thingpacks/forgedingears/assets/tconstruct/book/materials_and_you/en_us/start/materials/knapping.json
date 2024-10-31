@@ -1,0 +1,13 @@
+{
+  "title": "Flint Shards",
+  "item": "survivalistessentials:flint_shard",
+  "text": [
+    {
+      "text": "Crude tools need Flint Shards!"
+    },
+    {
+      "text": "Simply knapp (right-click) the rocks you've gathered on a hard surface and with a bit of luck, you can split them in half to obtain shards.",
+      "paragraph": true
+    }
+  ]
+}

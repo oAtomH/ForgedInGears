@@ -1,0 +1,14 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default",
+  "textures": {
+    "tool": "forgedingears:item/tool/macuahuitl/tool"
+  },
+  "modifier_roots": [ "forgedingears:item/tool/macuahuitl/modifiers/" ],
+  "overrides": [
+    {
+      "predicate": { "tconstruct:broken": 1 },
+      "model": "tconstruct:item/macuahuitl_broken"
+    }
+  ]
+}

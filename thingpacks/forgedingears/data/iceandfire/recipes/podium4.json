@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    " P ",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:jungle_slab"
+    },
+    "P": {
+      "item": "forgedingears:jungle_lumber"
+    }
+  },
+  "result": {
+    "item": "iceandfire:podium_jungle"
+  }
+}

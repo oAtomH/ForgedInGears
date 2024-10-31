@@ -1,0 +1,12 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default",
+  "textures": {
+    "tool": "forgedingears:item/tool/armor/fire_dracotaur/leggings_broken"
+  },
+  "modifier_roots": [
+    "forgedingears:item/tool/armor/fire_dracotaur/leggings_modifiers/broken/",
+    "forgedingears:item/tool/armor/fire_dracotaur/leggings_modifiers/"
+  ],
+  "first_modifiers": ["tconstruct:embellishment"]
+}

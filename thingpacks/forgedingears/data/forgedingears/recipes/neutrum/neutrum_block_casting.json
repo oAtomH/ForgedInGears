@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "forgedingears:molten_neutrum",
+    "amount": 810
+  },
+  "result": "forgedingears:neutrum_block",
+  "cooling_time": 800
+}

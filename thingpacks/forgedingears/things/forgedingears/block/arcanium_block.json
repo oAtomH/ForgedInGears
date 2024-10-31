@@ -1,0 +1,13 @@
+{
+  "type": "plain",
+  "light_emission": 9,
+  "material": "metal",
+  "map_color": "NETHER",
+  "requires_tool_for_drops": true,
+  "explosion_resistance": 800,
+  "destroy_time": 35,
+  "sound_type": "minecraft:netherite_block",
+  "item": {
+    "group": "forgedingears:forgedingears"
+  }  
+}

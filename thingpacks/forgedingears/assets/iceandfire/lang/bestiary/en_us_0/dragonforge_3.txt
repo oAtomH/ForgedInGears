@@ -1,0 +1,47 @@
+The result is a metal known
+as dragonsteel. Dragonsteel is
+one of the strongest and most
+versatile materials known to 
+man. It can be used for tools
+and embellishements.
+
+
+To do so you will have to obtain
+proto lava so you can melt it
+into a liquid then pour it
+on different casts and forms.
+
+You can read more about it on the 
+mythological weaponery book.
+<item><tconstruct:seared_faucet 0 102 129 0.707>
+<block><tconstruct:seared_table 0 68 98 1>
+<item><minecraft:book 0 145 194 0.5>
+<block><tconstruct:seared_drain 0 75 86 1>
+<item><forgedingears:molten_dionium_bucket 0 210 230 0.4>
+
+You craft it by pouring
+molten dionium onto a 
+book on a casting table
+
+Keep in mind that dragon forges
+can be constructed with ice
+dragons in mind, to create
+Ice dragonsteel using the sheer
+cold of their frost breath.
+<item><iceandfire:dragonforge_ice_brick 0 70 25 1.5>
+<item><iceandfire:dragonforge_ice_input 0 90 25 1.5>
+<item><iceandfire:dragonforge_ice_core 0 110 25 1.5>
+
+
+
+
+
+
+
+You can also construct dragon 
+forges with lightning dragons
+in mind. Using their powerful
+lightning attack to power it.
+<item><iceandfire:dragonforge_lightning_brick 0 70 57 1.5>
+<item><iceandfire:dragonforge_lightning_input 0 90 57 1.5>
+<item><iceandfire:dragonforge_lightning_core 0 110 57 1.5>

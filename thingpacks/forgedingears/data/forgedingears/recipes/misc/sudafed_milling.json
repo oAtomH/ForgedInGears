@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "forgedingears:sudafed"
+    }
+  ],
+  "results": [
+    {
+      "item": "forgedingears:pseudophedrine"
+    }
+  ],
+  "processingTime": 60
+}

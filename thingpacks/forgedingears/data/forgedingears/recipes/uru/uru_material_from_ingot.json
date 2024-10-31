@@ -1,0 +1,7 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": { "item": "forgedingears:uru_ingot" },
+  "value": 1,
+  "needed": 1,
+  "material": "forgedingears:uru"
+}

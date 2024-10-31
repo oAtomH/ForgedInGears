@@ -1,0 +1,13 @@
+{
+  "title": "Smeltery Controller",
+  "image": {
+    "file": "tconstruct:book/images/scontroller.png",
+    "width": 128,
+    "height": 64
+  },
+  "text": [
+    {
+      "text": "Using create's sequence assembly, intricately create a smeltery controller from copper glass and a copper mechanism on a seared block."
+    }
+  ]
+}

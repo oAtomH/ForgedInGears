@@ -1,0 +1,72 @@
+<recipe><minecraft:air 0 iceandfire:dragonscales_bronze 0 iceandfire:dragonscales_gray 0 minecraft:air 0 iceandfire:dragonscales_green 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 -25 15 1>
+<recipe><minecraft:air 0 minecraft:air 0 forgedingears:steel_sheet 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 0 15 1>
+<recipe><minecraft:air 0 minecraft:air 0 iceandfire:dragonscales_bronze 0 iceandfire:dragonscales_gray 0 minecraft:air 0 minecraft:air 0 iceandfire:dragonscales_red 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 25 15 1>
+<recipe><minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 forgedingears:steel_sheet 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 -25 40 1>
+<recipe><forgedingears:empty_dragonforge_fire_core 0 iceandfire:dragonscale_red 0 tconstruct:seared_brick 0 iceandfire:dragonscale_green 0 tconstruct:seared_brick 0 minecraft:air 0 tconstruct:seared_brick 0 iceandfire:dragonscale_gray 0 tconstruct:seared_brick 0 iceandfire:dragonscale_bronze 0 0 40 1>
+<recipe><minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 forgedingears:steel_sheet 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 25 40 1>
+<recipe><minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 iceandfire:dragonscales_bronze 0 minecraft:air 0 minecraft:air 0 iceandfire:dragonscales_green 0 iceandfire:dragonscales_red 0 minecraft:air 0 -25 65 1>
+<recipe><minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 forgedingears:steel_sheet 0 minecraft:air 0 0 65 1>
+<recipe><minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 minecraft:air 0 iceandfire:dragonscales_gray 0 minecraft:air 0 iceandfire:dragonscales_green 0 iceandfire:dragonscales_red 0 25 65 1>
+<item><itemfilters:and 0 130 79 0.5>
+This is how you craft the core.
+
+
+
+
+
+
+
+
+
+
+
+
+You need to build the structure
+as shown at the right. But on the
+second layer you need to consume a
+mechanical dragon heart which will 
+activate the forge core and 
+complete the expensive structure. 
+Now tame a dragon and get forging.
+Layer 1
+
+
+
+
+
+
+Layer 2
+
+
+
+
+
+
+Layer 3
+<block><iceandfire:dragon_bone_block 0 140 10 1>
+<block><iceandfire:dragonforge_fire_brick 0 148 14 1>
+<block><iceandfire:dragon_bone_block 0 156 18 1>
+<block><iceandfire:dragonforge_fire_brick 0 132 14 1>
+<block><iceandfire:dragonforge_fire_brick 0 140 18 1>
+<block><iceandfire:dragonforge_fire_brick 0 148 22 1>
+<block><iceandfire:dragon_bone_block 0 124 18 1>
+<block><iceandfire:dragonforge_fire_brick 0 132 22 1>
+<block><iceandfire:dragon_bone_block 0 140 26 1>
+<block><iceandfire:dragonforge_fire_brick 0 140 45 1>
+<block><iceandfire:dragonforge_fire_brick 0 148 49 1>
+<block><iceandfire:dragonforge_fire_brick 0 156 53 1>
+<block><iceandfire:dragonforge_fire_brick 0 132 49 1>
+<block><forgedingears:empty_dragonforge_fire_core 0 140 53 1>
+<block><iceandfire:dragonforge_fire_brick 0 148 57 1>
+<block><iceandfire:dragonforge_fire_brick 0 124 53 1>
+<block><iceandfire:dragonforge_fire_input 0 132 57 1>
+<block><iceandfire:dragonforge_fire_brick 0 140 61 1>
+<block><iceandfire:dragon_bone_block 0 140 80 1>
+<block><iceandfire:dragonforge_fire_brick 0 148 84 1>
+<block><iceandfire:dragon_bone_block 0 156 88 1>
+<block><iceandfire:dragonforge_fire_brick 0 132 84 1>
+<block><iceandfire:dragonforge_fire_brick 0 140 88 1>
+<block><iceandfire:dragonforge_fire_brick 0 148 92 1>
+<block><iceandfire:dragon_bone_block 0 124 88 1>
+<block><iceandfire:dragonforge_fire_brick 0 132 92 1>
+<block><iceandfire:dragon_bone_block 0 140 96 1>

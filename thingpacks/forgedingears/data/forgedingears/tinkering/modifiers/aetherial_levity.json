@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "forge:entity_gravity",
+      "each_level": -0.0065,
+      "operation": "addition",
+      "slots": [
+        "mainhand",
+        "offhand"
+      ],
+      "unique": "forgedingears.modifier.aetherial_levity"
+    }
+  ],
+  "tooltip_display": "always"
+}

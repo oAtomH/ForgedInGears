@@ -1,0 +1,23 @@
+{
+  "type": "survivalistessentials:add_loot",
+  "additional": {
+    "Count": 1,
+    "id": "minecraft:stick"
+  },
+  "conditions": [
+    {
+      "chance": 0.16,
+      "condition": "minecraft:random_chance"
+    },
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "tag": "survivalistessentials:knife_tools"
+      }
+    },
+    {
+      "condition": "survivalistessentials:is_tag",
+      "tag": "minecraft:leaves"
+    }
+  ]
+}

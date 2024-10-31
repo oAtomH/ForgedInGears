@@ -1,0 +1,25 @@
+{
+  "layers": [
+    {
+      "type": "tconstruct:fixed",
+      "prefix": "forgedingears:death_worm/",
+      "suffix": "_base"
+    },
+    {
+      "type": "tconstruct:first_present",
+      "options": [
+        {
+          "type": "tconstruct:fixed",
+          "prefix": "forgedingears:death_worm/",
+          "suffix": "_tconstruct_gold",
+          "modifier": "tconstruct:golden"
+        },
+        {
+          "type": "tconstruct:persistent_data",
+          "prefix": "forgedingears:death_worm/",
+          "material_key": "tconstruct:embellishment"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "forgedingears:obsidioroid/24",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "forgedingears:obsidioroids/24",
+        "processors": "forgedingears:obsidioroid_blocks",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

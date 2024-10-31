@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "forgedingears:ammonia",
+      "amount": 5
+    },
+    {
+      "fluid": "forgedingears:methanol",
+      "amount": 5
+    },
+    {
+      "item": "forgedingears:aluminosilicate_catalyst"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "forgedingears:methylamine",
+      "amount": 10
+    },
+    {
+      "item": "forgedingears:aluminosilicate_catalyst"
+    }
+  ]
+}

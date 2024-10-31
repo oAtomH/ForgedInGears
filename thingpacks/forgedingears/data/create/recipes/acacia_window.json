@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "forgedingears:acacia_lumber"
+    },
+    "X": {
+      "tag": "forge:glass/colorless"
+    }
+  },
+  "result": {
+    "item": "create:acacia_window",
+    "count": 2
+  }
+}

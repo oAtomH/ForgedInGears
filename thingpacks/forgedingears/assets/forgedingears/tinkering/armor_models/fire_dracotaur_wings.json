@@ -1,0 +1,25 @@
+{
+  "layers": [
+    {
+      "type": "tconstruct:fixed",
+      "prefix": "forgedingears:fire_dracotaur_wings/",
+      "suffix": "_base"
+    },
+    {
+      "type": "tconstruct:first_present",
+      "options": [
+        {
+          "type": "tconstruct:fixed",
+          "prefix": "forgedingears:fire_dracotaur_wings/",
+          "suffix": "_tconstruct_gold",
+          "modifier": "tconstruct:golden"
+        },
+        {
+          "type": "tconstruct:persistent_data",
+          "prefix": "forgedingears:fire_dracotaur_wings/",
+          "material_key": "tconstruct:embellishment"
+        }
+      ]
+    }
+  ]
+}

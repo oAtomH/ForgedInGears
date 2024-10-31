@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "minecraft:crimson_stems"
+    },
+    {
+      "item": "survivalistessentials:crude_saw"
+    }
+  ],
+  "result": {
+    "item": "forgedingears:crimson_lumber",
+    "count": 2
+  }
+}

@@ -1,0 +1,140 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "forgedingears:block/anvil",
+		"top": "forgedingears:block/anvil",
+		"base": "tconstruct:block/table/scorched_anvil_base",
+		"upper": "tconstruct:block/table/scorched_anvil_base_upper"
+	},
+	"elements": [
+		{
+			"name": "Anvil base",
+			"from": [2, 0, 2],
+			"to": [14, 4, 14],
+			"faces": {
+				"north": {"uv": [0, 12, 12, 16], "texture": "#base"},
+				"east": {"uv": [0, 12, 12, 16], "texture": "#base"},
+				"south": {"uv": [0, 12, 12, 16], "texture": "#base"},
+				"west": {"uv": [0, 12, 12, 16], "texture": "#base"},
+				"up": {"uv": [0, 0, 12, 12], "texture": "#base"},
+				"down": {"uv": [0, 0, 12, 12], "texture": "#base", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Lower narrow portion",
+			"from": [4, 4, 5],
+			"to": [12, 7, 11],
+			"faces": {
+				"north": {"uv": [0, 6, 8, 9], "texture": "#upper"},
+				"east": {"uv": [11, 6, 8, 0], "rotation": 270, "texture": "#upper"},
+				"south": {"uv": [0, 6, 8, 9], "texture": "#upper"},
+				"west": {"uv": [8, 0, 11, 6], "rotation": 90, "texture": "#upper"},
+				"up": {"uv": [0, 0, 8, 6], "rotation": 180, "texture": "#upper"}
+			}
+		},
+		{
+			"name": "Wider section beneath top portion",
+			"from": [5, 3, 10.5],
+			"to": [11, 10, 14.5],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 10, 14.5]},
+			"faces": {
+				"north": {"uv": [10, 9, 16, 16], "texture": "#upper"},
+				"east": {"uv": [12, 0, 16, 7], "texture": "#upper"},
+				"south": {"uv": [10, 9, 16, 16], "texture": "#upper"},
+				"west": {"uv": [12, 0, 16, 7], "texture": "#upper"}
+			}
+		},
+		{
+			"name": "Wider section beneath top portion",
+			"from": [5, 3, 1.5],
+			"to": [11, 10, 5.5],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 10, 1.5]},
+			"faces": {
+				"north": {"uv": [10, 9, 16, 16], "texture": "#upper"},
+				"east": {"uv": [12, 0, 16, 7], "texture": "#upper"},
+				"south": {"uv": [10, 9, 16, 16], "texture": "#upper"},
+				"west": {"uv": [12, 0, 16, 7], "texture": "#upper"}
+			}
+		},
+		{
+			"name": "Anvil top top right",
+			"from": [3, 13, 0],
+			"to": [8, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 16, 3, 11], "rotation": 90, "texture": "#top"},
+				"south": {"uv": [0, 5, 3, 0], "rotation": 90, "texture": "#top"},
+				"west": {"uv": [0, 16, 3, 0], "rotation": 90, "texture": "#top"},
+				"up": {"uv": [0, 0, 5, 16], "texture": "#top", "cullface": "up"}
+			}
+		},
+		{
+			"name": "Anvil top top left",
+			"from": [8, 13, 0],
+			"to": [13, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 5, 3, 0], "rotation": 90, "texture": "#top"},
+				"east": {"uv": [0, 16, 3, 0], "rotation": 90, "texture": "#top"},
+				"south": {"uv": [0, 16, 3, 11], "rotation": 90, "texture": "#top"},
+				"up": {"uv": [11, 0, 16, 16], "texture": "#top", "cullface": "up"}
+			}
+		},
+		{
+			"name": "Anvil top bottom right",
+			"from": [3, 10, 0],
+			"to": [8, 13, 16],
+			"faces": {
+				"north": {"uv": [13, 16, 16, 11], "rotation": 90, "texture": "#top"},
+				"south": {"uv": [13, 5, 16, 0], "rotation": 90, "texture": "#top"},
+				"west": {"uv": [13, 16, 16, 0], "rotation": 90, "texture": "#top"},
+				"down": {"uv": [0, 0, 5, 16], "texture": "#top"}
+			}
+		},
+		{
+			"name": "Anvil top bottom left",
+			"from": [8, 10, 0],
+			"to": [13, 13, 16],
+			"faces": {
+				"north": {"uv": [13, 5, 16, 0], "rotation": 90, "texture": "#top"},
+				"east": {"uv": [13, 16, 16, 0], "rotation": 90, "texture": "#top"},
+				"south": {"uv": [13, 16, 16, 11], "rotation": 90, "texture": "#top"},
+				"down": {"uv": [11, 0, 16, 16], "texture": "#top"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"loader": "tconstruct:table",
+	"retextured": ["particle", "top"],
+	"items": [
+		{
+			"center": [8, 16.25, 9],
+			"size": 7.5,
+			"x": 270
+		},
+		{
+			"center": [2.5, 17.5, 10.5],
+			"size": 3
+		},
+		{
+			"center": [2.5, 17.5, 5.5],
+			"size": 3
+		},
+		{
+			"center": [8, 17.5, 4.5],
+			"size": 3
+		},
+		{
+			"center": [13.5, 17.5, 5.5],
+			"size": 3
+		},
+		{
+			"center": [13.5, 17.5, 10.5],
+			"size": 3
+		}
+	]
+}

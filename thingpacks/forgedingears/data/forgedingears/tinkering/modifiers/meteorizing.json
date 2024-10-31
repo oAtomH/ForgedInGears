@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:conditional_mining_speed",
+      "blocks": {
+        "type": "mantle:tag",
+        "tag": "forgedingears:meteorizing"
+      },
+      "each_level": 1.85,
+      "percent": false,
+      "require_effective": false
+    }
+  ],
+  "tooltip_display": "always"
+}

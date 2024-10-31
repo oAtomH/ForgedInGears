@@ -1,0 +1,7 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": { "item": "forgedingears:obsidioroid_nugget" },
+  "value": 1,
+  "needed": 9,
+  "material": "forgedingears:obsidioroid"
+}

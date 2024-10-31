@@ -1,0 +1,29 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "each_level": -0.01,
+      "operation": "addition",
+      "slots": [
+        "mainhand",
+        "offhand"
+      ],
+      "unique": "forgedingears.modifier.super_heavy"
+    },
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "forge:entity_gravity",
+      "each_level": 0.005,
+      "operation": "addition",
+      "slots": [
+        "mainhand",
+        "offhand"
+      ],
+      "unique": "forgedingears.modifier.super_heavy"
+    }
+  ],
+  "tooltip_display": "always"
+}

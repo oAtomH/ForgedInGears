@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "minecraft:acacia_logs"
+    },
+    {
+      "item": "survivalistessentials:crude_saw"
+    }
+  ],
+  "result": {
+    "item": "forgedingears:acacia_lumber",
+    "count": 2
+  }
+}

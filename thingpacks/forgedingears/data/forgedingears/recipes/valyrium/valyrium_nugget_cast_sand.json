@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": { "tag": "tconstruct:casts/single_use/nugget" },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "forgedingears:molten_valyrium",
+    "amount": 10
+  },
+  "result": "forgedingears:valyrium_nugget",
+  "cooling_time": 125
+}

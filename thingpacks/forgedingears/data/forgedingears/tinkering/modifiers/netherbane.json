@@ -1,0 +1,16 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:conditional_melee_damage",
+      "each_level": 2.0,
+      "percent": false,
+      "target": {
+        "type": "mantle:tag",
+        "tag": "forgedingears:netherbane"
+      }
+    }
+  ],
+  "tooltip_display": "always"
+}

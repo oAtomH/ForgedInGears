@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": { "tag": "tconstruct:casts/single_use/nugget" },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "forgedingears:molten_meteorite",
+    "amount": 10
+  },
+  "result": "forgedingears:meteorite_nugget",
+  "cooling_time": 125
+}

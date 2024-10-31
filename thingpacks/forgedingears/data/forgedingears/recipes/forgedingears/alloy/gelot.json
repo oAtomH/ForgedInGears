@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {"name": "forgedingears:molten_duranite","amount": 60},
+    {"name": "forgedingears:molten_arcanium","amount": 45},
+    {"name": "tinkers_reforged:molten_kepu","amount": 90}
+  ],
+  "result": {"fluid": "tinkers_reforged:molten_gelot","amount": 90},
+  "temperature": 1500
+}

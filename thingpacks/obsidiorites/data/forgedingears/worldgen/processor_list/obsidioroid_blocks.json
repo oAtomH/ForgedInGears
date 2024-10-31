@@ -1,0 +1,110 @@
+{
+  "processors": [
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Name": "forgedingears:obsidioroid"
+          },
+          "input_predicate": {
+            "block": "minecraft:diorite",
+            "probability": 0.7,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "minecraft:diorite",
+            "probability": 0.3,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Name": "forgedingears:cobbled_obsidioroid"
+          },
+          "input_predicate": {
+            "block": "minecraft:granite",
+            "probability": 0.6,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "minecraft:granite",
+            "probability": 0.4,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    },
+    {
+      "rules": [
+        {
+          "output_state": {
+            "Name": "forgedingears:meteorite"
+          },
+          "input_predicate": {
+            "block": "minecraft:andesite",
+            "probability": 0.3,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:obsidian"
+          },
+          "input_predicate": {
+            "block": "minecraft:andesite",
+            "probability": 0.3,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:air"
+          },
+          "input_predicate": {
+            "block": "minecraft:andesite",
+            "probability": 0.4,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        }
+      ],
+      "processor_type": "minecraft:rule"
+    }
+  ]
+}

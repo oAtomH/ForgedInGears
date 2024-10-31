@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_trapdoor",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "forgedingears:spruce_lumber"
+    }
+  },
+  "result": {
+    "item": "minecraft:spruce_trapdoor",
+    "count": 2
+  }
+}

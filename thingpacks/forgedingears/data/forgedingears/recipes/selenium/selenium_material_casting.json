@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "forgedingears:molten_selenium",
+    "amount": 90
+  },
+  "temperature": 1250,
+  "output": "forgedingears:selenium"
+}

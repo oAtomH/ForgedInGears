@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "forgedingears:molten_adamantium",
+    "amount": 810
+  },
+  "result": "forgedingears:adamantium_block",
+  "cooling_time": 800
+}

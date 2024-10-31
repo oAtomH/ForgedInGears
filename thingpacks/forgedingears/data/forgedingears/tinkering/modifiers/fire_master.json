@@ -1,0 +1,46 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:protection",
+      "attacker": {
+        "type": "mantle:tag",
+        "tag": "forgedingears:fire_dragon"
+      },
+      "damage_source": "mantle:can_protect",
+      "each_level": 1.5
+    },
+    {
+      "type": "tconstruct:replace_fluid",
+      "radius": {"each_level": 0.9,"flat": 0.0},
+      "replace": [{"block": "iceandfire:chared_grass","properties": {"revert": true},"target": {"type": "mantle:block_properties","block": "minecraft:grass_block","properties": {}}}]
+    },
+    {
+      "type": "tconstruct:replace_fluid",
+      "radius": {"each_level": 0.9,"flat": 0.0},
+      "replace": [{"block": "iceandfire:chared_dirt","properties": {"revert": true},"target": {"type": "mantle:block_properties","block": "minecraft:dirt","properties": {}}}]
+    },
+    {
+      "type": "tconstruct:replace_fluid",
+      "radius": {"each_level": 0.9,"flat": 0.0},
+      "replace": [{"block": "iceandfire:chared_cobblestone","properties": {"revert": true},"target": {"type": "mantle:block_properties","block": "minecraft:cobblestone","properties": {}}}]
+    },
+    {
+      "type": "tconstruct:replace_fluid",
+      "radius": {"each_level": 0.9,"flat": 0.0},
+      "replace": [{"block": "iceandfire:chared_stone","properties": {"revert": true},"target": {"type": "mantle:block_properties","block": "minecraft:stone","properties": {}}}]
+    },
+    {
+      "type": "tconstruct:replace_fluid",
+      "radius": {"each_level": 0.9,"flat": 0.0},
+      "replace": [{"block": "iceandfire:chared_gravel","properties": {"revert": true},"target": {"type": "mantle:block_properties","block": "minecraft:gravel","properties": {}}}]
+    },
+    {
+      "type": "tconstruct:replace_fluid",
+      "radius": {"each_level": 0.9,"flat": 0.0},
+      "replace": [{"block": "iceandfire:chared_dirt_path","properties": {"revert": true},"target": {"type": "mantle:block_properties","block": "minecraft:dirt_path","properties": {}}}]
+    }
+  ],
+  "tooltip_display": "always"
+} 

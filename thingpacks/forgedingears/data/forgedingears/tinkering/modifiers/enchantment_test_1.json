@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:constant_enchantment",
+      "level": 1,
+      "name": "ad_astra_giselle_addon:space_breathing"
+    }
+  ],
+  "tooltip_display": "always"
+}

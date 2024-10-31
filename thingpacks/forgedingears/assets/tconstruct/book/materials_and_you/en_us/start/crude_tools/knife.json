@@ -1,0 +1,10 @@
+{
+  "title": "Crude Knife",
+  "recipe": "survivalistessentials:crude_knife",
+  "grid_size": "small",
+  "description": [
+    {
+      "text": "Crude Knife is essential for gathering Wet Straw. This MUST be the first tool crafted to progress."
+    }
+  ]
+}

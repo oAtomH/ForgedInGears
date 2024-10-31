@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": { "tag": "tconstruct:casts/single_use/ingot" },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "forgedingears:molten_brillarite",
+    "amount": 90
+  },
+  "result": "forgedingears:brillarite_ingot",
+  "cooling_time": 125
+}

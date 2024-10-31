@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "kubejs:mechanical_fire_dragon_heart",
+    "kubejs:mechanical_ice_dragon_heart",
+    "kubejs:mechanical_lightning_dragon_heart"
+  ]
+}

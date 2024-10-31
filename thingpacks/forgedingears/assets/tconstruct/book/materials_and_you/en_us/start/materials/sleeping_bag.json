@@ -1,0 +1,11 @@
+{
+  "title": "Skipping the night!",
+  "input": "minecraft:white_wool",
+  "block": "forgedingears:wet_straw_block_sleeping_bag",
+  "description": [
+    {
+      "text": "To skip the night, you can use some of the wet straw you gathered and a piece of white wool, to make yourself a sleeping bag.",
+      "paragraph": true
+    }
+  ]
+}

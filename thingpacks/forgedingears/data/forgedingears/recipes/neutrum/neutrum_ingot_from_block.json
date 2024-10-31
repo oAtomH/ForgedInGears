@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tconstruct:cobalt_ingot",
+  "ingredients": [{ "item": "forgedingears:neutrum_block" }],
+  "result": {
+    "item": "forgedingears:neutrum_ingot",
+    "count": 9
+  }
+}

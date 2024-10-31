@@ -1,0 +1,12 @@
+{
+	icon: "tconstruct:pig_iron_ingot"
+	id: "24D7836F45787AFF"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 16, item: "minecraft:raw_iron" }
+		{ count: 4, item: "minecraft:iron_block" }
+		{ item: "create:blaze_cake" }
+	]
+	title: "Pig Iron Rewards"
+}

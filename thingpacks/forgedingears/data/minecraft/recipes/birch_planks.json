@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["##","##"],
+  "key": {"#": {"item": "forgedingears:birch_lumber"}},
+  "result": {"item": "minecraft:birch_planks"}
+}

@@ -1,0 +1,12 @@
+{
+  "type": "plain",
+  "material": "stone",
+  "map_color": "TERRACOTTA_CYAN",
+  "requires_tool_for_drops": true,
+  "explosion_resistance": 800,
+  "destroy_time": 35,
+  "sound_type": "minecraft:deepslate",
+  "item": {
+    "group": "forgedingears:forgedingears"
+  }  
+}

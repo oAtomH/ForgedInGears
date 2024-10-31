@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {"name": "constructs_casting:lightning_essence","amount": 10},
+    {"name": "tinkers_reforged:molten_baolian","amount": 10}
+  ],
+  "result": {"fluid": "forgedingears:molten_lumix","amount": 20},
+  "temperature": 1500
+}

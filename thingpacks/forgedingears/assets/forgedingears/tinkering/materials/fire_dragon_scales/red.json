@@ -1,0 +1,19 @@
+{
+  "fallbacks": [ "leather" ],
+  "color": "7A0929",
+  "luminosity": 0,
+  "generator": {
+    "transformer": {
+      "type": "tconstruct:recolor_sprite",
+      "color_mapping": {
+        "type": "tconstruct:grey_to_color",
+        "palette": [
+          {"grey": 0,"color": "FF300016"},
+          {"grey": 63,"color": "FF3F011D"},
+          {"grey": 102,"color": "FF600222"},
+          {"grey": 140,"color": "FF7A0929"},
+          {"grey": 178,"color": "FFBF223F"},
+          {"grey": 216,"color": "FFE8564E"},
+          {"grey": 255,"color": "FFFF7F66"}]}},
+    "supportedStats": ["tconstruct:binding","tconstruct:repair_kit","forgedingears:fire_dragon_scales"]}
+}

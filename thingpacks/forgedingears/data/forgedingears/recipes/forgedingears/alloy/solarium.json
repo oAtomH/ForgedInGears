@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {"name": "forgedingears:molten_valyrium","amount": 60},
+    {"name": "forgedingears:molten_uru","amount": 120},
+    {"name": "forgedingears:molten_lumix","amount": 160}
+  ],
+  "result": {"fluid": "forgedingears:molten_solarium","amount": 90},
+  "temperature": 1500
+}

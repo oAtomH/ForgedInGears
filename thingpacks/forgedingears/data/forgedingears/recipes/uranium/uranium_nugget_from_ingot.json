@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tconstruct:cobalt_ingot",
+  "ingredients": [{ "item": "forgedingears:uranium_ingot" }],
+  "result": {
+    "item": "forgedingears:uranium_nugget",
+    "count": 9
+  }
+}

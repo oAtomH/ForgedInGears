@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tconstruct:cobalt_block",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": { "#": { "item": "forgedingears:solarium_ingot" }},
+  "result": {
+    "item": "forgedingears:solarium_block"
+  }
+}

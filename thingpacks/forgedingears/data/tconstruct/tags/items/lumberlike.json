@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#kubejs:lumber",
+    "kubejs:blazewood_lumber",
+    "kubejs:nahuatl_lumber"
+  ]
+}

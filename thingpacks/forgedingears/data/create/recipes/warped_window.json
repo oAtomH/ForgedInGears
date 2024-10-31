@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "forgedingears:warped_lumber"
+    },
+    "X": {
+      "tag": "forge:glass/colorless"
+    }
+  },
+  "result": {
+    "item": "create:warped_window",
+    "count": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "L",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "tag": "forgedingears:lumber"
+    },
+    "B": {
+      "item": "iceandfire:manuscript"
+    }
+  },
+  "result": {
+    "item": "iceandfire:lectern"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_crimson_hyphae"
+    }
+  ],
+  "results": [
+    {
+      "item": "forgedingears:crimson_lumber",
+      "count": 4
+    }
+  ],
+  "processingTime": 50
+}

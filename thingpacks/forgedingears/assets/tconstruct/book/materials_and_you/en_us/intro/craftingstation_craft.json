@@ -1,0 +1,11 @@
+{
+  "title": "Crafting Station!",
+  "recipe": "forgedingears:crafting_station_stripped_oak_log",
+  "description": [
+    { "text": "You can also make a crafting station." },
+    {
+      "text": "With the crafting station, you can maneuver through your different stations and chest easily when crafting tools.",
+      "paragraph": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "wooden_pressure_plate",
+  "ingredient": {
+    "item": "forgedingears:jungle_lumber"
+  },
+  "result": "minecraft:jungle_pressure_plate",
+  "count": 2
+}

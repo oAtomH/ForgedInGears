@@ -1,0 +1,11 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default",
+  "textures": {
+    "tool": "forgedingears:item/tool/hippocampus_slapper/broken"
+  },
+  "modifier_roots": [
+    "forgedingears:item/tool/hippocampus_slapper/modifiers/broken/",
+    "forgedingears:item/tool/hippocampus_slapper/modifiers/"
+  ]
+}

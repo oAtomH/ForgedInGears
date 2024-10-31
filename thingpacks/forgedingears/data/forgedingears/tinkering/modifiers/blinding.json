@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "tooltip_display": "always",
+  "modules": [
+    {
+      "type": "tconstruct:mob_effect",
+      "entity": "mantle:any",
+      "effect": "minecraft:blindness",
+      "level": { "flat": 1 },
+      "time": { "flat": 100, "per_level": 25, "random": 25 }
+    }
+  ]
+}

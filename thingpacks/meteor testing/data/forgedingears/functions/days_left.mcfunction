@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Days until next Meteor: ","color":"gold"},{"score":{"name":"$daystilmeteor","objective":"meteor"},"color":"gray"}]

@@ -1,0 +1,12 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default",
+  "textures": {
+    "tool": "forgedingears:item/tool/armor/death_worm/helmet_broken"
+  },
+  "modifier_roots": [
+    "forgedingears:item/tool/armor/death_worm/helmet_modifiers/broken/",
+    "forgedingears:item/tool/armor/death_worm/helmet_modifiers/"
+  ],
+  "first_modifiers": ["tconstruct:embellishment"]
+}

@@ -1,0 +1,19 @@
+{
+  "tool": "tinkersurvival:knife",
+  "text": [
+    {
+      "text": "The Saw works just like the crude saw. You'll need it for making lumber."
+    },
+    {
+      "text": "\n"
+    },
+    {
+      "text": "It saws shit, OK?"
+    }
+  ],
+  "properties": [
+    "Basic saw tool",
+    "It's sawesome",
+    "Used for crafting"
+  ]
+}

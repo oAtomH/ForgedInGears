@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tconstruct:cobalt_ingot",
+  "ingredients": [{ "item": "forgedingears:obsidioroid_ingot" }],
+  "result": {
+    "item": "forgedingears:obsidioroid_nugget",
+    "count": 9
+  }
+}

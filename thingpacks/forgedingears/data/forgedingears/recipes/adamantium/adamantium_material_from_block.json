@@ -1,0 +1,7 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": { "item": "forgedingears:adamantium_block" },
+  "value": 9,
+  "needed": 1,
+  "material": "forgedingears:adamantium"
+}

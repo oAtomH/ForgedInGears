@@ -1,0 +1,11 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default",
+  "textures": {
+    "tool": "forgedingears:item/tool/macuahuitl/broken"
+  },
+  "modifier_roots": [
+    "forgedingears:item/tool/macuahuitl/modifiers/broken/",
+    "forgedingears:item/tool/macuahuitl/modifiers/"
+  ]
+}

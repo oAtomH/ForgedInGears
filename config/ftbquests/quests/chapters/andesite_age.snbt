@@ -1,0 +1,1242 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "andesite_age"
+	group: ""
+	icon: "create:andesite_alloy"
+	id: "5629D0B1D26D7125"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:textures/mob_effect/water_breathing.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.3309523809523895d
+			y: 10.954761904761888d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["Mix mud into basin"]
+			image: "minecraft:textures/block/dirt.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.730952380952388d
+			y: 11.154761904761891d
+		}
+		{
+			alpha: 175
+			click: ""
+			corner: false
+			dev: false
+			height: 25.0d
+			hover: [ ]
+			image: "forgedingears:textures/quests/andesite_age/andesite_age.png"
+			rotation: 0.0d
+			width: 44.44444444444444d
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "forgedingears:textures/quests/andesite_age/andesite_age_title.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: -7.5d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6EA3B770C1BE9B79"]
+			description: ["Your goal is to establish a beggining factory to create a melter, which will let you progress further."]
+			id: "31A669F28369791B"
+			tasks: [{
+				id: "0D675D780AAF41FE"
+				title: "Start of a new age"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31A669F28369791B"]
+			id: "25B3BD6531D14EE0"
+			tasks: [{
+				id: "75982444611EE165"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31A669F28369791B"]
+			id: "025255144ADF9B0F"
+			rewards: [
+				{
+					count: 2
+					id: "1DB7533CC77E44D2"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "56B7DD1CF6DBEB71"
+					item: "create:zinc_nugget"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "35D7E4F7CBC68351"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "1FAD384E2C65EFA9"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31A669F28369791B"]
+			id: "158962666754B46C"
+			rewards: [{
+				id: "00431C6A21205753"
+				item: "forgedingears:andesite_powder"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "6ADF0F069CE00B2A"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"25B3BD6531D14EE0"
+				"025255144ADF9B0F"
+			]
+			description: ["You can cut gravel on a cutting board to get zinc nuggets"]
+			id: "61520E8CC25C28D0"
+			tasks: [{
+				count: 4L
+				id: "0C5BF7A00EACFE0A"
+				item: "create:zinc_nugget"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"25B3BD6531D14EE0"
+				"158962666754B46C"
+			]
+			description: ["You can use a pickaxe on an Andesite after putting it on a cutting board to get andesite powder."]
+			id: "320EE1E3B33A91DF"
+			tasks: [{
+				count: 4L
+				id: "1C45BC9E3E0F4203"
+				item: "forgedingears:andesite_powder"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31A669F28369791B"]
+			id: "4C9130C37E41369E"
+			rewards: [{
+				count: 6
+				id: "3AEFF31A2D2687D5"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "5203DC0B4884688E"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C9130C37E41369E"]
+			id: "29E9B5328DB4E694"
+			rewards: [{
+				count: 4
+				id: "7B666CC6F5871271"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2296ACF871295F78"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"320EE1E3B33A91DF"
+				"61520E8CC25C28D0"
+			]
+			id: "32ABDED95931443E"
+			rewards: [
+				{
+					count: 4
+					id: "1012576FE2CBE5AE"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					id: "192C102EF82F8FC3"
+					item: "minecraft:red_bed"
+					type: "item"
+				}
+				{
+					id: "4F2F433A2887F088"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "173FFA7FC7E15634"
+				item: "forgedingears:andesite_alloy_mixture"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"29E9B5328DB4E694"
+				"32ABDED95931443E"
+			]
+			description: ["Your first piece of Andesite Alloy! You can start to create some basic mechanisms now"]
+			id: "67000F4348C92FFA"
+			rewards: [
+				{
+					count: 6
+					id: "5D75D7B2E0D83740"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "315D5EBAD193FEDE"
+					item: {
+						Count: 1b
+						id: "numismaticoverhaul:bronze_coin"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2354B46315BEDB2D"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["67000F4348C92FFA"]
+			description: ["The main block of the Andesite Age"]
+			id: "2A24D94472DEFFFE"
+			rewards: [{
+				count: 16
+				id: "32892A662E1BD56E"
+				item: "forgedingears:oak_lumber"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D5C362F5A628BF3"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["67000F4348C92FFA"]
+			id: "047DF655E19E1A8B"
+			rewards: [{
+				count: 2
+				id: "6B94831C5F3E690D"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "12313B466B4D9699"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["047DF655E19E1A8B"]
+			id: "55AC0AD31C43F45A"
+			rewards: [
+				{
+					count: 2
+					id: "25D88BC2A3DF5C27"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6988FD34C34EBEA3"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5087FB373E3223BE"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["55AC0AD31C43F45A"]
+			id: "353C4BB116692B77"
+			rewards: [{
+				id: "1DF7F1D04401AB8B"
+				item: "farmersdelight:potato_crate"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "2B55948EC9722729"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"2A24D94472DEFFFE"
+				"55AC0AD31C43F45A"
+			]
+			description: ["The millstone is an essential early game machine."]
+			id: "607FA8F198FD8427"
+			rewards: [
+				{
+					count: 4
+					id: "5D50102E30A95854"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "36CDB32508A6042B"
+					item: "farmersdelight:fruit_salad"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3897AB3C7D5BD460"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7769E2CEDC3AFA01"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["67000F4348C92FFA"]
+			description: ["The most basic source of SU, helps you burn through the calories"]
+			id: "470857E3211A5CE1"
+			rewards: [{
+				count: 2
+				id: "368D4050D973350F"
+				item: "farmersdelight:kelp_roll_slice"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FA922CB9183E6C8"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["31A669F28369791B"]
+			hide_dependency_lines: true
+			id: "2EF775BA9973368E"
+			rewards: [{
+				count: 2
+				id: "6659100023EFD5E4"
+				item: "tinkers_reforged:raw_aluminum"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "749F701788598D24"
+				item: "tinkers_reforged:raw_aluminum"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"607FA8F198FD8427"
+				"2EF775BA9973368E"
+				"470857E3211A5CE1"
+			]
+			id: "69D6486706D52F9A"
+			rewards: [{
+				count: 16
+				id: "2ADB10B83550287C"
+				item: {
+					Count: 1b
+					id: "numismaticoverhaul:bronze_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "30B00897AEA4B64D"
+				item: "create:crushed_raw_aluminum"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1183E3A4A8C432A7"]
+			id: "29D5BE58FBDBAF9A"
+			tasks: [{
+				id: "4E9E498A54AB6C78"
+				item: "tinkers_reforged:aluminum_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"69D6486706D52F9A"
+				"607FA8F198FD8427"
+			]
+			id: "570F09E053F46F33"
+			rewards: [
+				{
+					count: 2
+					id: "52147C025DFA75A9"
+					item: "tinkers_reforged:raw_aluminum"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "42BF0139C07E1C80"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "788CF7BF290C2ABC"
+				item: "tinkers_reforged:aluminum_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"163C89235BF2BD18"
+				"69D6486706D52F9A"
+			]
+			description: ["Sanding crushed aluminum gives you aluminum nuggets which are used when creating a mechanical mixer."]
+			id: "1183E3A4A8C432A7"
+			rewards: [
+				{
+					id: "03049EA1B73FB519"
+					item: {
+						Count: 1b
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D770D96F26F76CA"
+					item: "create:crushed_raw_aluminum"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E7005B3308C5223"
+				item: "tinkers_reforged:aluminum_nugget"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["400F60E5ECDD2E94"]
+			id: "163C89235BF2BD18"
+			rewards: [{
+				count: 2
+				id: "358756C951C7898C"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D34EC5929FCB0CC"
+				item: {
+					Count: 1b
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["615EE3379B10F0ED"]
+			id: "400F60E5ECDD2E94"
+			tasks: [{
+				id: "55326D873FE1A501"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["31A669F28369791B"]
+			hide_dependency_lines: true
+			id: "615EE3379B10F0ED"
+			tasks: [{
+				count: 3L
+				id: "122D942F3DEF0DE9"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"29D5BE58FBDBAF9A"
+				"1183E3A4A8C432A7"
+			]
+			id: "73AC4C6A55D1992E"
+			rewards: [
+				{
+					count: 12
+					id: "3AB45B0E75AED0F4"
+					item: "econstruct:andesite_alloy_nugget"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3750C61F9A9C4A40"
+					item: {
+						Count: 1b
+						id: "numismaticoverhaul:bronze_coin"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "485BAED879529BB9"
+				item: "create:whisk"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["31A669F28369791B"]
+			hide_dependency_lines: true
+			id: "72F36733339BE8D9"
+			tasks: [{
+				id: "6D6CEEB3D436B272"
+				item: "create:piston_extension_pole"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"72F36733339BE8D9"
+				"73AC4C6A55D1992E"
+			]
+			description: ["A mechanical mixer unlocks new and cheaper recipes, which speeds up gameplay and unlocks more progression"]
+			id: "7E8C75091885F83B"
+			rewards: [
+				{
+					count: 4
+					id: "016AE5870413E7F6"
+					item: "create:zinc_nugget"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1BFAD1EC82B6534B"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "375292C64F2BBC02"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "081713FDC5C66DB2"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["470857E3211A5CE1"]
+			description: ["A nice early game source for SU, but don't forget to put them in a river biome to function."]
+			id: "57B83500AFDCD46C"
+			rewards: [{
+				id: "551299D8B0DB7683"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "05E54BA0E73F536F"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["57B83500AFDCD46C"]
+			id: "4FDAB49ACA34CC22"
+			rewards: [{
+				count: 2
+				id: "4983D74079E7831B"
+				item: "create_confectionery:chocolate_glazed_marshmallow"
+				type: "item"
+			}]
+			tasks: [{
+				id: "674250300580595C"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7E8C75091885F83B"
+				"41DF7DF9954DCCA9"
+				"12EBF68959B7975F"
+				"570F09E053F46F33"
+				"0818863F58ED1FDB"
+			]
+			description: ["Mix aluminum dust, bone meal, gravel, clay and mud to get Grout"]
+			id: "30A1C73698AE1BB3"
+			rewards: [
+				{
+					count: 2
+					id: "7CEA5200F054FD32"
+					item: "tinkersurvival:bandage"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "272E4BF134204D1D"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "0A2CB1F76E784C7C"
+					item: {
+						Count: 1b
+						id: "numismaticoverhaul:silver_coin"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28D8E862BE1D344F"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["31A669F28369791B"]
+			hide_dependency_lines: true
+			id: "41DF7DF9954DCCA9"
+			tasks: [{
+				id: "27B0D5F2EEB3CBC7"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["31A669F28369791B"]
+			hide_dependency_lines: true
+			id: "30D128B734A7909C"
+			rewards: [{
+				count: 4
+				id: "1C5CE0D8D50D2D3B"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1B0B2B86FAE691CF"
+				item: "minecraft:calcite"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"607FA8F198FD8427"
+				"30D128B734A7909C"
+			]
+			id: "10F603784481AE10"
+			tasks: [{
+				count: 6L
+				id: "77FA4E7F6EC3A40A"
+				item: "forgedingears:calcium_carbonate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["31A669F28369791B"]
+			hide_dependency_lines: true
+			id: "12EBF68959B7975F"
+			rewards: [
+				{
+					count: 16
+					id: "40602A3EA8E57F0A"
+					item: "create:cut_calcite"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "04397D4AD2F45521"
+					item: "minecraft:red_sand"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "100B378E4F045C07"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["30A1C73698AE1BB3"]
+			description: ["Sawing a grout block on a cutting board gives you the main ingredient for creating a melter."]
+			id: "06B529F3BD370772"
+			rewards: [
+				{
+					count: 2
+					id: "585A1DD79C28E324"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "04E61AC25ED816DC"
+					item: "forgedingears:grout_brick"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "290B3E82A5AFBEAC"
+				item: "forgedingears:grout_brick"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["06B529F3BD370772"]
+			description: ["Using some grout bricks and straws, you can create grout bricks which are a material for creating a melter."]
+			id: "7ED2258EBB1973A5"
+			rewards: [
+				{
+					count: 6
+					id: "1B9B43C30B1D5398"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4C1DF3AFAD691F68"
+					item: "tinkers_reforged:raw_aluminum"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "03EF39E2E7AF3614"
+				item: "forgedingears:grout_bricks"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"7ED2258EBB1973A5"
+				"2EB24FDC407E1B92"
+			]
+			id: "70C21F7A0940BC6B"
+			rewards: [
+				{
+					count: 3
+					id: "425DF95568BD704C"
+					item: "forgedingears:glass_batch"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "0A8D46042316291E"
+					item: {
+						Count: 1b
+						id: "numismaticoverhaul:bronze_coin"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D8A8F1A7A89FCD8"
+				item: "forgedingears:grout_glass"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"06B529F3BD370772"
+				"7ED2258EBB1973A5"
+				"70C21F7A0940BC6B"
+			]
+			id: "712D39E5CDB454C0"
+			rewards: [
+				{
+					count: 8
+					id: "744D065F8D2EC0E3"
+					item: "minecraft:flowering_azalea_leaves"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1F2F734D32DC2ACE"
+					item: "minecraft:azalea_leaves"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2FA23D9F0F436649"
+					item: "minecraft:azalea"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6D223E1596C401E7"
+					item: "minecraft:flowering_azalea"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BCACC0979F70230"
+				item: "forgedingears:uncooked_seared_melter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["06B529F3BD370772"]
+			id: "4C06D46B77820BE8"
+			tasks: [
+				{
+					id: "781E9BBA3848928A"
+					item: "forgedingears:uncooked_heater"
+					type: "item"
+				}
+				{
+					id: "582A58002BD060E3"
+					item: "forgedingears:uncooked_casting_table"
+					type: "item"
+				}
+				{
+					id: "2B7851BA1F05405F"
+					item: "forgedingears:uncooked_faucet"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["712D39E5CDB454C0"]
+			description: ["Pairing it with the other seared blocks creates a melter."]
+			id: "6FC8437F1826337F"
+			rewards: [
+				{
+					count: 8
+					id: "5E16A265C2BB60AD"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "265C2B83D4C4F1EE"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "369E1BEDF64701AC"
+				item: "tconstruct:seared_melter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4C06D46B77820BE8"]
+			id: "0D89BB81F9C017A9"
+			rewards: [{
+				count: 16
+				id: "6CF5FF92570737B2"
+				item: "farmersdelight:cooked_rice"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "73264EA217124599"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "5CCDF2BD4E0B4C31"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "21DA56157370E4F6"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+			]
+			title: "Seared extensions"
+			x: -0.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7E8C75091885F83B"]
+			description: ["You can create andesite alloy for a lot cheaper now!"]
+			id: "1B3FFD63042CD0F3"
+			progression_mode: "linear"
+			rewards: [{
+				count: 4
+				id: "6013AFC223A0E811"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "37C8CC22DA1D4CEE"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Discount andesite alloy"
+			x: -6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1B3FFD63042CD0F3"]
+			description: ["That's a good amount of andesite alloy."]
+			id: "3B41120EAF9FD453"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 16
+					id: "1CC494C73E355B06"
+					item: "create:cut_deepslate"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "44D2522C58622224"
+					item: "create:veridium"
+					type: "item"
+				}
+				{
+					count: 50
+					id: "6D262F9ED6DECC56"
+					item: {
+						Count: 1b
+						id: "numismaticoverhaul:bronze_coin"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "3E97EF05CE0DE27E"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "50500BA868F5D9CE"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			title: "Discount andesite alloy 2"
+			x: -8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"12EBF68959B7975F"
+				"0343873EE83FE068"
+				"10F603784481AE10"
+			]
+			description: ["Glass batches can be turned into Grout Glass, which are essential for a melter, but the batches are also used to create normal glass later on."]
+			id: "2EB24FDC407E1B92"
+			rewards: [{
+				count: 16
+				id: "45EC22DBD477858F"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				icon: "forgedingears:glass_batch"
+				id: "0BE52028301BBCEB"
+				item: "forgedingears:glass_batch"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"72D9F8B3AD2F84F4"
+				"607FA8F198FD8427"
+			]
+			description: ["Crush coal using a millstone"]
+			id: "0343873EE83FE068"
+			rewards: [
+				{
+					count: 8
+					id: "03A959FE0B151DB0"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "56164DA94DADA086"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 6L
+				id: "2176154955AE4B08"
+				item: "forgedingears:charcoal_powder"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0D675D780AAF41FE"]
+			id: "72D9F8B3AD2F84F4"
+			rewards: [{
+				count: 3
+				id: "06137A53CBE4ED63"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20286A5E75917D71"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"0D89BB81F9C017A9"
+				"6FC8437F1826337F"
+			]
+			id: "61E6CFEE3A036AE2"
+			rewards: [{
+				id: "7A5B5B21AEF5DC81"
+				item: "tconstruct:puny_smelting"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "13238202655409DE"
+				title: "Melting"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3B41120EAF9FD453"]
+			description: ["Okay, you can stop now."]
+			id: "1281462819C63F69"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 32
+					id: "2AA5623316435C0F"
+					item: "create:crimsite"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1100FB150E9BD1D0"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "14B5F95270C71A5B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "52A75825F7D34E0E"
+					item: {
+						Count: 1b
+						id: "numismaticoverhaul:silver_coin"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "69A44E6492FFD20D"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "104F87A395383F38"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1AEE8055842978B7"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "33907D1193174CD7"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0A1BB8E87B139734"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			title: "Discount andesite alloy 3"
+			x: -9.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6EA3B770C1BE9B79"]
+			id: "0818863F58ED1FDB"
+			tasks: [{
+				count: 4L
+				id: "532121B8669219A1"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.0d
+		}
+	]
+	title: "Andesite Age"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "tconstruct:composable",
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "forge:swim_speed",
+      "each_level": 0.1,
+      "operation": "multiply_total",
+      "slots": [
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ],
+      "unique": "forgedingears.modifier.tide_guardian"
+    },
+    {
+      "type": "tconstruct:constant_enchantment",
+      "level": 1,
+      "name": "minecraft:aqua_affinity"
+    },
+    {
+      "type": "tconstruct:constant_enchantment",
+      "level": 60,
+      "name": "minecraft:respiration"
+    }
+  ],
+  "tooltip_display": "always"
+} 

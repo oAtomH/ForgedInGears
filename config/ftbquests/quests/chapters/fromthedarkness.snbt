@@ -1,0 +1,191 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "fromthedarkness"
+	group: ""
+	icon: "minecraft:campfire"
+	id: "0000000000000004"
+	images: [
+		{
+			alpha: 175
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "forgedingears:textures/quests/in_the_beginning/in_the_beginning.png"
+			rotation: 0.0d
+			width: 17.77777777777778d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "forgedingears:textures/quests/in_the_beginning/in_the_beginning_title.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -3.0d
+			y: -2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1AF057F95637D8A7"]
+			description: [
+				"          Hit the rock against any"
+				"                  type of stone"
+				""
+			]
+			icon: "tinkersurvival:rock_stone"
+			id: "0000000000000005"
+			rewards: [{
+				count: 10
+				id: "2FAA6732A6AF6566"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				count: 5L
+				id: "3472D4214E7EA8A8"
+				item: "tinkersurvival:rock_stone"
+				type: "item"
+			}]
+			title: "Think like a Caveman"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000005"]
+			description: ["   Cut some plants with your new knife"]
+			id: "00000000000000C1"
+			rewards: [{
+				id: "53C52A119470C35A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2C3435CA28C692BE"
+				item: {
+					Count: 1
+					id: "tinkersurvival:crude_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "1AF057F95637D8A7"
+			rewards: [{
+				id: "74959768F0A77D52"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "28BFC4F2477199D4"
+				title: "Quest Basics"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000005"]
+			id: "5DB7D415CA553D89"
+			tasks: [{
+				id: "6D53E89BC82D0CE0"
+				item: {
+					Count: 1
+					id: "tinkersurvival:crude_hatchet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5DB7D415CA553D89"]
+			id: "4AF6ED6E7985CB02"
+			rewards: [{
+				id: "04E3D9186CBFB4F7"
+				item: {
+					Count: 1
+					id: "tinkersurvival:crude_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "524C52200DFF80A8"
+					item: {
+						Count: 1
+						id: "tinkersurvival:crude_saw_handle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A0496C05D7A24BE"
+					item: "tinkersurvival:crude_saw_blade"
+					type: "item"
+				}
+			]
+			title: "Crude Saw"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4AF6ED6E7985CB02"]
+			id: "41884342214B7C12"
+			tasks: [{
+				id: "1A39391CB200FC4F"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			title: "Tinkers"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00000000000000C1"]
+			id: "37ED0DAD27D94003"
+			rewards: [{
+				count: 12
+				id: "721220118B09263C"
+				item: "tinkersurvival:plant_fiber"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E12A5A67304F6BD"
+				item: "tinkersurvival:plant_string"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	title: "In the beginning..."
+}

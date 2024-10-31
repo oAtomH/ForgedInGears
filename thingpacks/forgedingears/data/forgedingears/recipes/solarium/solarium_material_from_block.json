@@ -1,0 +1,7 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": { "item": "forgedingears:solarium_block" },
+  "value": 9,
+  "needed": 1,
+  "material": "forgedingears:solarium"
+}

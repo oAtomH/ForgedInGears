@@ -1,0 +1,14 @@
+{
+  "title": "Flint Shards",
+  "item": "survivalistessentials:crude_knife",
+  "text": [
+    {
+      "text": "This knife is very primitive, just a stick and a flint shard. But it's very useful, all the steps you did before become more efficient.",
+      "paragraph": true
+    },
+    {
+      "text": "Sticks drop more often when using the knife and you can craft flint shards in your inventory.",
+      "paragraph": true
+    }
+  ]
+}

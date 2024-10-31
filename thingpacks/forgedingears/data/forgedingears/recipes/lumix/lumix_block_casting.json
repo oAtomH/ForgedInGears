@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "forgedingears:molten_lumix",
+    "amount": 810
+  },
+  "result": "forgedingears:lumix_block",
+  "cooling_time": 800
+}

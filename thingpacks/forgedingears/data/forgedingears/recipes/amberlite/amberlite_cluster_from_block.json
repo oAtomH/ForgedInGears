@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tconstruct:cobalt_cluster",
+  "ingredients": [{ "item": "forgedingears:amberlite_block" }],
+  "result": {
+    "item": "forgedingears:amberlite_cluster",
+    "count": 9
+  }
+}

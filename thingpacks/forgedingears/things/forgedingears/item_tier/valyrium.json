@@ -1,0 +1,10 @@
+{
+  "uses": 768,
+  "speed": 1,
+  "attack_damage_bonus": 1,
+  "enchantment_value": 1,
+  "tag": "forgedingears:needs_valyrium_tool",
+  "repair_ingredient": { "item": "forgedingears:valyrium_ingot" },
+  "sort_after": ["forgedingears:duranite"],
+  "sort_before": ["forgedingears:vibranium"]
+}

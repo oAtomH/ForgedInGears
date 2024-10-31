@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "forgedingears:heights",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169976691,
+    "spacing": 5,
+    "separation": 1,
+    "type": "integrated_api:advanced_random_spread"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "loops": 12,
+  "results": [
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "vintageimprovements:vibrating",
+      "ingredients": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ]
+    },
+    {
+      "type":"vintageimprovements:polishing",
+      "speed_limits": 1,
+      "ingredients": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ]
+    },
+    {
+      "type":"vintageimprovements:centrifugation",
+      "ingredients": [ 
+        {
+          "item": "minecraft:bowl"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ]
+    },
+    {
+      "type":"vintageimprovements:coiling",
+      "ingredients": [ {
+          "item": "minecraft:bowl"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ]
+    },
+    {
+      "type": "vintageimprovements:curving",
+      "ingredients": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ]
+    },
+    {
+      "type":"vintageimprovements:pressurizing",
+      "heatRequirement": "lowheated",
+      "ingredients": [ 
+        {
+          "item": "minecraft:bowl"
+        },
+        {
+          "fluid": "minecraft:water",
+          "amount": 200
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ]
+    },
+    {
+      "type":"vintageimprovements:vacuumizing",
+      "ingredients": [ 
+        {
+          "item": "minecraft:bowl"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "minecraft:bowl"
+  }
+}

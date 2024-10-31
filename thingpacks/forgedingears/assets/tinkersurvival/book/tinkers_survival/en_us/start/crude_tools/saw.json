@@ -1,0 +1,10 @@
+{
+  "title": "Crude Saw",
+  "recipe": "kjs:crude_saw",
+  "grid_size": "small",
+  "description": [
+    {
+      "text": "Crude Saw will allow you to craft lumber! It is half the output of the improved Tinkers' Survival Saw, but will get you started with lumber!"
+    }
+  ]
+}

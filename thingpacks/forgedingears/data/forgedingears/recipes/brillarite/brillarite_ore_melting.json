@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "forgedingears:brillarite_ore" },
+  "result": {
+    "fluid": "forgedingears:molten_brillarite",
+    "amount": 90
+  },
+  "temperature": 1250,
+  "time": 800
+}

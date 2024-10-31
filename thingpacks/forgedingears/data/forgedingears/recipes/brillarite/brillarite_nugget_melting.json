@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "forgedingears:brillarite_nugget" },
+  "result": {
+    "fluid": "forgedingears:molten_brillarite",
+    "amount": 10
+  },
+  "temperature": 1250,
+  "time": 125
+}

@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "forgedingears:pseudophedrine"
+    },
+    {
+      "item": "forgedingears:red_phosphorus"
+    },
+    {
+      "item": "forgedingears:iodine"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 200
+    }
+  ],
+  "results": [
+    {
+      "fluid": "forgedingears:liquid_methamphetamine",
+      "amount": 200
+    }
+  ],
+  "heatRequirement": "heated"
+}

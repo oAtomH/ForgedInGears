@@ -1,0 +1,15 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default",
+  "textures": {
+    "tool": "forgedingears:item/tool/armor/troll/helmet"
+  },
+  "modifier_roots": [ "forgedingears:item/tool/armor/troll/helmet_modifiers/" ],
+  "first_modifiers": [ "tconstruct:embellishment" ],
+  "overrides": [
+    {
+      "predicate": { "tconstruct:broken": 1 },
+      "model": "forgedingears:item/troll/helmet_broken"
+    }
+  ]
+}

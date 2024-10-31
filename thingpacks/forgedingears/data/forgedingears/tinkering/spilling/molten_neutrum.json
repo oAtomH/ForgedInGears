@@ -1,0 +1,14 @@
+{
+  "fluid": {
+    "name": "forgedingears:molten_neutrum",
+    "amount": 10
+  },
+  "effects": [
+    {
+      "type": "tconstruct:effect",
+      "name": "forgedingears:radiation",
+      "time": 1,
+      "level": 1
+    }
+  ]
+}

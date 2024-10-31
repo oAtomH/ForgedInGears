@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "forgedingears:molten_obsidioroid",
+    "amount": 810
+  },
+  "result": "forgedingears:obsidioroid",
+  "cooling_time": 800
+}

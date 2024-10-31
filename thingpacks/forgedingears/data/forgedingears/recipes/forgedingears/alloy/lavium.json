@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {"name": "forgedingears:molten_arcanium","amount": 90},
+    {"name": "forgedingears:molten_neutrum","amount": 30},
+    {"name": "forgedingears:molten_element_zero","amount": 60}
+  ],
+  "result": {"fluid": "tinkers_reforged:molten_lavium","amount": 90},
+  "temperature": 1500
+}
