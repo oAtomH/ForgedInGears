@@ -1,0 +1,35 @@
+
+["custom structures"]
+	#generate islands
+	"floating islands" = true
+	#generate ruins
+	"ruined towers and tombs" = true
+	#generate icebergs
+	"icebergs with loot" = true
+	#generate gas station
+	"gas stations with loot" = true
+	#generate wreckages
+	"ruined ufo" = true
+
+["custom entities"]
+	#spawn snapcrab
+	"snapcrab (tiny crab)" = true
+	#spawn slabcrab
+	"slabcrab (big crab)" = true
+	#spawn bock
+	"bock (peaceful creature in savanna, jugnle)" = true
+
+["custom gameplay rules"]
+	#height damage
+	"apply damage if traveling above 300 blocks world height" = true
+	#choose how long an engine runs on a stack(64) of coal, 160=8.5 minutes 320=17 minutes 480=25.5 minutes
+	"engine runtime" = 320.0
+	#toggle hipfire or sneaking required
+	"can machine gun ony be used while sneaking?" = false
+
+	["custom gameplay rules"."choose if the state of fuel and water are displayed above the vehicle, (not used in 1"]
+
+		["custom gameplay rules"."choose if the state of fuel and water are displayed above the vehicle, (not used in 1".7]
+			#show value?
+			"4a)" = true
+
