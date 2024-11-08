@@ -1,4 +1,4 @@
-JEIEvents.hideItems(e => {
+/*JEIEvents.hideItems(e => {
   e.hide('tconstruct:tinkers_anvil')
   e.hide('tconstruct:scorched_anvil')
   e.hide('tinkersurvival:mortar_and_pestle')
@@ -95,8 +95,8 @@ JEIEvents.hideItems(e => {
   e.hide(/iceandfire.*axe/)
   e.hide(/iceandfire.*shovel/)
   e.hide(/iceandfire.*hoe/)
-  e.hide(/itemfilters.*/)
-  e.hide(/ftbquests.*/)
+  e.hide(/itemfilters.*//*)
+  e.hide(/ftbquests.*//*)
 })
 
 JEIEvents.addItems(e => {
@@ -105,3 +105,4 @@ JEIEvents.addItems(e => {
   e.add('tconstruct:part_builder')
   e.add('tconstruct:tinker_station')
 })
+*/

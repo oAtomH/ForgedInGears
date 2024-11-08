@@ -1,0 +1,14 @@
+const $Function = Java.loadClass('java.util.function.Function')
+const $Collectors = Java.loadClass('java.util.stream.Collectors')
+const CR_SA = 'create:sequenced_assembly'
+let hideCreateRecipe = (stage, inRecipeType, inRecipeID) => {
+    const RecipeManager = global.jeiRuntime.recipeManager
+    let javaRecipeCategories = RecipeManager.createRecipeCategoryLookup().get().collect($Collectors.toMap(event => event.getRecipeType().getUid(), $Function.identity()))
+    let javaRecipeCategory = javaRecipeCategories.get(Utils.id(inRecipeType))
+    let javaRecipeType = javaRecipeCategory.getRecipeType()
+    let javaRecipeID = RecipeManager.createRecipeLookup(javaRecipeType).includeHidden().get().filter(rec => rec.id == inRecipeID).findFirst().get()
+    if(!event.player.stages.has(stage)) {
+        RecipeManager.hideRecipes(javaRecipeType, [javaRecipeID])
+    }
+}
+hideCreateRecipe('railway_logistics', CR_SA, CR_SA+'/track')

@@ -31,7 +31,7 @@ ServerEvents.recipes(e => {
         Item.of('create:gearbox').withChance(1)
     ], TI, [
         e.recipes.createDeploying(TI, [TI, 'create:cogwheel'])
-    ]).transitionalItem(TI).loops(3).id('forgedingears:gearbox') // set the transitional item and the number of loops
+    ]).transitionalItem(TI).loops(3).id('forgedingears:gearbox').stage('railway_logistics') // set the transitional item and the number of loops
     }
 
 

@@ -1,0 +1,629 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "survive"
+	group: ""
+	icon: "ftbdripper:water_bowl"
+	id: "06B6FD62E2BD027C"
+	images: [
+		{
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/the_world/climate.html"
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["wiki TFC"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			click: "https://mc-wiki.com/minecraft-mods/technology/pollution-of-the-realms-forge/"
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: ["wiki Pollution of Realms"]
+			image: "kubejs:textures/item/img_wiki.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.0d
+			y: -1.5d
+		}
+	]
+	order_index: 24
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["When it is cold, use warm clothes or move closer to a heat source. Build a home, because an interior is warmer."]
+			hide: true
+			icon: "minecraft:blue_ice"
+			id: "2450F1AC75601AC2"
+			size: 2.0d
+			tasks: [{
+				id: "1BCBEF0768B6C251"
+				title: "Cold temperature"
+				type: "checkmark"
+			}]
+			title: "Winter is cold"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["34FEA31ACCFC8DFC"]
+			id: "4B151424F7A279EA"
+			tasks: [{
+				id: "00DA267547EE2A84"
+				item: {
+					Count: 1b
+					id: "tfcambiental:wool_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B9D186CEF6B9C2D"]
+			id: "34FEA31ACCFC8DFC"
+			tasks: [{
+				id: "2DF7D2DD4969A23E"
+				item: {
+					Count: 1b
+					id: "tfcambiental:wool_sweater"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B151424F7A279EA"]
+			id: "6C1E4C15A0BC4C4D"
+			tasks: [{
+				id: "6BABBD9A7166C21B"
+				item: {
+					Count: 1b
+					id: "tfcambiental:wool_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2450F1AC75601AC2"]
+			hide: true
+			id: "0B9D186CEF6B9C2D"
+			tasks: [{
+				id: "3EA462894DD2067E"
+				item: {
+					Count: 1b
+					id: "tfcambiental:wool_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2450F1AC75601AC2"]
+			hide: true
+			id: "0C9CEC5B44AB12C7"
+			tasks: [{
+				id: "362EE6F0EDEC461F"
+				item: {
+					Count: 1b
+					id: "tfcambiental:insulated_leather_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C9CEC5B44AB12C7"]
+			id: "149C1BDF9A9C58E3"
+			tasks: [{
+				id: "7905024A475ADF41"
+				item: {
+					Count: 1b
+					id: "tfcambiental:insulated_leather_tunic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["149C1BDF9A9C58E3"]
+			id: "53B378712D597B1A"
+			tasks: [{
+				id: "6D62E5D1B7C4C21A"
+				item: {
+					Count: 1b
+					id: "tfcambiental:insulated_leather_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["53B378712D597B1A"]
+			id: "64DC795DE0C4926D"
+			tasks: [{
+				id: "7A45F86955530E15"
+				item: {
+					Count: 1b
+					id: "tfcambiental:insulated_leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2450F1AC75601AC2"]
+			description: ["A firepit is a good heat source. When you are near, it will warm you."]
+			hide: true
+			icon: "tfc:firepit"
+			id: "595D54A6418D8DEA"
+			size: 1.5d
+			tasks: [{
+				id: "771D39CB46AE089E"
+				title: "Firepit"
+				type: "checkmark"
+			}]
+			title: "Heat source"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["595D54A6418D8DEA"]
+			description: ["Lava is a powerful source of heat; in winter it may be necessary."]
+			hide: true
+			icon: "minecraft:lava_bucket"
+			id: "416A4C5CC1EAE6EC"
+			size: 1.5d
+			tasks: [{
+				id: "1AB73DE65267D13D"
+				title: "Lava"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Summer is hot, but beware - machines and heat sources also keep you warm."]
+			hide: true
+			icon: "minecraft:sunflower"
+			id: "7E0D6F601DF62AD9"
+			size: 2.0d
+			tasks: [{
+				id: "7980E8FE77DEB410"
+				title: "Warm"
+				type: "checkmark"
+			}]
+			title: "Summer is warm"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7E0D6F601DF62AD9"]
+			hide: true
+			id: "51FC9CB225C9C78B"
+			tasks: [{
+				id: "6FD261D3C8263C81"
+				item: {
+					Count: 1b
+					id: "tfcambiental:silk_cowl"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51FC9CB225C9C78B"]
+			id: "5D94FB8082AF54E6"
+			tasks: [{
+				id: "13BCC05F918F6460"
+				item: {
+					Count: 1b
+					id: "tfcambiental:silk_shirt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D94FB8082AF54E6"]
+			id: "721E9C0C1F20C976"
+			tasks: [{
+				id: "4432B4F01560BB18"
+				item: {
+					Count: 1b
+					id: "tfcambiental:silk_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["721E9C0C1F20C976"]
+			id: "65DA49FC06630757"
+			tasks: [{
+				id: "58F4E0DC05553944"
+				item: {
+					Count: 1b
+					id: "tfcambiental:silk_shoes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E0D6F601DF62AD9"]
+			description: ["Water is not only muddy, but also cools you when you are hot."]
+			hide: true
+			icon: "minecraft:water_bucket"
+			id: "0847B8484857A0B0"
+			size: 1.5d
+			tasks: [{
+				id: "294C8F68F7ADDAAB"
+				title: "Water is cold"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E0D6F601DF62AD9"]
+			hide: true
+			id: "34F81D875F4CF2E4"
+			tasks: [{
+				id: "2DB311885366E4B2"
+				item: {
+					Count: 1b
+					id: "tfcambiental:burlap_cowl"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34F81D875F4CF2E4"]
+			id: "19927145D19FBC6D"
+			tasks: [{
+				id: "33A39138D8EC25F0"
+				item: {
+					Count: 1b
+					id: "tfcambiental:burlap_shirt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["19927145D19FBC6D"]
+			id: "3FA52A75C682C929"
+			tasks: [{
+				id: "311F75720D59C9DE"
+				item: {
+					Count: 1b
+					id: "tfcambiental:burlap_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3FA52A75C682C929"]
+			id: "3A091DB42E5448BF"
+			tasks: [{
+				id: "4A795A18641B80A3"
+				item: {
+					Count: 1b
+					id: "tfcambiental:burlap_shoes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0847B8484857A0B0"]
+			description: ["Ice can always cool you down when it is too hot."]
+			hide: true
+			id: "4044261E6BA73C1F"
+			size: 1.5d
+			tasks: [{
+				id: "172C7C55529338EE"
+				item: "minecraft:ice"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E0D6F601DF62AD9"]
+			description: [
+				"A straw hat is easy to craft and protects you from the heat and sun."
+				"You will also cool down in the shade."
+			]
+			hide: true
+			id: "2085788C564A6E15"
+			tasks: [{
+				id: "25955D2D452A559D"
+				item: {
+					Count: 1b
+					id: "tfcambiental:straw_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Many animals are not peaceful towards you. Avoid large predators! In the early game, destroy tarantula nests around you if you don't want unexpected visitors. There are small but deadly piranhas in the rivers, and sharks in the seas. It will be hard at first but you can do it!"
+				""
+			]
+			hide: true
+			icon: "tconstruct:spider_head"
+			id: "45851CF30EE3C043"
+			size: 2.0d
+			tasks: [{
+				id: "413379DB864020A4"
+				title: "Angry animals"
+				type: "checkmark"
+			}]
+			title: "Angry animals"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Settling near a lake or river is a good idea because you will need drinkable water. Make sure to purify or boil it because drinking dirty water causes disease."
+				""
+				"To drink water from a water source, select an empty hotbar slot and right click at the water."
+				""
+			]
+			hide: true
+			icon: "ftbdripper:water_bowl"
+			id: "4000B42666202503"
+			size: 2.0d
+			tasks: [{
+				id: "1A2D5037B7712713"
+				title: "Angry animals"
+				type: "checkmark"
+			}]
+			title: "Water"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4000B42666202503"]
+			description: [
+				"Remember that the water should be purified before drinking. Purify water with grass or charcoal powder in a pot or a vat."
+				""
+				"Acceptable drinking water without bad side effects - boiling water, herbal water, purified water, mineral water, milk"
+			]
+			hide: true
+			icon: "tfc:ceramic/jug"
+			id: "4EB64621C9851B24"
+			tasks: [{
+				id: "17E38D772595113C"
+				type: "checkmark"
+			}]
+			title: "Source of water"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4EB64621C9851B24"]
+			description: ["Aqueducts are a good way to supply water to agricultural fields and bring it to places where there is no water."]
+			hide: true
+			icon: "tfc:rock/aqueduct/granite"
+			id: "4448FC9B28E30815"
+			tasks: [{
+				count: 4L
+				id: "6CA229A4C62ABB09"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:rock/aqueducts"
+					}
+				}
+				title: "Any #tfc:rock/aqueducts"
+				type: "item"
+			}]
+			title: "Conduit"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			description: ["You get dirty or even sick when running or walking in dirty areas. Keep your body clean; you also run slower when dirty. A small head icon next to the thirst and hunger bar indicates your dirt level. Swim in water or wash with soap to get clean."]
+			hide: true
+			icon: "supplementaries:soap"
+			id: "5AEC1FA2E01C86AF"
+			size: 2.0d
+			tasks: [{
+				id: "5A5F77A05DBAE757"
+				title: "Angry animals"
+				type: "checkmark"
+			}]
+			title: "Body hygiene"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Technological development can pollute the environment. Make sure this doesn't happen in your world."
+				"Carbon, sulfur, and dust pollutants will be produced by machines, furnaces, torches ... and more."
+				""
+				"Make sure to mitigate the effects of these particles by using chimney ventilation filters. Otherwise, your world will be polluted, which is harmful to life."
+				""
+				"Some fabrics can filter out dangerous particles - wool filters sulfur, leaves filter carbon, and paper or cloth filter the dusts."
+				""
+				"In severe cases, use a vacuum to get rid of dust, carbon and sulfur."
+				"You will need a respirator to breathe in polluted air."
+			]
+			hide: true
+			icon: "mekanism:hazmat_mask"
+			id: "489E01FD9A7D8A21"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5645F5442652056A"
+					title: "Angry animals"
+					type: "checkmark"
+				}
+				{
+					id: "2C6281C8CD9061D4"
+					item: "adpother:iron_filter_frame"
+					type: "item"
+				}
+				{
+					id: "12F6D17B0CA3040F"
+					item: {
+						Count: 1b
+						id: "adpother:iron_respirator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04E4717C12B9BFF7"
+					item: {
+						Count: 1b
+						id: "adpother:iron_vacuum_bag"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4955FE4EABA69BCB"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:leaves"
+						}
+					}
+					title: "Any #minecraft:leaves"
+					type: "item"
+				}
+				{
+					id: "5DAAE1D9335BD3D1"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "5EA3A2B25C5AF724"
+					item: "tfc:burlap_cloth"
+					type: "item"
+				}
+				{
+					id: "72CEC72D2894429F"
+					item: {
+						Count: 1b
+						id: "adpother:iron_vacuum_tube"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Civilization Pollution"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"In TerraFirmaCraft, both climate and time are very important factors."
+				""
+				"Your survival will be affected by the seasons, rainfall, temperatures, and biomes in your surrounding terrain."
+				""
+				"The types of fruit trees and wild crops you find are determined by climatic and weather conditions. Likewise, your unprotected crops will not grow in inhospitable conditions."
+			]
+			hide: true
+			icon: "twilightforest:mining_sapling"
+			id: "5852A15C1C544857"
+			size: 2.0d
+			tasks: [{
+				id: "11FB03CEF6F0C249"
+				title: "Angry animals"
+				type: "checkmark"
+			}]
+			title: "Climate"
+			x: 8.5d
+			y: -1.0d
+		}
+	]
+	title: "Survive"
+}
