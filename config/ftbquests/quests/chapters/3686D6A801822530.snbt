@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:potato"
 	id: "3686D6A801822530"
-	order_index: 4
+	order_index: 6
 	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [ ]

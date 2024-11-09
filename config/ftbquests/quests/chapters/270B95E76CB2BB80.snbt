@@ -3,8 +3,8 @@
 	default_quest_shape: ""
 	filename: ""
 	group: ""
-	id: "0AB6E1372BBEAAFE"
-	order_index: 9
+	id: "270B95E76CB2BB80"
+	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
 }
