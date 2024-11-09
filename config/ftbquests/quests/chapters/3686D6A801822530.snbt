@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: ""
+	group: ""
+	icon: "minecraft:potato"
+	id: "3686D6A801822530"
+	order_index: 6
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create on a Potato PC: Forge Edition"
+}
