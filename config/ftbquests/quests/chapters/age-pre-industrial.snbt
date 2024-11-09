@@ -337,7 +337,7 @@
 			y: -3.5d
 		}
 	]
-	order_index: 25
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
