@@ -82,7 +82,7 @@
 			y: -0.49047619047618696d
 		}
 	]
-	order_index: 21
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -101,7 +101,7 @@
 			id: "1BF648A7FDBE831A"
 			tasks: [{
 				id: "10BDE19F9F07EE21"
-				item: "createlowheated:charcoal_burner"
+				item: "createlowheated:basic_burner"
 				type: "item"
 			}]
 			x: 1.0d

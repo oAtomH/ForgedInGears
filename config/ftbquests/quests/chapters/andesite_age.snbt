@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "andesite_age"
-	group: ""
+	group: "796C6977A9E38EC1"
 	icon: "create:andesite_alloy"
 	id: "5629D0B1D26D7125"
 	images: [
@@ -40,8 +40,8 @@
 			image: "forgedingears:textures/quests/andesite_age/andesite_age.png"
 			rotation: 0.0d
 			width: 44.44444444444444d
-			x: 0.0d
-			y: 9.0d
+			x: 11.5d
+			y: -13.5d
 		}
 		{
 			click: ""
@@ -52,25 +52,25 @@
 			image: "forgedingears:textures/quests/andesite_age/andesite_age_title.png"
 			rotation: 0.0d
 			width: 25.0d
-			x: -7.5d
-			y: 0.0d
+			x: -8.5d
+			y: -7.5d
 		}
 	]
-	order_index: 15
+	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["6EA3B770C1BE9B79"]
-			description: ["Your goal is to establish a beggining factory to create a melter, which will let you progress further."]
+			description: ["Your goal is to establish a basic factory, to create a melter, which will let you progress further. "]
 			id: "31A669F28369791B"
 			tasks: [{
 				id: "0D675D780AAF41FE"
 				title: "Start of a new age"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -11.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["31A669F28369791B"]
@@ -80,8 +80,8 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["31A669F28369791B"]
@@ -111,8 +111,8 @@
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["31A669F28369791B"]
@@ -128,8 +128,8 @@
 				item: "minecraft:andesite"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: -10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -144,8 +144,8 @@
 				item: "create:zinc_nugget"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: -8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -160,43 +160,8 @@
 				item: "forgedingears:andesite_powder"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["31A669F28369791B"]
-			id: "4C9130C37E41369E"
-			rewards: [{
-				count: 6
-				id: "3AEFF31A2D2687D5"
-				item: "minecraft:andesite"
-				type: "item"
-			}]
-			tasks: [{
-				count: 8L
-				id: "5203DC0B4884688E"
-				item: "minecraft:cobblestone"
-				type: "item"
-			}]
-			x: 2.0d
+			x: -8.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["4C9130C37E41369E"]
-			id: "29E9B5328DB4E694"
-			rewards: [{
-				count: 4
-				id: "7B666CC6F5871271"
-				item: "minecraft:coal"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2296ACF871295F78"
-				item: "minecraft:furnace"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -227,14 +192,11 @@
 				item: "forgedingears:andesite_alloy_mixture"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: -7.0d
+			y: 1.0d
 		}
 		{
-			dependencies: [
-				"29E9B5328DB4E694"
-				"32ABDED95931443E"
-			]
+			dependencies: ["32ABDED95931443E"]
 			description: ["Your first piece of Andesite Alloy! You can start to create some basic mechanisms now"]
 			id: "67000F4348C92FFA"
 			rewards: [
@@ -260,8 +222,8 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			x: -5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["67000F4348C92FFA"]
@@ -278,8 +240,8 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 7.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["67000F4348C92FFA"]
@@ -296,8 +258,8 @@
 				item: "create:shaft"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.0d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["047DF655E19E1A8B"]
@@ -321,25 +283,37 @@
 				item: "create:cogwheel"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 8.5d
+			x: -5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["55AC0AD31C43F45A"]
 			id: "353C4BB116692B77"
-			rewards: [{
-				id: "1DF7F1D04401AB8B"
-				item: "farmersdelight:potato_crate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1DF7F1D04401AB8B"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					count: 50
+					id: "2AF29A8F4049B73D"
+					item: {
+						Count: 1b
+						id: "numismaticoverhaul:bronze_coin"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
-				count: 2L
+				count: 8L
 				id: "2B55948EC9722729"
 				item: "create:large_cogwheel"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.5d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -373,8 +347,8 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 8.5d
+			x: -4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["67000F4348C92FFA"]
@@ -391,27 +365,29 @@
 				item: "create:hand_crank"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.5d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["31A669F28369791B"]
 			hide_dependency_lines: true
 			id: "2EF775BA9973368E"
+			optional: true
 			rewards: [{
 				count: 2
 				id: "6659100023EFD5E4"
 				item: "tinkers_reforged:raw_aluminum"
 				type: "item"
 			}]
+			size: 0.5d
 			tasks: [{
 				count: 4L
 				id: "749F701788598D24"
 				item: "tinkers_reforged:raw_aluminum"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 7.0d
+			x: -1.75d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -436,8 +412,8 @@
 				item: "create:crushed_raw_aluminum"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 7.0d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1183E3A4A8C432A7"]
@@ -447,8 +423,8 @@
 				item: "tinkers_reforged:aluminum_ingot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 8.5d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -475,8 +451,8 @@
 				item: "tinkers_reforged:aluminum_dust"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.5d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -509,8 +485,8 @@
 				item: "tinkers_reforged:aluminum_nugget"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 8.5d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["400F60E5ECDD2E94"]
@@ -532,8 +508,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 7.0d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["615EE3379B10F0ED"]
@@ -543,8 +519,8 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 5.5d
+			x: 1.340702947845827d
+			y: 0.010204081632650741d
 		}
 		{
 			dependencies: ["31A669F28369791B"]
@@ -556,8 +532,8 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.0d
+			x: 2.1774376417233796d
+			y: 0.010204081632650741d
 		}
 		{
 			dependencies: [
@@ -588,8 +564,8 @@
 				item: "create:whisk"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 10.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["31A669F28369791B"]
@@ -600,8 +576,8 @@
 				item: "create:piston_extension_pole"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 10.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -636,8 +612,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 11.5d
+			x: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["470857E3211A5CE1"]
@@ -654,16 +630,16 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.5d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["57B83500AFDCD46C"]
 			id: "4FDAB49ACA34CC22"
 			rewards: [{
-				count: 2
+				count: 8
 				id: "4983D74079E7831B"
-				item: "create_confectionery:chocolate_glazed_marshmallow"
+				item: "create:andesite_alloy"
 				type: "item"
 			}]
 			tasks: [{
@@ -671,8 +647,8 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -712,8 +688,8 @@
 				item: "tconstruct:grout"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 11.5d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["31A669F28369791B"]
@@ -724,8 +700,8 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 10.0d
+			x: -0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["31A669F28369791B"]
@@ -743,8 +719,8 @@
 				item: "minecraft:calcite"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 11.5d
+			x: -4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -758,8 +734,8 @@
 				item: "forgedingears:calcium_carbonate"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 10.0d
+			x: -4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["31A669F28369791B"]
@@ -1012,8 +988,8 @@
 				type: "item"
 			}]
 			title: "Discount andesite alloy"
-			x: -6.5d
-			y: 11.5d
+			x: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1B3FFD63042CD0F3"]
@@ -1059,8 +1035,8 @@
 				}
 			]
 			title: "Discount andesite alloy 2"
-			x: -8.0d
-			y: 11.5d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -1222,8 +1198,8 @@
 				}
 			]
 			title: "Discount andesite alloy 3"
-			x: -9.5d
-			y: 11.5d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6EA3B770C1BE9B79"]
