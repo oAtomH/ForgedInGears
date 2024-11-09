@@ -11,7 +11,11 @@
 		}
 	}
 	id: "1E8851BF81B3117D"
+<<<<<<< HEAD
 	order_index: 19
+=======
+	order_index: 4
+>>>>>>> 19a445f5816f1aea3ac85c942a53daf2c0970838
 	quest_links: [ ]
 	quests: [
 		{

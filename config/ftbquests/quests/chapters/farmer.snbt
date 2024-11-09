@@ -5,7 +5,11 @@
 	group: ""
 	icon: "minecraft:wheat"
 	id: "00000000000000AF"
+<<<<<<< HEAD
 	order_index: 21
+=======
+	order_index: 7
+>>>>>>> 19a445f5816f1aea3ac85c942a53daf2c0970838
 	quest_links: [ ]
 	quests: [
 		{

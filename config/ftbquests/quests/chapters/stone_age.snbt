@@ -3,13 +3,18 @@
 	default_quest_shape: ""
 	filename: "stone_age"
 	group: ""
-	icon: "tinkersurvival:rock_stone"
+	icon: "survivalistessentials:rock_stone"
 	id: "1DB7ED049152ED1D"
+<<<<<<< HEAD
 	order_index: 22
+=======
+	order_index: 0
+>>>>>>> 19a445f5816f1aea3ac85c942a53daf2c0970838
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
+			icon: "survivalistessentials:rock_stone"
 			id: "4DC6E70B2D1E9174"
 			rewards: [
 				{
@@ -25,7 +30,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			size: 2.0d
 			tasks: [{
 				count: 5L
@@ -34,8 +39,8 @@
 				type: "item"
 			}]
 			title: "Rock go bonk"
-			x: -0.5d
-			y: -0.5d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4DC6E70B2D1E9174"]
@@ -51,8 +56,8 @@
 				item: "minecraft:stick"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: -2.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["342100074749B709"]
@@ -61,17 +66,17 @@
 			rewards: [{
 				count: 4
 				id: "54D1AD84070CDD71"
-				item: "tinkersurvival:flint_shard"
+				item: "survivalistessentials:flint_shard"
 				type: "item"
 			}]
 			tasks: [{
 				count: 2L
 				id: "77EA143567EC9DCB"
-				item: "tinkersurvival:flint_shard"
+				item: "survivalistessentials:flint_shard"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.5d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["57D12B387081651E"]
@@ -80,45 +85,16 @@
 			tasks: [{
 				id: "7D78FCA0345763EA"
 				item: {
-					Count: 1
-					id: "tinkersurvival:crude_knife"
+					Count: 1b
+					id: "survivalistessentials:crude_knife"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["2C3376B65543D252"]
-			id: "376C0C2A1C051E10"
-			tasks: [{
-				count: 4L
-				id: "1B2F0EE4CC9B21BA"
-				item: "tinkersurvival:plant_fiber"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["376C0C2A1C051E10"]
-			id: "7E8A5D03CF8090CB"
-			rewards: [{
-				count: 2
-				id: "5355D97FC0817966"
-				item: "minecraft:string"
-				type: "item"
-			}]
-			tasks: [{
-				id: "53FC7514D0C120CB"
-				item: "tinkersurvival:plant_string"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 5.0d
+			x: 0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["520EA97BDDF1CA45"]
@@ -126,14 +102,14 @@
 			tasks: [
 				{
 					id: "01E5A19F6A46FE90"
-					item: "tinkersurvival:crude_saw_blade"
+					item: "survivalistessentials:crude_saw_blade"
 					type: "item"
 				}
 				{
 					id: "087CA59D4BD55CC4"
 					item: {
-						Count: 1
-						id: "tinkersurvival:crude_saw_handle"
+						Count: 1b
+						id: "survivalistessentials:saw_handle"
 						tag: {
 							Damage: 0
 						}
@@ -142,8 +118,8 @@
 				}
 			]
 			title: "Crude saw components"
-			x: 4.0d
-			y: 3.0d
+			x: 5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["32A8084B8577425B"]
@@ -154,20 +130,21 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
-			size: 1.2d
+			shape: "pentagon"
+			size: 2.0d
 			tasks: [{
 				id: "0DCC77311EB012EA"
 				item: {
-					Count: 1
-					id: "tinkersurvival:crude_saw"
+					Count: 1b
+					id: "survivalistessentials:crude_saw"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.0d
+			x: 7.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -178,16 +155,16 @@
 			tasks: [{
 				id: "41FE28E7F3DA38A2"
 				item: {
-					Count: 1
-					id: "tinkersurvival:crude_hatchet"
+					Count: 1b
+					id: "survivalistessentials:crude_hatchet"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5329E7A02BA763CA"]
@@ -206,18 +183,21 @@
 				type: "item"
 			}]
 			title: "Lumber"
-			x: 5.5d
+			x: 9.0d
 			y: 5.0d
 		}
 		{
-			dependencies: ["628238C41CA9ACD2"]
+			dependencies: [
+				"628238C41CA9ACD2"
+				"2BBD155FE0B380C4"
+			]
 			id: "2497A826ED427195"
 			tasks: [{
 				id: "3565DFCC3AB236FB"
 				item: "tconstruct:pattern"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 11.0d
 			y: 5.0d
 		}
 		{
@@ -228,7 +208,7 @@
 				item: "tconstruct:tinker_station"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 13.0d
 			y: 6.5d
 		}
 		{
@@ -239,7 +219,7 @@
 				item: "tconstruct:part_builder"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 13.0d
 			y: 3.5d
 		}
 		{
@@ -250,7 +230,7 @@
 				item: "tconstruct:crafting_station"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 13.0d
 			y: 5.0d
 		}
 		{
@@ -291,26 +271,25 @@
 				type: "checkmark"
 			}]
 			title: "The next age"
-			x: 11.0d
+			x: 15.0d
 			y: 5.0d
 		}
 		{
-			dependencies: ["7E8A5D03CF8090CB"]
 			description: ["You can comfortably stop your bleedings now."]
 			id: "17C3F89BF8AD2060"
 			rewards: [{
 				count: 2
 				id: "184D5135FF7A4021"
-				item: "tinkersurvival:crude_bandage"
+				item: "survivalistessentials:crude_bandage"
 				type: "item"
 			}]
 			tasks: [{
 				id: "41F115D74EE9491A"
-				item: "tinkersurvival:crude_bandage"
+				item: "survivalistessentials:crude_bandage"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["665B3518C46D2FFA"]
@@ -335,8 +314,8 @@
 				type: "item"
 			}]
 			title: "64x Logs"
-			x: 4.0d
-			y: 1.5d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4DC6E70B2D1E9174"]
@@ -344,7 +323,7 @@
 			rewards: [{
 				count: 4
 				id: "738603CC9206A5D2"
-				item: "tinkersurvival:flint_shard"
+				item: "survivalistessentials:flint_shard"
 				type: "item"
 			}]
 			tasks: [{
@@ -353,8 +332,8 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -393,36 +372,34 @@
 				type: "item"
 			}]
 			title: "Comfy"
-			x: 4.0d
-			y: 5.0d
+			x: 9.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2C3376B65543D252"]
+			dependency_requirement: "one_completed"
 			id: "2130F418B603E0EC"
 			tasks: [{
 				id: "199174AFDC23F502"
 				item: "farmersdelight:straw"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.0d
+			x: 2.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["2130F418B603E0EC"]
+			dependencies: ["520EA97BDDF1CA45"]
 			id: "2BBD155FE0B380C4"
 			tasks: [{
 				id: "7E62AD216C1F6CF5"
 				item: "farmersdelight:canvas"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: 9.0d
+			y: 6.5d
 		}
 		{
-			dependencies: [
-				"2BBD155FE0B380C4"
-				"7E8A5D03CF8090CB"
-			]
+			dependencies: ["2130F418B603E0EC"]
 			icon: "forgedingears:plant_cordage"
 			id: "520EA97BDDF1CA45"
 			tasks: [{
@@ -430,8 +407,8 @@
 				item: "forgedingears:plant_cordage"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: 3.5d
+			y: 6.5d
 		}
 	]
 	subtitle: ["Oooga booga"]
