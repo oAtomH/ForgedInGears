@@ -1,4 +1,6 @@
 StartupEvents.registry('item', event => {
+event.create('forgedingears:flint_knife')
+	.texture('forgedingears:item/flint_knife')
 event.create('forgedingears:andesite_alloy_sheet')
 	.texture('forgedingears:item/andesite_alloy_sheet')
 event.create('forgedingears:andesite_alloy_mixture')
@@ -331,7 +333,7 @@ ItemEvents.modification(event => {
     event.modify('create:sand_paper', item => {
         item.maxDamage = 8
     })
-	event.modify('tinkersurvival:crude_hatchet', item => {
+	event.modify('natprog:crude_hatchet', item => {
         item.maxDamage = 5
         item.digSpeed= 0.15
 	})

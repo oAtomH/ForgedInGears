@@ -5,7 +5,7 @@
 	group: ""
 	icon: "tinkersurvival:rock_stone"
 	id: "1DB7ED049152ED1D"
-	order_index: 16
+	order_index: 20
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

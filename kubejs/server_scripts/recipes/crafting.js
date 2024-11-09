@@ -229,8 +229,8 @@ ServerEvents.recipes(e => {
         C: 'minecraft:chest',
         S: 'forgedingears:skyroot_lumber'
     }).id('forgedingears:tinkers_chest')
-    e.remove({ output: 'survivalistessentials:crude_hatchet'})
-    e.shaped('survivalistessentials:crude_hatchet', [
+    e.remove({ output: 'natprog:flint_hatchet'})
+    e.shaped('survivalistessentials:flint_hatchet', [
         'AB',
         'CD'
     ], {
@@ -239,16 +239,15 @@ ServerEvents.recipes(e => {
         C: 'minecraft:stick',
         D: 'survivalistessentials:rock_stone'
     }).id('forgedingears:crude_hatchet')
-    e.remove({ output: 'survivalistessentials:crude_saw_blade'})
-    e.shaped('survivalistessentials:crude_saw_blade', [
+    e.shaped('forgedingears:bone_saw_blade', [
         'AB',
         'CD'
     ], {
         A: 'minecraft:stick',
         B: 'minecraft:flint',
         C: 'forgedingears:plant_cordage',
-        D: 'minecraft:flint'
-    }).id('forgedingears:crude_saw_blade')
+        D: 'natprog:flint'
+    }).id('forgedingears:bone_saw_blade')
     e.remove({ output: 'survivalistessentials:saw_handle'})
     e.shaped('survivalistessentials:saw_handle', [
         'AB',
