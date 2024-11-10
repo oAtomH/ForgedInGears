@@ -663,7 +663,7 @@
 			}]
 			tasks: [{
 				count: 3L
-				id: "00000000000008CC"
+				id: "36A028957F89EFDA"
 				item: "create:linear_chassis"
 				type: "item"
 			}]
@@ -672,7 +672,7 @@
 		}
 		{
 			dependencies: ["00000000000007A5"]
-			id: "00000000000008CF"
+			id: "2CEB2E53428F1FF3"
 			rewards: [{
 				id: "00000000000008D4"
 				item: "create:deployer"
@@ -737,7 +737,7 @@
 			}]
 			tasks: [{
 				count: 2L
-				id: "00000000000008DA"
+				id: "61657F220FE8954E"
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
@@ -749,7 +749,7 @@
 				"00000000000008D6"
 				"0000000000000797"
 			]
-			id: "00000000000008DB"
+			id: "5C484AFB0D15B318"
 			rewards: [{
 				count: 4
 				id: "2954C4FF91E930CD"
@@ -757,7 +757,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "00000000000008DC"
+				id: "3DEDAA4A672B3EEE"
 				item: "create:brass_ingot"
 				type: "item"
 			}]
@@ -766,7 +766,7 @@
 		}
 		{
 			dependencies: ["00000000000007A5"]
-			id: "00000000000008DD"
+			id: "68418CF3E3F2EE6A"
 			rewards: [{
 				count: 4
 				id: "4D5C50F0569541D5"
@@ -775,7 +775,7 @@
 			}]
 			tasks: [{
 				count: 4L
-				id: "00000000000008DE"
+				id: "35D111CA1B44369C"
 				item: "create:brass_casing"
 				type: "item"
 			}]
@@ -784,7 +784,7 @@
 		}
 		{
 			dependencies: ["00000000000008D1"]
-			id: "00000000000008DF"
+			id: "4DF2A08A78D6DAB4"
 			rewards: [{
 				count: 8
 				id: "1AA9BE2BF836DF5A"
@@ -809,7 +809,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "00000000000008E2"
+				id: "001EDBE530445555"
 				item: "create:sequenced_gearshift"
 				type: "item"
 			}]
@@ -818,7 +818,7 @@
 		}
 		{
 			dependencies: ["00000000000008D1"]
-			id: "00000000000008E3"
+			id: "3E36245F21E55819"
 			rewards: [{
 				id: "034E78A4014CD7FD"
 				item: "create:brass_hand"
@@ -868,14 +868,14 @@
 		}
 		{
 			dependencies: ["00000000000008DB"]
-			id: "00000000000008EE"
+			id: "228F6D6D96969589"
 			rewards: [{
 				id: "73FB42BAB21F80B1"
 				item: "minecraft:totem_of_undying"
 				type: "item"
 			}]
 			tasks: [{
-				id: "00000000000008EF"
+				id: "1D3744A1B6CFF8C6"
 				item: "create:brass_funnel"
 				type: "item"
 			}]
@@ -884,7 +884,7 @@
 		}
 		{
 			dependencies: ["0000000000000799"]
-			id: "00000000000008F0"
+			id: "2378A1FAC24E837A"
 			rewards: [{
 				count: 8
 				id: "2AD62F731427A923"
@@ -892,7 +892,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "00000000000008F1"
+				id: "20D904E2F2BFF8BB"
 				item: "create:andesite_funnel"
 				type: "item"
 			}]
