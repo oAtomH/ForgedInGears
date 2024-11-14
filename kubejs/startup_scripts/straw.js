@@ -1,23 +1,24 @@
 StartupEvents.registry('block', event => {
-    event.create('forgedingears:wet_straw').box(0, 0, 0, 16, 2, 16).material("grass").hardness(0.2).grassSoundType()
-    event.create('forgedingears:wet_straw_block_layer_2').box(0, 0, 0, 16, 4, 16).material("grass").hardness(0.2).grassSoundType()
-    event.create('forgedingears:wet_straw_block_sleeping_bag').box(0, 0, 0, 16, 4, 16).material("grass").grassSoundType()
-    event.create('forgedingears:wet_straw_block_layer_3').box(0, 0, 0, 16, 6, 16).material("grass").hardness(0.2).grassSoundType()
-    event.create('forgedingears:wet_straw_block_layer_4').box(0, 0, 0, 16, 8, 16).material("grass").hardness(0.2).grassSoundType()
-    event.create('forgedingears:wet_straw_block_layer_5').box(0, 0, 0, 16, 10, 16).material("grass").hardness(0.2).grassSoundType()
-    event.create('forgedingears:wet_straw_block_layer_6').box(0, 0, 0, 16, 12, 16).material("grass").hardness(0.2).grassSoundType()
-    event.create('forgedingears:wet_straw_block_layer_7').box(0, 0, 0, 16, 14, 16).material("grass").hardness(0.2).grassSoundType()
-    event.create('forgedingears:straw_block').material("grass").hardness(0.2).grassSoundType()
+    event.create('forgedingears:wet_straw', 'cardinal').box(0, 0, 0, 16, 4, 16).material("grass").hardness(0.2).grassSoundType().defaultCutout().defaultCutout()
+    event.create('forgedingears:wet_straw_block_layer_2', 'cardinal').box(0, 0, 0, 16, 4, 16).material("grass").hardness(0.2).grassSoundType().defaultCutout()
+    event.create('forgedingears:wet_straw_block_sleeping_bag', 'cardinal').box(0, 0, 0, 16, 8, 16).material("grass").grassSoundType().defaultCutout()
+    event.create('forgedingears:wet_straw_block_layer_3', 'cardinal').box(0, 0, 0, 16, 8, 16).material("grass").hardness(0.2).grassSoundType().defaultCutout()
+    event.create('forgedingears:wet_straw_block_layer_4', 'cardinal').box(0, 0, 0, 16, 8, 16).material("grass").hardness(0.2).grassSoundType().defaultCutout()
+    event.create('forgedingears:wet_straw_block_layer_5', 'cardinal').box(0, 0, 0, 16, 12, 16).material("grass").hardness(0.2).grassSoundType().defaultCutout()
+    event.create('forgedingears:wet_straw_block_layer_6', 'cardinal').box(0, 0, 0, 16, 12, 16).material("grass").hardness(0.2).grassSoundType().defaultCutout()
+    event.create('forgedingears:wet_straw_block_layer_7', 'cardinal').box(0, 0, 0, 16, 16, 16).material("grass").hardness(0.2).grassSoundType().defaultCutout()
+    event.create('forgedingears:straw_block', 'cardinal').material("grass").hardness(0.2).grassSoundType().defaultCutout()
 }) 
 StartupEvents.registry('item', event => {
     event.create('forgedingears:straw')
 })
 StartupEvents.registry("block", (e) => {
-    e.create("forgedingears:wet_straw_block_layer_8")
+    e.create('forgedingears:wet_straw_block_layer_8', 'cardinal')
     .box(0, 0, 0, 16, 16, 16)
     .material("grass")
     .hardness(0.2)
     .grassSoundType()
+    .defaultCutout()
     .randomTick(e => {
         const block = e.block;
         const level = e.level;

@@ -1,6 +1,5 @@
 // Load necessary Java class for BlockHitResult
 const $bhr = Java.loadClass('net.minecraft.world.phys.BlockHitResult');
-
 BlockEvents.rightClicked(event => {
     // Check the current state of the block and the item in the player's hand
     if (event.player.mainHandItem.id == "forgedingears:wet_straw") {
@@ -9,19 +8,29 @@ BlockEvents.rightClicked(event => {
 
         // Check if the interaction is happening on the UP side
         if (hitResult.getDirection().name() == "UP") {
+            // Get the current facing direction of the block
+            let currentFacing = event.block.properties.facing;
+
             if (event.block.id == "forgedingears:wet_straw") {
+                event.block.set("forgedingears:wet_straw_block_layer_2", { facing: currentFacing });
                 event.cancel(); // Prevent placing another block
             } else if (event.block.id == "forgedingears:wet_straw_block_layer_2") {
+                event.block.set("forgedingears:wet_straw_block_layer_3", { facing: currentFacing });
                 event.cancel(); // Prevent placing another block
             } else if (event.block.id == "forgedingears:wet_straw_block_layer_3") {
+                event.block.set("forgedingears:wet_straw_block_layer_4", { facing: currentFacing });
                 event.cancel(); // Prevent placing another block
             } else if (event.block.id == "forgedingears:wet_straw_block_layer_4") {
+                event.block.set("forgedingears:wet_straw_block_layer_5", { facing: currentFacing });
                 event.cancel(); // Prevent placing another block
             } else if (event.block.id == "forgedingears:wet_straw_block_layer_5") {
+                event.block.set("forgedingears:wet_straw_block_layer_6", { facing: currentFacing });
                 event.cancel(); // Prevent placing another block
             } else if (event.block.id == "forgedingears:wet_straw_block_layer_6") {
+                event.block.set("forgedingears:wet_straw_block_layer_7", { facing: currentFacing });
                 event.cancel(); // Prevent placing another block
             } else if (event.block.id == "forgedingears:wet_straw_block_layer_7") {
+                event.block.set("forgedingears:wet_straw_block_layer_8", { facing: currentFacing });
                 event.cancel(); // Prevent placing another block
             }
         }

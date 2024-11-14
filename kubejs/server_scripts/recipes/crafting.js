@@ -229,27 +229,32 @@ ServerEvents.recipes(e => {
         C: 'minecraft:chest',
         S: 'forgedingears:skyroot_lumber'
     }).id('forgedingears:tinkers_chest')
+    e.remove({ output: 'farmersdelight:flint_knife'})
+    e.shaped('farmersdelight:flint_knife', [
+        'A',
+        'B'
+    ], {
+        A: 'minecraft:flint',
+        B: 'minecraft:stick'
+    }).id('forgedingears:flint_knife')
     e.remove({ output: 'natprog:flint_hatchet'})
-    e.shaped('survivalistessentials:flint_hatchet', [
+    e.shaped('natprog:flint_hatchet', [
         'AB',
-        'CD'
+        'C '
     ], {
         A: 'minecraft:flint',
         B: 'forgedingears:plant_cordage',
-        C: 'minecraft:stick',
-        D: 'survivalistessentials:rock_stone'
-    }).id('forgedingears:crude_hatchet')
-    e.shaped('forgedingears:bone_saw_blade', [
+        C: 'minecraft:stick'
+    }).id('forgedingears:flint_hatchet')
+    e.shaped('forgedingears:flint_saw_blade', [
         'AB',
-        'CD'
+        'BC'
     ], {
         A: 'minecraft:stick',
         B: 'minecraft:flint',
-        C: 'forgedingears:plant_cordage',
-        D: 'natprog:flint'
-    }).id('forgedingears:bone_saw_blade')
-    e.remove({ output: 'survivalistessentials:saw_handle'})
-    e.shaped('survivalistessentials:saw_handle', [
+        C: 'forgedingears:plant_cordage'
+    }).id('forgedingears:flint_saw_blade')
+    e.shaped('forgedingears:flint_saw_handle', [
         'AB',
         'CD'
     ], {
@@ -257,24 +262,24 @@ ServerEvents.recipes(e => {
         B: 'forgedingears:plant_cordage',
         C: 'minecraft:stick',
         D: 'minecraft:stick'
-    }).id('forgedingears:saw_handle')
-    e.remove({ output: 'survivalistessentials:crude_saw'})
-    e.shaped('survivalistessentials:crude_saw', [
+    }).id('forgedingears:flint_saw_handle')
+    e.remove({ output: 'natprog:flint_saw'})
+    e.shaped('natprog:flint_saw', [
         'AB',
         'CD'
     ], {
-        A: 'survivalistessentials:crude_saw_blade',
+        A: 'forgedingears:flint_saw_blade',
         B: 'forgedingears:plant_cordage',
         C: 'forgedingears:plant_cordage',
-        D: 'survivalistessentials:saw_handle'
-    }).id('forgedingears:crude_saw')
+        D: 'forgedingears:flint_saw_handle'
+    }).id('forgedingears:flint_saw')
     e.remove({ output: 'minecraft:crafting_table'})
     e.shaped('minecraft:crafting_table', [
         'AB',
         'CD'
     ], {
-        A: 'survivalistessentials:crude_saw',
-        B: 'survivalistessentials:crude_hatchet',
+        A: 'natprog:flint_saw',
+        B: 'survivalistessentials:flint_hatchet',
         C: '#minecraft:logs',
         D: '#forgedingears:lumbers'
     }).id('forgedingears:crafting_table')
