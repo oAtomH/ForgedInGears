@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:wheat"
 	id: "00000000000000AF"
-	order_index: 9
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

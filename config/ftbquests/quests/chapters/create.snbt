@@ -17,7 +17,7 @@
 		x: -15.5d
 		y: -3.5d
 	}]
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -256,7 +256,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["00000000000008DB"]
 			id: "00000000000007A5"
 			rewards: [{
 				id: "000000000000085E"
@@ -687,7 +686,6 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["00000000000008DD"]
 			id: "00000000000008D1"
 			rewards: [{
 				count: 3
@@ -833,7 +831,6 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["00000000000008CF"]
 			id: "00000000000008E8"
 			rewards: [{
 				count: 2
@@ -850,7 +847,6 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["00000000000008DD"]
 			id: "00000000000008EC"
 			rewards: [{
 				count: 4
@@ -867,7 +863,6 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["00000000000008DB"]
 			id: "228F6D6D96969589"
 			rewards: [{
 				id: "73FB42BAB21F80B1"
@@ -1092,7 +1087,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["00000000000008F0"]
 			id: "495A497F82554F9A"
 			rewards: [{
 				count: 5
@@ -1525,7 +1519,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["00000000000008DD"]
 			id: "6EF5B2408E666007"
 			rewards: [{
 				id: "5716BEC24559163F"
