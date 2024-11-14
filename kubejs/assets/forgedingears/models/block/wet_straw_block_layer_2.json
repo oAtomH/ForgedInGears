@@ -1,19 +1,38 @@
-{   "parent": "block/thin_block",
-    "textures": {
-        "particle": "forgedingears:block/wet_straw",
-        "texture": "forgedingears:block/wet_straw"
-    },
-    "elements": [
-        {   "from": [ 0, 0, 0 ],
-            "to": [ 16, 4, 16 ],
-            "faces": {
-                "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "down" },
-                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
-                "north": { "uv": [ 0, 12, 16, 16 ], "texture": "#texture", "cullface": "north" },
-                "south": { "uv": [ 0, 12, 16, 16 ], "texture": "#texture", "cullface": "south" },
-                "west":  { "uv": [ 0, 12, 16, 16 ], "texture": "#texture", "cullface": "west" },
-                "east":  { "uv": [ 0, 12, 16, 16 ], "texture": "#texture", "cullface": "east" }
-            }
-        }
-    ]
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "forgedingears:block/wet_straw",
+		"particle": "forgedingears:block/straw_block"
+	},
+	"elements": [
+		{
+			"name": "straw_1",
+			"from": [2, 0, 0],
+			"to": [6, 4, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 0]},
+			"faces": {
+				"north": {"uv": [8, 0, 12, 4], "texture": "#all"},
+				"east": {"uv": [0, 12, 16, 16], "texture": "#all"},
+				"south": {"uv": [8, 0, 12, 4], "texture": "#all"},
+				"west": {"uv": [0, 12, 16, 16], "texture": "#all"},
+				"up": {"uv": [8, 0, 12, 16], "texture": "#all"},
+				"down": {"uv": [8, 0, 12, 16], "texture": "#all"}
+			}
+		},
+		{
+			"name": "straw_2",
+			"from": [10, 0, 0],
+			"to": [14, 4, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10, 0, 0]},
+			"faces": {
+				"north": {"uv": [6, 7, 10, 11], "texture": "#all"},
+				"east": {"uv": [0, 7, 16, 11], "texture": "#all"},
+				"south": {"uv": [6, 7, 10, 11], "texture": "#all"},
+				"west": {"uv": [0, 7, 16, 11], "texture": "#all"},
+				"up": {"uv": [6, 0, 10, 16], "texture": "#all"},
+				"down": {"uv": [6, 0, 10, 16], "texture": "#all"}
+			}
+		}
+	]
 }

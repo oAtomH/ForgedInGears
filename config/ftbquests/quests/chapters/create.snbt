@@ -17,11 +17,7 @@
 		x: -15.5d
 		y: -3.5d
 	}]
-<<<<<<< HEAD
-	order_index: 18
-=======
 	order_index: 3
->>>>>>> 19a445f5816f1aea3ac85c942a53daf2c0970838
 	quest_links: [ ]
 	quests: [
 		{

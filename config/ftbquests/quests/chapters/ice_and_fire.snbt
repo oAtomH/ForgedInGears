@@ -5,11 +5,7 @@
 	group: ""
 	icon: "iceandfire:dragon_skull_fire"
 	id: "39A24F846939340E"
-<<<<<<< HEAD
-	order_index: 20
-=======
 	order_index: 6
->>>>>>> 19a445f5816f1aea3ac85c942a53daf2c0970838
 	quest_links: [ ]
 	quests: [
 		{

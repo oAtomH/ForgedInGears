@@ -56,11 +56,7 @@
 			y: -7.5d
 		}
 	]
-<<<<<<< HEAD
-	order_index: 17
-=======
 	order_index: 0
->>>>>>> 19a445f5816f1aea3ac85c942a53daf2c0970838
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

@@ -1,6 +1,8 @@
 StartupEvents.registry('item', event => {
-event.create('forgedingears:flint_knife')
-	.texture('forgedingears:item/flint_knife')
+event.create('forgedingears:flint_saw_handle')
+	.texture('forgedingears:item/flint_saw_handle')
+event.create('forgedingears:flint_saw_blade')
+	.texture('forgedingears:item/flint_saw_blade')
 event.create('forgedingears:andesite_alloy_sheet')
 	.texture('forgedingears:item/andesite_alloy_sheet')
 event.create('forgedingears:andesite_alloy_mixture')

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "forgedingears:straw",
+    "forgedingears:wet_straw",
+    "forgedingears:wet_straw_block_layer_2",
+    "forgedingears:wet_straw_block_layer_3",
+    "forgedingears:wet_straw_block_layer_4",
+    "forgedingears:wet_straw_block_layer_5",
+    "forgedingears:wet_straw_block_layer_6",
+    "forgedingears:wet_straw_block_layer_7",
+    "forgedingears:wet_straw_block_layer_8",
+    "forgedingears:straw_block",
+    "forgedingears:wet_straw_block_sleeping_bag",
+    "#forgedingears:lumber"
+  ]
+}

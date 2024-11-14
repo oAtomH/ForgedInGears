@@ -1,0 +1,19 @@
+{
+    "variants": {
+    "facing=north": {
+        "model": "forgedingears:block/wet_straw"
+      },
+    "facing=east": {
+        "model": "forgedingears:block/wet_straw",
+        "y": 90
+      },
+    "facing=south": {
+        "model": "forgedingears:block/wet_straw",
+        "y": 180
+      },
+    "facing=west": {
+        "model": "forgedingears:block/wet_straw",
+        "y": 270
+      }
+    }
+  }
