@@ -1,0 +1,26 @@
+# Ignore everything in the resourcepacks folder
+crash-reports/
+defaultconfigs/
+downloads/
+local/
+localconfigs/
+logs/
+resourcepacks/
+saves/
+screenshots/
+shaderpacks/
+local/
+trees/
+config/
+!config/ftbquests/
+
+
+# Ignore specific files
+.curseclient
+h -u origin main
+imgui.ini
+minecraftinstance.json
+options.txt
+rhino.local.properties
+usercache.json
+usernamecache.json
